@@ -1,4 +1,4 @@
-# INFO-442-Team-2
+# Seattle Sustenance
 
 ## Team Members & Roles
 
