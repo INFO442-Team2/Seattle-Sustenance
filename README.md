@@ -9,7 +9,7 @@
 - Kevin Nguyen (CTO)
 
 ## Mission Statement
-To engage Seattle in the fight to end local hunger, by providing a resource for low-income and homeless people in the greater Seattle area to stay informed on accessible meal programs available to them.
+To engage Seattle in the fight to end local hunger.
 
 
 ## Problem Statement
