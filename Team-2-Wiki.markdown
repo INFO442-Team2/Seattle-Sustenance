@@ -12,3 +12,25 @@ information about an assignment from somebody we can just @ them on Slack.
 ### When someone asks a question, who should reply? The "right" person or everyone?
 - We feel like everyone should have the right to reply if they feel like they have the answer to someone's question. If the
 question requires a specific person to answer it, then they should @ that person to get the answer from them.
+
+# **Agenda 4/14**
+Team 2 - Seattle Sustenance
+
+Team Member Accomplishments 
+Kaitlyn - Sharing with the class about what we talk about in breakout session
+Kevin - Doing the GitHub stuff, assigning issues
+Robert - Coming up with Seattle Sustenance
+Soham - Actively contributing in last meeting and working on the design
+
+**TODO:**
+- Check on progress of GitHub issues created last week 
+    - Resolved all issues
+- Finalize Problem design specification
+    - Problem and Solution Statement updated with more information
+- Finalize Solution design specification
+    - Nice start, high-fidelity wireframes are already made
+    - Finished design spec and submitted
+- Add to GitHub markdown
+- Go over mockups by Kaitlyn and Sohamh
+    - Second color scheme was chosen
+    - Great mockups, 4 screens showing each interaction
