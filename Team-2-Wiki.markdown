@@ -14,13 +14,11 @@ information about an assignment from somebody we can just @ them on Slack.
 question requires a specific person to answer it, then they should @ that person to get the answer from them.
 
 # **Agenda 4/14**
-Team 2 - Seattle Sustenance
-
-Team Member Accomplishments 
-Kaitlyn - Sharing with the class about what we talk about in breakout session
-Kevin - Doing the GitHub stuff, assigning issues
-Robert - Coming up with Seattle Sustenance
-Soham - Actively contributing in last meeting and working on the design
+**Team Member Accomplishments** 
+- Kaitlyn - Sharing with the class about what we talk about in breakout session
+- Kevin - Doing the GitHub stuff, assigning issues
+- Robert - Coming up with Seattle Sustenance
+- Soham - Actively contributing in last meeting and working on the design
 
 **TODO:**
 - Check on progress of GitHub issues created last week 
@@ -34,3 +32,19 @@ Soham - Actively contributing in last meeting and working on the design
 - Go over mockups by Kaitlyn and Sohamh
     - Second color scheme was chosen
     - Great mockups, 4 screens showing each interaction
+
+# Agenda 4/20
+**Team Member Accomplishments**
+- Kaitlyn - Creating designs for homework 2, contributions to requirements doc
+- Kevin - Doing the GitHub stuff, contributing to requirements doc
+- Robert - Refining problem statement and solution, requirements doc
+- Soham - Creating designs for homework 2, suggesting the Google Maps bootstrap tool
+
+**TODO:**
+- Brainstorming more requirements for each of the sections
+    - Resolved issues from critique and added more requirements
+- ‘Agent of chaos’ who will go through the requirements and try to purposely misinterpret your requirements 
+    - Robert did this
+- As a team, clarify the requirements so there can be no misinterpretation
+- Ensure that each requirement is precise, verifiable, non-conflicting, and complete
+- Add Markdown text file of requirements document in GitHub repository
