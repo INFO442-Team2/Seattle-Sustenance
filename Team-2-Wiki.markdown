@@ -48,3 +48,15 @@ question requires a specific person to answer it, then they should @ that person
 - As a team, clarify the requirements so there can be no misinterpretation
 - Ensure that each requirement is precise, verifiable, non-conflicting, and complete
 - Add Markdown text file of requirements document in GitHub repository
+
+# Agenda 4/27
+
+- Finish up discussion for technologies (Lab 4)
+- Discuss team members’ experiences with Software Architecture
+- Address feedback received on requirements
+- Work on description of all components, referencing design specifications and requirements assignments
+- Verify the communication between your components
+- Divide and conquer the written descriptions of components; check for consistency
+- Create stubs to represent all of these components and their functionality as source files
+- Create milestone in GitHub, create and assign issues
+- Create markdown page in repository that contains architecture description
