@@ -11,4 +11,4 @@ class MapController {
 
 }
 
-export default PhotoController; 
+export default PhotoController;  
