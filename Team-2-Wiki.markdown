@@ -60,3 +60,13 @@ question requires a specific person to answer it, then they should @ that person
 - Create stubs to represent all of these components and their functionality as source files
 - Create milestone in GitHub, create and assign issues
 - Create markdown page in repository that contains architecture description
+
+# Agenda 5/4
+- Lab 4: install npm, write packages.json file
+Follow example in assignment details for React web application
+Homework 5
+Collaborate to brainstorm and answer questions listed in assignment details 
+Update requirements document with verification details
+Check that answers account for the reality of your schedules, availability, and time
+Check that answers are not arbitrary, unnecessary, or vague
+
