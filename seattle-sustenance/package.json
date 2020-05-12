@@ -2,34 +2,20 @@
   "name": "seattle-sustenance",
   "version": "0.1.0",
   "private": true,
+  "dependencies": {
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.5.0",
+    "@testing-library/user-event": "^7.2.1",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-scripts": "3.4.1",
+    "uglify-js": "^3.9.2"
+  },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "build2": "browserify -t [ babelify --presets [ @babel/preset-env @babel/preset-react ] ] src/App.js | uglifyjs > src/App.js"
-  },
-  "devDependencies": {
-    "browserify": "^16.2",
-    "babelify": "^10",
-    "@babel/core": "^7",
-    "@babel/cli": "^7",
-    "@babel/preset-react": "^7",
-    "@babel/preset-env": "^7",
-    "uglify-js": "^3.4.7"
-  },
-  "dependencies": {
-    "@googlemaps/google-maps-services-js": "^2.6.0",
-    "@testing-library/jest-dom": "^4.2.4",
-    "@testing-library/react": "^9.5.0",
-    "@testing-library/user-event": "^7.2.1",
-    "bootstrap": "^4.4.1",
-    "jquery": "^3.0.0",
-    "lodash": "^4.17.10",
-    "npm": "^5.10.0",
-    "react": "^16.13.1",
-    "react-dom": "^16.13.1",
-    "react-scripts": "3.4.1"
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -45,5 +31,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@babel/core": "^7.9.6",
+    "babelify": "^10.0.0"
   }
 }
