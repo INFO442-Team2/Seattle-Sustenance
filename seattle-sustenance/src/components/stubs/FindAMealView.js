@@ -1,5 +1,5 @@
-import React, {Component} from 'react';
-
+import React, { Component } from 'react';
+import { Header } from './HeaderView'
 
 
 // form for users to enter in their filters 
@@ -13,6 +13,7 @@ class FindAMealView extends Component {
     render() {
         return (
             <div>
+                <Header/>
                 <form>
                     <div class="form-group">
                         <label for="exampleFormControlInput1">Address</label>

@@ -8,7 +8,11 @@
     "@testing-library/user-event": "^7.2.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
+    "react-router": "^5.2.0",
+    "react-router-bootstrap": "^0.25.0",
+    "react-router-dom": "^5.2.0",
     "react-scripts": "3.4.1",
+    "reactstrap": "^8.4.1",
     "uglify-js": "^3.9.2"
   },
   "scripts": {

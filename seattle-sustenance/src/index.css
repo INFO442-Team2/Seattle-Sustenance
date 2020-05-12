@@ -11,3 +11,31 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.title {
+  display: inline;
+  color: #4b79cf;
+  font-weight: 300;
+  font-size: xx-large;
+  padding-left: 2rem;
+}
+
+.title:hover{
+  color: #a24bcf;
+}
+
+.nav-link p{
+  font-weight: bold;
+  color: #4b79cf;
+  display: inline;
+}
+
+.nav-link p:hover{
+  color: #a24bcf;
+}
+
+.home-link:hover{
+  text-decoration: none;
+}
+
+
