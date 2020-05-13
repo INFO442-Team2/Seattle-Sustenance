@@ -13,17 +13,19 @@ code {
 }
 
 .title {
-  display: inline;
+  display: none;
   color: #4b79cf;
-  font-weight: 300;
-  font-size: xx-large;
-  padding-left: 2rem;
 }
+
 
 .title:hover{
   color: #a24bcf;
 }
 
+.icon, .icon-front {
+  width: 2.5rem;
+}
+ 
 .nav-link p{
   font-weight: bold;
   color: #4b79cf;
@@ -38,4 +40,23 @@ code {
   text-decoration: none;
 }
 
+.header-font-size{
+  font-size: 40px;
+}
 
+@media (min-width: 768px) {
+    .icon {
+      display: none;
+  }
+
+  .header-font-size{
+    font-size: 50px;
+  }
+
+  .title {
+    display: inline;
+    font-weight: 300;
+    font-size: xx-large;
+    padding-left: 2rem;
+  }
+}

@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import { Navbar, NavbarToggler, NavbarBrand, Nav, NavItem, Collapse } from 'reactstrap';
 import { LinkContainer } from 'react-router-bootstrap';
 
-
 export class Header extends Component {
     constructor(props) {
         super(props);
@@ -28,7 +27,7 @@ export class Header extends Component {
                     <LinkContainer to="/home">
                     <NavbarBrand className="home-link">
                         <h1 className="title">Seattle Sustenance</h1>
-                        <img className="icon" alt="REPLACE with ICON LINK" src="https://img.icons8.com/metro/52/a24bcf/note.png"/>
+                        <img className="icon" alt="REPLACE with ICON LINK" src="https://image.flaticon.com/icons/svg/1689/1689233.svg"/>
                     </NavbarBrand>
                     </LinkContainer>
                 <NavbarToggler onClick={this.toggle} />
