@@ -44,6 +44,22 @@ code {
   font-size: 40px;
 }
 
+.filter-form {
+  padding-top: 1rem;
+}
+
+.go-button {
+  background-color: #FFCE89;
+  color: #2B332F;
+  border-radius: 8px;
+  width: 5rem;
+}
+
+.test {
+  background-color: #7CAA98;
+  padding: 2rem;
+}
+
 @media (min-width: 768px) {
     .icon {
       display: none;
@@ -60,3 +76,5 @@ code {
     padding-left: 2rem;
   }
 }
+
+
