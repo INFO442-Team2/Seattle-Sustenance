@@ -1,14 +1,11 @@
 import React, { Component } from 'react';
+import { Header } from './HeaderView'
 
 class BrowseAllView extends Component {
-    constructor(props) {
-        super(props)
-    }
-
     render() {
         return (
             <div>
-                {this.props.programs}
+                <Header/>
             </div>
         )
     }
