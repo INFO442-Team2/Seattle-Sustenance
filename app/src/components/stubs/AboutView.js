@@ -1,10 +1,15 @@
-import React from 'react';
+import React, { Component } from 'react';
+import { Header } from './HeaderView'
 
 // about page containing information about the website, food insecurity, and the team
-const AboutView = () => (
- <div>
-
- </div>
-);
+class AboutView extends Component {
+    render() {
+        return (
+            <div>
+                <Header/>
+            </div>
+        )
+    }
+}
 
 export default AboutView; 
