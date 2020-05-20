@@ -1,5 +1,30 @@
-// takes in selected filters and applies them to the CSV file and send back the results
-class GoController {
+class GoController extends Component {
+  constructor() {
+    super()
+    this.state = {
+      meals: [],
+      filteredMeals: []
+    }
+  }
+
+  componentWillMount() {
+    this.setState({
+      meals,
+      filteredMeals: meals
+    })
+  }
+
+filterMeals = (mealFilter) => {
+    let filteredMeals = this.state.meals
+    filteredMeals = filteredMeals.filter((meals) => {
+      let mealType = meals.mealServed
+      //return mealServed?
+    })
+    this.setState({
+      filteredMeals
+    })
+  }
+
 
     // returns image
     updateDate = (fromSettings) => {
@@ -7,7 +32,7 @@ class GoController {
     }
 
     // after updating data, show the results onto the "Filtered" results view
-    showFilteredResults = () => {
+    showFilteredResults = (this.state.filteredMeals) => {
 
     }
 
