@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import { Card } from 'reactstrap';
 import Select from 'react-select';
 import { Header } from './HeaderView';
-import FilteredResultsView from './FilteredResultsView';
 
 // form for users to enter in their filters 
 // required prop: GoController
@@ -14,7 +13,6 @@ class FindAMealView extends Component {
         }
     }
 
-    // displays upload form
     render() {
         let mealOptions = [
             { value: 'breakfast', label: 'Breakfast'},
