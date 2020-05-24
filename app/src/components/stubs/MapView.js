@@ -10,11 +10,11 @@ import * as MealData from "./data/meal_programs.json";
 import mapStyles from "./mapStyles";
 
 class MapView extends Component {
+
+    //Soham: I Don't think we need a constructor here plis check 
     constructor(props) {
         super(props)
     }
-
-    
 
     // displays Map based on state
     render() {
