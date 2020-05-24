@@ -26,7 +26,7 @@ componentDidMount() {
 
     return (
       <div>
-
+        <Header/>
         <h1 className="about-header">
             Meal Programs for Seattle's Homeless and Low Income
         </h1>
