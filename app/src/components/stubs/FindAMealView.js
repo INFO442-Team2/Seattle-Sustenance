@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { Card } from 'reactstrap';
 import Select from 'react-select';
 import { Header } from './HeaderView';
+import MapView from './MapView';
 
 // form for users to enter in their filters 
 // required prop: GoController
@@ -15,34 +16,34 @@ class FindAMealView extends Component {
 
     render() {
         let mealOptions = [
-            { value: 'breakfast', label: 'Breakfast'},
-            { value: 'lunch', label: 'Lunch'},
-            { value: 'dinner', label: 'Dinner'},
-            { value: 'snack', label: 'Snack'},
-            { value: 'any', label: 'Any'},
+            { value: 'breakfast', label: 'Breakfast' },
+            { value: 'lunch', label: 'Lunch' },
+            { value: 'dinner', label: 'Dinner' },
+            { value: 'snack', label: 'Snack' },
+            { value: 'any', label: 'Any' },
         ];
 
         let peopleServed = [
-            { value: 'women', label: 'Women'},
-            { value: 'men', label: 'Men'},
-            { value: 'children', label: 'Children'},
-            { value: 'd', label: 'D'},
-            { value: 'e', label: 'E'},
+            { value: 'women', label: 'Women' },
+            { value: 'men', label: 'Men' },
+            { value: 'children', label: 'Children' },
+            { value: 'd', label: 'D' },
+            { value: 'e', label: 'E' },
         ]
 
         let dayServed = [
-            { value: 'sunday', label: 'Sunday'},
-            { value: 'monday', label: 'Monday'},
-            { value: 'tuesday', label: 'Tuesday'},
-            { value: 'wednesday', label: 'Wednesday'},
-            { value: 'thursday', label: 'Thursday'},
-            { value: 'friday', label: 'Friday'},
-            { value: 'saturday', label: 'Saturday'},
+            { value: 'sunday', label: 'Sunday' },
+            { value: 'monday', label: 'Monday' },
+            { value: 'tuesday', label: 'Tuesday' },
+            { value: 'wednesday', label: 'Wednesday' },
+            { value: 'thursday', label: 'Thursday' },
+            { value: 'friday', label: 'Friday' },
+            { value: 'saturday', label: 'Saturday' },
         ]
 
         // let filteredResults = this.props.results;
         let filteredResults = [
-            { 
+            {
                 "properties": {
                     "Day": [
                         "Monday",
@@ -90,62 +91,68 @@ class FindAMealView extends Component {
             }
         ];
 
-        let main = null; 
+        let main = null;
 
         if (this.state.filtered == false) {
             main = (
-                <div className="filter-form col-sm-4"> 
-                    <form className="test"> 
-                        <p align="center">find the right program for you</p>
-                        <hr></hr>
-                        <div className="form-group">
-                            <input className="form-control" type="text"  id="zipcode" placeholder="search by zip code..."/>
+                <div className="container">
+                    <div className="row">
+                        <div className="filter-form col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
+                            <form className="test">
+                                <p align="center">find the right program for you</p>
+                                <hr></hr>
+                                <div className="form-group">
+                                    <input className="form-control" type="text" id="zipcode" placeholder="search by zip code..." />
+                                </div>
+                                <div className="form-group">
+                                    <input className="form-control" type="text" id="name" placeholder="search by name..." />
+                                </div>
+                                <div className="form-group">
+                                    <Select
+                                        isMulti
+                                        name="meals"
+                                        options={mealOptions}
+                                        closeMenuOnSelect={false}
+                                        hideSelectedOptions={false}
+                                        className="basic-multi-select"
+                                        classNamePrefix="select"
+                                        placeholder="meal served"
+                                    />
+                                </div>
+                                <div className="form-group">
+                                    <Select
+                                        isMulti
+                                        name="meals"
+                                        options={peopleServed}
+                                        closeMenuOnSelect={false}
+                                        hideSelectedOptions={false}
+                                        className="basic-multi-select"
+                                        classNamePrefix="select"
+                                        placeholder="people served"
+                                        closeMenuOnSelect={false}
+                                    />
+                                </div>
+                                <div className="form-group">
+                                    <Select
+                                        isMulti
+                                        name="meals"
+                                        options={dayServed}
+                                        closeMenuOnSelect={false}
+                                        hideSelectedOptions={false}
+                                        className="basic-multi-select"
+                                        classNamePrefix="select"
+                                        placeholder="day served"
+                                    />
+                                </div>
+                                <div className="row justify-content-center">
+                                    <button type="submit" className="go-button">go</button>
+                                </div>
+                            </form>
                         </div>
-                        <div className="form-group">
-                            <input className="form-control" type="text"  id="name" placeholder="search by name..."/>
-                        </div>
-                        <div className="form-group">
-                            <Select
-                                isMulti
-                                name="meals"
-                                options={mealOptions}
-                                closeMenuOnSelect={false}
-                                hideSelectedOptions={false}
-                                className="basic-multi-select"
-                                classNamePrefix="select"
-                                placeholder="meal served"
-                            />
-                        </div>
-                        <div className="form-group">
-                            <Select
-                                isMulti
-                                name="meals"
-                                options={peopleServed}
-                                closeMenuOnSelect={false}
-                                hideSelectedOptions={false}
-                                className="basic-multi-select"
-                                classNamePrefix="select"
-                                placeholder="people served"
-                                closeMenuOnSelect={false}
-                            />
-                        </div>
-                        <div className="form-group">
-                            <Select
-                                isMulti
-                                name="meals"
-                                options={dayServed}
-                                closeMenuOnSelect={false}
-                                hideSelectedOptions={false}
-                                className="basic-multi-select"
-                                classNamePrefix="select"
-                                placeholder="day served"
-                            />
-                        </div>
-                        <div className="row justify-content-center">
-                            <button type="submit" className="go-button">go</button>
-                        </div>
-                    </form>
+                        <div className="col-12 col-sm-12 col-md-8 col-lg-8 col-xl-8"><MapView /></div>
+                    </div>
                 </div>
+
             )
         } else {
             main = (
@@ -170,7 +177,7 @@ class FindAMealView extends Component {
 
         return (
             <div>
-                <Header/>
+                <Header />
                 {main}
             </div>
         )
