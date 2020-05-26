@@ -4,7 +4,10 @@ import Select from 'react-select';
 import { Header } from './HeaderView';
 import MapView from './MapView';
 
-// form for users to enter in their filters 
+// Added by Soham
+import MealProgramModel from "./MealProgramsModel";
+
+// form for users to enter in their filters
 // required prop: GoController
 class FindAMealView extends Component {
     constructor(props) {
@@ -12,6 +15,8 @@ class FindAMealView extends Component {
         this.state = {
             filtered: false,
         }
+        //Added By Soham: 
+        let mealProgramModel = new MealProgramModel();
     }
 
     render() {
@@ -180,17 +185,44 @@ class FindAMealView extends Component {
                 <Header />
                 {main}
             </div>
-        )
-    }
+            <div class="form-group">
+              <Select
+                isMulti
+                name="meals"
+                options={dayServed}
+                closeMenuOnSelect={false}
+                hideSelectedOptions={false}
+                className="basic-multi-select"
+                classNamePrefix="select"
+                placeholder="day served"
+              />
+            </div>
+            <div class="row justify-content-center">
+              <button type="submit" class="go-button" onClick={this.onSubmit}>
+                go
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    );
+  }
 
-    // takes in filter options and sends it back to the server to apply filters to the data
-    // this will be done in the GoController
-    onSubmit = event => {
-        // call GoController
-    }
+  // takes in filter options and sends it back to the server to apply filters to the data
+  // this will be done in the GoController
+  onSubmit = (event) => {
 
+    // Soham: for debugging purposes 
+    const example = {
+      zipcode: "98105",
+      name: "Pike Market Senior Center",
+      mealServed: ["Breakfast"],
+      peopleServed: ["OPEN TO ALL"],
+      dayServed: ["Monday", "Tuesday", "Wednesday"],
+    };
+    // SOHAM: Added this for testing since goController has not been made.
+    console.log(this.mealProgramModel.filterResults(example));
+  };
 }
-
-
 
 export default FindAMealView;

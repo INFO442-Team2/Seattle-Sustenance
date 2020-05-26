@@ -1,3 +1,6 @@
+//Soham: Shouldnt the GoController not be extending a component 
+//       as its a controller and not a physical component ?
+
 class GoController extends Component {
   constructor() {
     super()
