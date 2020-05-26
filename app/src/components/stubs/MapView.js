@@ -9,6 +9,7 @@ import {
 import * as MealData from "./data/meal_programs.json";
 import mapStyles from "./mapStyles";
 
+
 class MapView extends Component {
 
     //Soham: I Don't think we need a constructor here plis check 
@@ -44,32 +45,33 @@ class MapView extends Component {
                         <Marker
                             key={Meal.properties.Name_of_Program}
                             position={{
-                                lat: Meal.geometry.coordinates[1],
-                                lng: Meal.geometry.coordinates[0]
+                                lat: Meal.geometry.coordinates[0],
+                                lng: Meal.geometry.coordinates[1]
                             }}
                             onClick={() => {
                                 setSelectedMeal(Meal);
                             }}
-                            icon={{
-                                url: ``,
-                                scaledSize: new window.google.maps.Size(25, 25)
-                            }}
+                            
+
                         />
                     ))}
-    
+
                     {selectedMeal && (
                         <InfoWindow
                             onCloseClick={() => {
                                 setSelectedMeal(null);
                             }}
                             position={{
-                                lat: selectedMeal.geometry.coordinates[1],
-                                lng: selectedMeal.geometry.coordinates[0]
-                            }}
-                        >
+                                lat: selectedMeal.geometry.coordinates[0],
+                                lng: selectedMeal.geometry.coordinates[1]
+                            }}>
                             <div>
                                 <h2>{selectedMeal.properties['Name_of_Program']}</h2>
                                 <p>{selectedMeal.properties['Location']}</p>
+                                <p>Days Served: {selectedMeal.properties['Day']}</p>
+                                <p>{selectedMeal.properties['Meal_Served']}: {selectedMeal.properties['Time_Start']} - {selectedMeal.properties['Time_End']}</p>
+                                <p>Age Served: {selectedMeal.properties['Age_Served']}</p>
+                                <p>Gender Served: {selectedMeal.properties['Gender_Served']}</p>
                             </div>
                         </InfoWindow>
                     )}
@@ -78,10 +80,11 @@ class MapView extends Component {
         }
 
         let MapWrapped = withScriptjs(withGoogleMap(Map));
+
         return(
-        <div style={{ width: "100vw", height: "100vh" }}>
+        <div style={{ width: "50vw", height: "50vh" }}>
             <MapWrapped
-                googleMapURL={`https://maps.googleapis.com/maps/api/js?v=3.exp&libraries=geometry,drawing,places&key=AIzaSyCzAoW1y3spHJQQv62UOAN0HwkqhqROTEU`}
+                googleMapURL={`https://maps.googleapis.com/maps/api/js?v=3.exp&libraries=geometry,drawing,places&key=${process.env.REACT_APP_GOOGLE_KEY}`}
                 loadingElement={<div style={{ height: `100%` }} />}
                 containerElement={<div style={{ height: `100%` }} />}
                 mapElement={<div style={{ height: `100%` }} />}

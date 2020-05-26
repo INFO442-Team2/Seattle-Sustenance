@@ -9,19 +9,13 @@
     "features": [
         {
             "properties": {
-                "Day": [
-                    "Monday",
-                    "Tuesday",
-                    "Wednesday",
-                    "Thursday",
-                    "Friday"
-                ],
-                "Time_Start": "6:15AM",
-                "Time_End": "7:00AM",
+                "Day": "Monday - Friday",
+                "Time_Start": "6:15 AM",
+                "Time_End": "7:00 AM",
                 "Meal_Served": "Breakfast",
                 "Age_Served": "All",
                 "Gender_Served": "All",
-                "People_Served": "OPEN TO ALL ",
+                "People_Served": "OPEN TO ALL",
                 "Location": "2515 Western Ave.,  Seattle",
                 "Name_of_Program": "Millionair Club Charity"
             },
@@ -35,15 +29,9 @@
         },
         {
             "properties": {
-                "Day": [
-                    "Sunday",
-                    "Monday",
-                    "Tuesday",
-                    "Wednesday",
-                    "Thursday"
-                ],
-                "Time_Start": "5:30AM",
-                "Time_End": "8:30AM",
+                "Day": "Sunday - Thursday",
+                "Time_Start": "5:30 AM",
+                "Time_End": "8:30 AM",
                 "Meal_Served": "Breakfast",
                 "Age_Served": "All",
                 "Gender_Served": "All",
@@ -61,11 +49,9 @@
         },
         {
             "properties": {
-                "Day": [
-                    "Sunday"
-                ],
-                "Time_Start": "7:00AM",
-                "Time_End": "9:00AM",
+                "Day": "Sunday",
+                "Time_Start": "7:00 AM",
+                "Time_End": "9:00 AM",
                 "Meal_Served": "Breakfast",
                 "Age_Served": "All",
                 "Gender_Served": "All",
@@ -83,15 +69,9 @@
         },
         {
             "properties": {
-                "Day": [
-                    "Monday",
-                    "Tuesday",
-                    "Wednesday",
-                    "Thursday",
-                    "Friday"
-                ],
-                "Time_Start": "8:30AM",
-                "Time_End": "11:00AM",
+                "Day": "Monday - Friday",
+                "Time_Start": "8:30 AM",
+                "Time_End": "11:00 AM",
                 "Meal_Served": "Breakfast",
                 "Age_Served": "All",
                 "Gender_Served": "All",
@@ -109,17 +89,9 @@
         },
         {
             "properties": {
-                "Day": [
-                    "Monday",
-                    "Tuesday",
-                    "Wednesday",
-                    "Thursday",
-                    "Friday",
-                    "Saturday",
-                    "Sunday"
-                ],
-                "Time_Start": "7:20AM",
-                "Time_End": "8:40AM",
+                "Day": "Daily",
+                "Time_Start": "7:20 AM",
+                "Time_End": "8:40 AM",
                 "Meal_Served": "Breakfast",
                 "Age_Served": "18+",
                 "Gender_Served": "Women",
@@ -137,17 +109,13 @@
         },
         {
             "properties": {
-                "Day": [
-                    "Monday",
-                    "Tuesday",
-                    "Wednesday"
-                ],
-                "Time_Start": "8:00AM",
-                "Time_End": "9:00AM",
+                "Day": "Monday - Wednesday",
+                "Time_Start": "8:00 AM",
+                "Time_End": "9:00 AM",
                 "Meal_Served": "Breakfast",
                 "Age_Served": "55+",
                 "Gender_Served": "All",
-                "People_Served": "OPEN TO 55+ ",
+                "People_Served": "OPEN TO 55+",
                 "Location": "85 Pike St.  #200,  Seattle",
                 "Name_of_Program": "Pike Market Senior Center"
             },
@@ -161,21 +129,13 @@
         },
         {
             "properties": {
-                "Day": [
-                    "Monday",
-                    "Tuesday",
-                    "Wednesday",
-                    "Thursday",
-                    "Friday",
-                    "Saturday",
-                    "Sunday"
-                ],
-                "Time_Start": "8:00AM",
-                "Time_End": "9:00AM",
+                "Day": "Daily",
+                "Time_Start": "8:00 AM",
+                "Time_End": "9:00 AM",
                 "Meal_Served": "Breakfast",
                 "Age_Served": "50+",
                 "Gender_Served": "Men",
-                "People_Served": "OPEN TO MEN 50+ ",
+                "People_Served": "OPEN TO MEN 50+",
                 "Location": "1561 Alaskan Way S.,  Seattle",
                 "Name_of_Program": "Saint Martin's de Porres Shelter"
             },
@@ -189,15 +149,9 @@
         },
         {
             "properties": {
-                "Day": [
-                    "Monday",
-                    "Tuesday",
-                    "Wednesday",
-                    "Thursday",
-                    "Friday"
-                ],
-                "Time_Start": "8:00AM",
-                "Time_End": "9:00AM",
+                "Day": "Monday - Friday",
+                "Time_Start": "8:00 AM",
+                "Time_End": "9:00 AM",
                 "Meal_Served": "Breakfast",
                 "Age_Served": "All",
                 "Gender_Served": "All",
@@ -215,15 +169,9 @@
         },
         {
             "properties": {
-                "Day": [
-                    "Monday",
-                    "Tuesday",
-                    "Wednesday",
-                    "Thursday",
-                    "Friday"
-                ],
-                "Time_Start": "8:30AM",
-                "Time_End": "9:30AM",
+                "Day": "Monday - Friday",
+                "Time_Start": "8:30 AM",
+                "Time_End": "9:30 AM",
                 "Meal_Served": "Breakfast",
                 "Age_Served": "All",
                 "Gender_Served": "Women",
@@ -241,86 +189,9 @@
         },
         {
             "properties": {
-                "Day": [
-                    "Saturday"
-                ],
-                "Time_Start": "8:30AM",
-                "Time_End": "9:30AM",
-                "Meal_Served": "Breakfast",
-                "Age_Served": "13-",
-                "Gender_Served": "All",
-                "People_Served": "OPEN TO WOMEN & CHILDREN ONLY",
-                "Location": "210 Dexter Avenue, Seattle",
-                "Name_of_Program": "Mary's Place / Church of Mary Magdalene"
-            },
-            "geometry": {
-                "Type": "Point",
-                "coordinates": [
-                    47.620036999999996,
-                    -122.34206299999998
-                ]
-            }
-        },
-        {
-            "properties": {
-                "Day": [
-                    "Monday",
-                    "Tuesday",
-                    "Wednesday",
-                    "Thursday",
-                    "Friday"
-                ],
-                "Time_Start": "8:30AM",
-                "Time_End": "9:30AM",
-                "Meal_Served": "Breakfast",
-                "Age_Served": "All",
-                "Gender_Served": "Women",
-                "People_Served": "OPEN TO WOMEN & CHILDREN ONLY",
-                "Location": "210 Dexter Avenue, Seattle",
-                "Name_of_Program": "Mary's Place / Church of Mary Magdalene"
-            },
-            "geometry": {
-                "Type": "Point",
-                "coordinates": [
-                    47.620036999999996,
-                    -122.34206299999998
-                ]
-            }
-        },
-        {
-            "properties": {
-                "Day": [
-                    "Saturday"
-                ],
-                "Time_Start": "8:30AM",
-                "Time_End": "9:30AM",
-                "Meal_Served": "Breakfast",
-                "Age_Served": "13-",
-                "Gender_Served": "All",
-                "People_Served": "OPEN TO WOMEN & CHILDREN ONLY",
-                "Location": "210 Dexter Avenue, Seattle",
-                "Name_of_Program": "Mary's Place / Church of Mary Magdalene"
-            },
-            "geometry": {
-                "Type": "Point",
-                "coordinates": [
-                    47.620036999999996,
-                    -122.34206299999998
-                ]
-            }
-        },
-        {
-            "properties": {
-                "Day": [
-                    "Sunday",
-                    "Tuesday",
-                    "Wednesday",
-                    "Thursday",
-                    "Friday",
-                    "Saturday"
-                ],
-                "Time_Start": "9:00AM",
-                "Time_End": "11:00AM",
+                "Day": "Tuesday - Sunday",
+                "Time_Start": "9:00 AM",
+                "Time_End": "11:00 AM",
                 "Meal_Served": "Breakfast",
                 "Age_Served": "All",
                 "Gender_Served": "All",
@@ -331,18 +202,16 @@
             "geometry": {
                 "Type": "Point",
                 "coordinates": [
-                    47.620036999999996,
-                    -122.34206299999998
+                    47.606659,
+                    -122.320599
                 ]
             }
         },
         {
             "properties": {
-                "Day": [
-                    "Sunday"
-                ],
-                "Time_Start": "10:00AM",
-                "Time_End": "11:00AM",
+                "Day": "Sunday",
+                "Time_Start": "10:00 AM",
+                "Time_End": "11:00 AM",
                 "Meal_Served": "Breakfast",
                 "Age_Served": "All",
                 "Gender_Served": "All",
@@ -353,22 +222,16 @@
             "geometry": {
                 "Type": "Point",
                 "coordinates": [
-                    47.620036999999996,
-                    -122.34206299999998
+                    47.605542,
+                    -122.32918000000001
                 ]
             }
         },
         {
             "properties": {
-                "Day": [
-                    "Monday",
-                    "Tuesday",
-                    "Wednesday",
-                    "Thursday",
-                    "Friday"
-                ],
-                "Time_Start": "10:00AM",
-                "Time_End": "11:00AM",
+                "Day": "Monday - Friday",
+                "Time_Start": "10:00 AM",
+                "Time_End": "11:00 AM",
                 "Meal_Served": "Breakfast",
                 "Age_Served": "22-",
                 "Gender_Served": "All",
@@ -379,18 +242,16 @@
             "geometry": {
                 "Type": "Point",
                 "coordinates": [
-                    47.620036999999996,
-                    -122.34206299999998
+                    47.6173,
+                    -122.349571
                 ]
             }
         },
         {
             "properties": {
-                "Day": [
-                    "Sunday"
-                ],
-                "Time_Start": "8:00AM",
-                "Time_End": "11:00AM",
+                "Day": "Sunday",
+                "Time_Start": "8:00 AM",
+                "Time_End": "11:00 AM",
                 "Meal_Served": "Breakfast",
                 "Age_Served": "All",
                 "Gender_Served": "All",
@@ -401,18 +262,16 @@
             "geometry": {
                 "Type": "Point",
                 "coordinates": [
-                    47.620036999999996,
-                    -122.34206299999998
+                    47.605542,
+                    -122.32918000000001
                 ]
             }
         },
         {
             "properties": {
-                "Day": [
-                    "Friday"
-                ],
+                "Day": "Fridays",
                 "Time_Start": "10:30 A.M",
-                "Time_End": "11:30AM",
+                "Time_End": "11:30 AM",
                 "Meal_Served": "Lunch",
                 "Age_Served": "All",
                 "Gender_Served": "All",
@@ -423,21 +282,16 @@
             "geometry": {
                 "Type": "Point",
                 "coordinates": [
-                    47.620036999999996,
-                    -122.34206299999998
+                    47.598395000000004,
+                    -122.320225
                 ]
             }
         },
         {
             "properties": {
-                "Day": [
-                    "Tuesday",
-                    "Wednesday",
-                    "Thursday",
-                    "Friday"
-                ],
-                "Time_Start": "11:00AM",
-                "Time_End": "1:00PM",
+                "Day": "Tuesday - Friday",
+                "Time_Start": "11:00 AM",
+                "Time_End": "1:00 PM",
                 "Meal_Served": "Lunch",
                 "Age_Served": "21-",
                 "Gender_Served": "All",
@@ -448,18 +302,16 @@
             "geometry": {
                 "Type": "Point",
                 "coordinates": [
-                    47.620036999999996,
-                    -122.34206299999998
+                    47.618148,
+                    -122.325151
                 ]
             }
         },
         {
             "properties": {
-                "Day": [
-                    "Sunday"
-                ],
-                "Time_Start": "11:00AM",
-                "Time_End": "1:30PM",
+                "Day": "Sunday",
+                "Time_Start": "11:00 AM",
+                "Time_End": "1:30 PM",
                 "Meal_Served": "Lunch",
                 "Age_Served": "All",
                 "Gender_Served": "All",
@@ -470,50 +322,16 @@
             "geometry": {
                 "Type": "Point",
                 "coordinates": [
-                    47.620036999999996,
-                    -122.34206299999998
+                    47.605542,
+                    -122.32918000000001
                 ]
             }
         },
         {
             "properties": {
-                "Day": [
-                    "Monday",
-                    "Tuesday",
-                    "Wednesday",
-                    "Thursday",
-                    "Friday",
-                    "Saturday",
-                    "Sunday"
-                ],
-                "Time_Start": "11:30AM",
-                "Time_End": "1:00PM",
-                "Meal_Served": "Lunch",
-                "Age_Served": "18+",
-                "Gender_Served": "Women",
-                "People_Served": "WOMEN 18 AND OLDER",
-                "Location": "2030 3rd Ave, Seattle",
-                "Name_of_Program": "YWCA Angeline's Meals Program"
-            },
-            "geometry": {
-                "Type": "Point",
-                "coordinates": [
-                    47.620036999999996,
-                    -122.34206299999998
-                ]
-            }
-        },
-        {
-            "properties": {
-                "Day": [
-                    "Monday",
-                    "Tuesday",
-                    "Wednesday",
-                    "Thursday",
-                    "Friday"
-                ],
-                "Time_Start": "11:30AM",
-                "Time_End": "12:30PM",
+                "Day": "Monday - Friday",
+                "Time_Start": "11:30 AM",
+                "Time_End": "12:30 PM",
                 "Meal_Served": "Lunch",
                 "Age_Served": "60+",
                 "Gender_Served": "All",
@@ -524,40 +342,36 @@
             "geometry": {
                 "Type": "Point",
                 "coordinates": [
-                    47.620036999999996,
-                    -122.34206299999998
+                    47.599,
+                    -122.325282
                 ]
             }
         },
         {
             "properties": {
-                "Day": [
-                    "Tuesday"
-                ],
-                "Time_Start": "11:30AM ",
-                "Time_End": "12:30PM",
+                "Day": "Tuesday and Friday",
+                "Time_Start": "11:30 AM",
+                "Time_End": "12:30 PM",
                 "Meal_Served": "Lunch",
                 "Age_Served": "All",
                 "Gender_Served": "All",
                 "People_Served": "OPEN TO ALL",
-                "Location": "3639 Martin Luther King Way, Seattle ",
+                "Location": "3639 Martin Luther King Way, Seattle",
                 "Name_of_Program": "Emergency Senior Nutrition Program"
             },
             "geometry": {
                 "Type": "Point",
                 "coordinates": [
-                    47.620036999999996,
-                    -122.34206299999998
+                    47.571006,
+                    -122.297399
                 ]
             }
         },
         {
             "properties": {
-                "Day": [
-                    "Friday"
-                ],
-                "Time_Start": "11:30AM",
-                "Time_End": "12:30PM",
+                "Day": "Fridays",
+                "Time_Start": "11:30 AM",
+                "Time_End": "12:30 PM",
                 "Meal_Served": "Lunch",
                 "Age_Served": "All",
                 "Gender_Served": "All",
@@ -568,18 +382,16 @@
             "geometry": {
                 "Type": "Point",
                 "coordinates": [
-                    47.620036999999996,
-                    -122.34206299999998
+                    47.670581,
+                    -122.384506
                 ]
             }
         },
         {
             "properties": {
-                "Day": [
-                    "Tuesday"
-                ],
-                "Time_Start": "11:30AM",
-                "Time_End": "12:30PM",
+                "Day": "Tuesdays",
+                "Time_Start": "11:30 AM",
+                "Time_End": "12:30 PM",
                 "Meal_Served": "Lunch",
                 "Age_Served": "All",
                 "Gender_Served": "All",
@@ -590,19 +402,16 @@
             "geometry": {
                 "Type": "Point",
                 "coordinates": [
-                    47.620036999999996,
-                    -122.34206299999998
+                    47.529738,
+                    -122.320507
                 ]
             }
         },
         {
             "properties": {
-                "Day": [
-                    "Wednesday",
-                    "Friday"
-                ],
-                "Time_Start": "11:30AM",
-                "Time_End": "12:30PM",
+                "Day": "Wednesday & Friday",
+                "Time_Start": "11:30 AM",
+                "Time_End": "12:30 PM",
                 "Meal_Served": "Lunch",
                 "Age_Served": "All",
                 "Gender_Served": "All",
@@ -613,66 +422,36 @@
             "geometry": {
                 "Type": "Point",
                 "coordinates": [
-                    47.620036999999996,
-                    -122.34206299999998
+                    47.529738,
+                    -122.320507
                 ]
             }
         },
         {
             "properties": {
-                "Day": [
-                    "Monday",
-                    "Tuesday",
-                    "Wednesday",
-                    "Thursday",
-                    "Friday"
-                ],
-                "Time_Start": "12:00PM",
-                "Time_End": "12:45PM",
+                "Day": "Monday - Friday",
+                "Time_Start": "12:00 PM",
+                "Time_End": "12:45 PM",
                 "Meal_Served": "Lunch",
                 "Age_Served": "All",
                 "Gender_Served": "All",
-                "People_Served": "OPEN TO ALL ",
+                "People_Served": "OPEN TO ALL",
                 "Location": "611 12th Ave South, Suite 300, Seattle",
                 "Name_of_Program": "Seattle Indian Center"
             },
             "geometry": {
                 "Type": "Point",
                 "coordinates": [
-                    47.620036999999996,
-                    -122.34206299999998
+                    47.597395,
+                    -122.31805700000001
                 ]
             }
         },
         {
             "properties": {
-                "Day": [
-                    "Sunday"
-                ],
-                "Time_Start": "11:00AM",
-                "Time_End": "12:00PM",
-                "Meal_Served": "Lunch",
-                "Age_Served": "All",
-                "Gender_Served": "All",
-                "People_Served": "OPEN TO ALL",
-                "Location": "318 2nd Ave. S. Extension,  Seattle",
-                "Name_of_Program": "Union Gospel Mission"
-            },
-            "geometry": {
-                "Type": "Point",
-                "coordinates": [
-                    47.620036999999996,
-                    -122.34206299999998
-                ]
-            }
-        },
-        {
-            "properties": {
-                "Day": [
-                    "Thursday"
-                ],
-                "Time_Start": "12:00PM",
-                "Time_End": "1:00PM",
+                "Day": "Thursdays",
+                "Time_Start": "12:00 PM",
+                "Time_End": "1:00 PM",
                 "Meal_Served": "Lunch",
                 "Age_Served": "All",
                 "Gender_Served": "All",
@@ -683,52 +462,16 @@
             "geometry": {
                 "Type": "Point",
                 "coordinates": [
-                    47.620036999999996,
-                    -122.34206299999998
+                    47.649035999999995,
+                    -121.912641
                 ]
             }
         },
         {
             "properties": {
-                "Day": [
-                    "Monday",
-                    "Tuesday",
-                    "Wednesday",
-                    "Thursday",
-                    "Friday",
-                    "Saturday",
-                    "Sunday"
-                ],
-                "Time_Start": "12:00PM",
-                "Time_End": "1:00PM",
-                "Meal_Served": "Lunch",
-                "Age_Served": "55+",
-                "Gender_Served": "All",
-                "People_Served": "OPEN TO 55+ ",
-                "Location": "85 Pike St.  #200,  Seattle",
-                "Name_of_Program": "Pike Market Senior Center"
-            },
-            "geometry": {
-                "Type": "Point",
-                "coordinates": [
-                    47.620036999999996,
-                    -122.34206299999998
-                ]
-            }
-        },
-        {
-            "properties": {
-                "Day": [
-                    "Monday",
-                    "Tuesday",
-                    "Wednesday",
-                    "Thursday",
-                    "Friday",
-                    "Saturday",
-                    "Sunday"
-                ],
-                "Time_Start": "12:00PM",
-                "Time_End": "2:00PM",
+                "Day": "Daily",
+                "Time_Start": "12:00 PM",
+                "Time_End": "2:00 PM",
                 "Meal_Served": "Lunch",
                 "Age_Served": "50+",
                 "Gender_Served": "All",
@@ -739,18 +482,16 @@
             "geometry": {
                 "Type": "Point",
                 "coordinates": [
-                    47.620036999999996,
-                    -122.34206299999998
+                    47.601521000000005,
+                    -122.33119599999999
                 ]
             }
         },
         {
             "properties": {
-                "Day": [
-                    "Saturday"
-                ],
-                "Time_Start": "12:00PM",
-                "Time_End": "1:00PM",
+                "Day": "Saturdays",
+                "Time_Start": "12:00 PM",
+                "Time_End": "1:00 PM",
                 "Meal_Served": "Lunch",
                 "Age_Served": "All",
                 "Gender_Served": "All",
@@ -761,44 +502,36 @@
             "geometry": {
                 "Type": "Point",
                 "coordinates": [
-                    47.620036999999996,
-                    -122.34206299999998
+                    47.605542,
+                    -122.32918000000001
                 ]
             }
         },
         {
             "properties": {
-                "Day": [
-                    "Sunday"
-                ],
-                "Time_Start": "12:00PM",
-                "Time_End": "2:00PM",
+                "Day": "Sunday",
+                "Time_Start": "12:00 PM",
+                "Time_End": "2:00 PM",
                 "Meal_Served": "Lunch",
                 "Age_Served": "All",
                 "Gender_Served": "All",
                 "People_Served": "OPEN TO ALL",
                 "Location": "5050 8th Ave. NE,  Seattle",
-                "Name_of_Program": "Blessed Sacrament Church Sunday Dinner "
+                "Name_of_Program": "Blessed Sacrament Church Sunday Dinner"
             },
             "geometry": {
                 "Type": "Point",
                 "coordinates": [
-                    47.620036999999996,
-                    -122.34206299999998
+                    47.666567,
+                    -122.319029
                 ]
             }
         },
         {
             "properties": {
-                "Day": [
-                    "Monday",
-                    "Tuesday",
-                    "Wednesday",
-                    "Thursday",
-                    "Friday"
-                ],
-                "Time_Start": "12:00PM",
-                "Time_End": "1:00PM",
+                "Day": "Monday - Friday",
+                "Time_Start": "12:00 PM",
+                "Time_End": "1:00 PM",
                 "Meal_Served": "Lunch",
                 "Age_Served": "All",
                 "Gender_Served": "All",
@@ -809,19 +542,16 @@
             "geometry": {
                 "Type": "Point",
                 "coordinates": [
-                    47.620036999999996,
-                    -122.34206299999998
+                    47.599992,
+                    -122.334616
                 ]
             }
         },
         {
             "properties": {
-                "Day": [
-                    "Tuesday",
-                    "Friday"
-                ],
-                "Time_Start": "12:00PM",
-                "Time_End": "1:00PM",
+                "Day": "Tuesday & Friday",
+                "Time_Start": "12:00 PM",
+                "Time_End": "1:00 PM",
                 "Meal_Served": "Lunch",
                 "Age_Served": "All",
                 "Gender_Served": "All",
@@ -832,22 +562,16 @@
             "geometry": {
                 "Type": "Point",
                 "coordinates": [
-                    47.620036999999996,
-                    -122.34206299999998
+                    47.616875,
+                    -122.317699
                 ]
             }
         },
         {
             "properties": {
-                "Day": [
-                    "Monday",
-                    "Tuesday",
-                    "Wednesday",
-                    "Thursday",
-                    "Friday"
-                ],
-                "Time_Start": "12:00PM",
-                "Time_End": "1:00PM",
+                "Day": "Monday - Friday",
+                "Time_Start": "12:00 PM",
+                "Time_End": "1:00 PM",
                 "Meal_Served": "Lunch",
                 "Age_Served": "All",
                 "Gender_Served": "All",
@@ -858,18 +582,16 @@
             "geometry": {
                 "Type": "Point",
                 "coordinates": [
-                    47.620036999999996,
-                    -122.34206299999998
+                    47.580559,
+                    -122.311369
                 ]
             }
         },
         {
             "properties": {
-                "Day": [
-                    "Sunday"
-                ],
-                "Time_Start": "12:00PM",
-                "Time_End": "2:00PM",
+                "Day": "Sunday",
+                "Time_Start": "12:00 PM",
+                "Time_End": "2:00 PM",
                 "Meal_Served": "Lunch",
                 "Age_Served": "All",
                 "Gender_Served": "All",
@@ -880,88 +602,36 @@
             "geometry": {
                 "Type": "Point",
                 "coordinates": [
-                    47.620036999999996,
-                    -122.34206299999998
+                    47.620722,
+                    -122.33211000000001
                 ]
             }
         },
         {
             "properties": {
-                "Day": [
-                    "Monday",
-                    "Tuesday",
-                    "Wednesday",
-                    "Thursday",
-                    "Friday"
-                ],
-                "Time_Start": "12:00PM",
-                "Time_End": "1:30PM",
-                "Meal_Served": "Lunch",
-                "Age_Served": "All",
-                "Gender_Served": "All",
-                "People_Served": "OPEN TO ALL ",
-                "Location": "2515 Western Ave.,  Seattle",
-                "Name_of_Program": "Millionair Club Charity"
-            },
-            "geometry": {
-                "Type": "Point",
-                "coordinates": [
-                    47.620036999999996,
-                    -122.34206299999998
-                ]
-            }
-        },
-        {
-            "properties": {
-                "Day": [
-                    "Monday"
-                ],
-                "Time_Start": "12:00PM",
-                "Time_End": "1:00PM",
+                "Day": "Mondays",
+                "Time_Start": "12:00 PM",
+                "Time_End": "1:00 PM",
                 "Meal_Served": "Lunch",
                 "Age_Served": "All",
                 "Gender_Served": "All",
                 "People_Served": "OPEN TO ALL",
-                "Location": "Calvary Lutheran                      7002 23rd Ave NW, Seattle",
+                "Location": "7002 23rd Ave NW, Seattle",
                 "Name_of_Program": "Phinney Neighborhood Association"
             },
             "geometry": {
                 "Type": "Point",
                 "coordinates": [
-                    47.620036999999996,
-                    -122.34206299999998
+                    47.679957,
+                    -122.38507299999999
                 ]
             }
         },
         {
             "properties": {
-                "Day": [
-                    "Wednesday"
-                ],
-                "Time_Start": "12:00PM",
-                "Time_End": "1:00PM",
-                "Meal_Served": "Lunch",
-                "Age_Served": "All",
-                "Gender_Served": "All",
-                "People_Served": "OPEN TO ALL",
-                "Location": "St. John's Lutheran                 5515 Phinney Ave N., Seattle",
-                "Name_of_Program": "Phinney Neighborhood Association"
-            },
-            "geometry": {
-                "Type": "Point",
-                "coordinates": [
-                    47.620036999999996,
-                    -122.34206299999998
-                ]
-            }
-        },
-        {
-            "properties": {
-                "Day": [
-                    "Sunday"
-                ],
-                "Time_Start": "12:00PM",
-                "Time_End": "1:00PM",
+                "Day": "Sundays",
+                "Time_Start": "12:00 PM",
+                "Time_End": "1:00 PM",
                 "Meal_Served": "Lunch",
                 "Age_Served": "All",
                 "Gender_Served": "All",
@@ -972,22 +642,16 @@
             "geometry": {
                 "Type": "Point",
                 "coordinates": [
-                    47.620036999999996,
-                    -122.34206299999998
+                    47.605691,
+                    -122.329373
                 ]
             }
         },
         {
             "properties": {
-                "Day": [
-                    "Monday",
-                    "Tuesday",
-                    "Wednesday",
-                    "Thursday",
-                    "Friday"
-                ],
-                "Time_Start": "12:30PM",
-                "Time_End": "1:00PM",
+                "Day": "Monday - Friday",
+                "Time_Start": "12:30 PM",
+                "Time_End": "1:00 PM",
                 "Meal_Served": "Lunch",
                 "Age_Served": "13-21",
                 "Gender_Served": "All",
@@ -998,18 +662,16 @@
             "geometry": {
                 "Type": "Point",
                 "coordinates": [
-                    47.620036999999996,
-                    -122.34206299999998
+                    47.618449,
+                    -122.33046599999999
                 ]
             }
         },
         {
             "properties": {
-                "Day": [
-                    "Monday"
-                ],
-                "Time_Start": "12:30PM",
-                "Time_End": "1:00PM",
+                "Day": "Mondays",
+                "Time_Start": "12:30 PM",
+                "Time_End": "1:00 PM",
                 "Meal_Served": "Lunch",
                 "Age_Served": "All",
                 "Gender_Served": "All",
@@ -1020,19 +682,16 @@
             "geometry": {
                 "Type": "Point",
                 "coordinates": [
-                    47.620036999999996,
-                    -122.34206299999998
+                    47.679681,
+                    -122.355478
                 ]
             }
         },
         {
             "properties": {
-                "Day": [
-                    "Tuesday",
-                    "Thursday"
-                ],
-                "Time_Start": "12:30PM",
-                "Time_End": "1:00PM",
+                "Day": "Tuesday & Thursday",
+                "Time_Start": "12:30 PM",
+                "Time_End": "1:00 PM",
                 "Meal_Served": "Lunch",
                 "Age_Served": "All",
                 "Gender_Served": "All",
@@ -1043,19 +702,16 @@
             "geometry": {
                 "Type": "Point",
                 "coordinates": [
-                    47.620036999999996,
-                    -122.34206299999998
+                    47.550199,
+                    -122.287125
                 ]
             }
         },
         {
             "properties": {
-                "Day": [
-                    "Tuesday",
-                    "Friday"
-                ],
-                "Time_Start": "12:30PM",
-                "Time_End": "1:00PM",
+                "Day": "Tuesday & Friday",
+                "Time_Start": "12:30 PM",
+                "Time_End": "1:00 PM",
                 "Meal_Served": "Lunch",
                 "Age_Served": "All",
                 "Gender_Served": "All",
@@ -1066,141 +722,38 @@
             "geometry": {
                 "Type": "Point",
                 "coordinates": [
-                    47.620036999999996,
-                    -122.34206299999998
+                    47.54188,
+                    -122.270384
                 ]
             }
         },
         {
             "properties": {
-                "Day": [
-                    "Monday"
-                ],
-                "Time_Start": "12:30PM",
-                "Time_End": "1:00PM",
-                "Meal_Served": "Lunch",
-                "Age_Served": "All",
-                "Gender_Served": "Women",
-                "People_Served": "OPEN TO WOMEN & CHILDREN ONLY",
-                "Location": "210 Dexter Avenue, Seattle",
-                "Name_of_Program": "Mary's Place / Church of Mary Magdalene"
-            },
-            "geometry": {
-                "Type": "Point",
-                "coordinates": [
-                    47.620036999999996,
-                    -122.34206299999998
-                ]
-            }
-        },
-        {
-            "properties": {
-                "Day": [
-                    "Monday"
-                ],
-                "Time_Start": "12:30PM",
-                "Time_End": "1:00PM",
-                "Meal_Served": "Lunch",
-                "Age_Served": "13-",
-                "Gender_Served": "All",
-                "People_Served": "OPEN TO WOMEN & CHILDREN ONLY",
-                "Location": "210 Dexter Avenue, Seattle",
-                "Name_of_Program": "Mary's Place / Church of Mary Magdalene"
-            },
-            "geometry": {
-                "Type": "Point",
-                "coordinates": [
-                    47.620036999999996,
-                    -122.34206299999998
-                ]
-            }
-        },
-        {
-            "properties": {
-                "Day": [
-                    "Tuesday",
-                    "Wednesday",
-                    "Thursday",
-                    "Friday",
-                    "Saturday"
-                ],
-                "Time_Start": "12:30PM",
-                "Time_End": "2:30PM",
+                "Day": "Tuesday - Saturday",
+                "Time_Start": "12:30 PM",
+                "Time_End": "2:30 PM",
                 "Meal_Served": "Lunch",
                 "Age_Served": "All",
                 "Gender_Served": "All",
                 "People_Served": "OPEN TO ALL",
                 "Location": "2022 Boren Avenue, Seattle",
-                "Name_of_Program": "Recovery Caf√©"
+                "Name_of_Program": "Recovery Cafe"
             },
             "geometry": {
                 "Type": "Point",
                 "coordinates": [
-                    47.620036999999996,
-                    -122.34206299999998
+                    47.618536,
+                    -122.334652
                 ]
             }
         },
         {
             "properties": {
-                "Day": [
-                    "Monday",
-                    "Tuesday",
-                    "Wednesday",
-                    "Thursday",
-                    "Friday"
-                ],
-                "Time_Start": "1:00PM",
-                "Time_End": "2:00PM",
+                "Day": "Monday - Thursday",
+                "Time_Start": "1:15 PM",
+                "Time_End": "3:45 PM",
                 "Meal_Served": "Lunch",
-                "Age_Served": "All",
-                "Gender_Served": "All",
-                "People_Served": "OPEN TO ALL",
-                "Location": "Outdoor Meal Site at 6th and Columbia, Seattle",
-                "Name_of_Program": "Operation Sack Lunch"
-            },
-            "geometry": {
-                "Type": "Point",
-                "coordinates": [
-                    47.620036999999996,
-                    -122.34206299999998
-                ]
-            }
-        },
-        {
-            "properties": {
-                "Day": [
-                    "Sunday"
-                ],
-                "Time_Start": "1:00PM",
-                "Time_End": "2:00PM",
-                "Meal_Served": "Lunch",
-                "Age_Served": "All",
-                "Gender_Served": "All",
-                "People_Served": "OPEN TO ALL",
-                "Location": "Outdoor Meal Site at 6th and Columbia, ",
-                "Name_of_Program": "Anonomous Acts of Kindness"
-            },
-            "geometry": {
-                "Type": "Point",
-                "coordinates": [
-                    47.620036999999996,
-                    -122.34206299999998
-                ]
-            }
-        },
-        {
-            "properties": {
-                "Day": [
-                    "Monday",
-                    "Tuesday",
-                    "Wednesday",
-                    "Thursday"
-                ],
-                "Time_Start": "1:15PM",
-                "Time_End": "3:45PM",
-                "Meal_Served": "Lunch",
-                "Age_Served": "22-Dec",
+                "Age_Served": "12-22",
                 "Gender_Served": "All",
                 "People_Served": "Drop-In Youth 12 - 22",
                 "Location": "4516 15th Ave NE, Seattle",
@@ -1209,18 +762,16 @@
             "geometry": {
                 "Type": "Point",
                 "coordinates": [
-                    47.620036999999996,
-                    -122.34206299999998
+                    47.662026000000004,
+                    -122.311598
                 ]
             }
         },
         {
             "properties": {
-                "Day": [
-                    "Sunday"
-                ],
-                "Time_Start": "2:00PM",
-                "Time_End": "3:00PM",
+                "Day": "Sunday",
+                "Time_Start": "2:00 PM",
+                "Time_End": "3:00 PM",
                 "Meal_Served": "Lunch",
                 "Age_Served": "All",
                 "Gender_Served": "All",
@@ -1231,18 +782,16 @@
             "geometry": {
                 "Type": "Point",
                 "coordinates": [
-                    47.620036999999996,
-                    -122.34206299999998
+                    47.686536,
+                    -122.32794799999999
                 ]
             }
         },
         {
             "properties": {
-                "Day": [
-                    "Saturday"
-                ],
-                "Time_Start": "2:00PM",
-                "Time_End": "3:30PM",
+                "Day": "Saturday",
+                "Time_Start": "2:00 PM",
+                "Time_End": "3:30 PM",
                 "Meal_Served": "Lunch",
                 "Age_Served": "All",
                 "Gender_Served": "All",
@@ -1253,18 +802,16 @@
             "geometry": {
                 "Type": "Point",
                 "coordinates": [
-                    47.620036999999996,
-                    -122.34206299999998
+                    47.605691,
+                    -122.329373
                 ]
             }
         },
         {
             "properties": {
-                "Day": [
-                    "Sunday"
-                ],
-                "Time_Start": "2:00PM",
-                "Time_End": "3:30PM",
+                "Day": "Sunday",
+                "Time_Start": "2:00 PM",
+                "Time_End": "3:30 PM",
                 "Meal_Served": "Lunch",
                 "Age_Served": "All",
                 "Gender_Served": "All",
@@ -1275,18 +822,16 @@
             "geometry": {
                 "Type": "Point",
                 "coordinates": [
-                    47.620036999999996,
-                    -122.34206299999998
+                    47.605691,
+                    -122.329373
                 ]
             }
         },
         {
             "properties": {
-                "Day": [
-                    "Saturday"
-                ],
-                "Time_Start": "1:00PM",
-                "Time_End": "2:00PM",
+                "Day": "Saturday",
+                "Time_Start": "1:00 PM",
+                "Time_End": "2:00 PM",
                 "Meal_Served": "Snack",
                 "Age_Served": "All",
                 "Gender_Served": "All",
@@ -1297,46 +842,16 @@
             "geometry": {
                 "Type": "Point",
                 "coordinates": [
-                    47.620036999999996,
-                    -122.34206299999998
+                    47.605691,
+                    -122.329373
                 ]
             }
         },
         {
             "properties": {
-                "Day": [
-                    "Monday",
-                    "Tuesday",
-                    "Wednesday",
-                    "Thursday",
-                    "Friday",
-                    "Saturday",
-                    "Sunday"
-                ],
-                "Time_Start": "3:00PM",
-                "Time_End": "3:30PM",
-                "Meal_Served": "Snack",
-                "Age_Served": "18+",
-                "Gender_Served": "Women",
-                "People_Served": "WOMEN 18 AND OLDER",
-                "Location": "2030 3rd Ave, Seattle",
-                "Name_of_Program": "YWCA Angeline's Meals Program"
-            },
-            "geometry": {
-                "Type": "Point",
-                "coordinates": [
-                    47.620036999999996,
-                    -122.34206299999998
-                ]
-            }
-        },
-        {
-            "properties": {
-                "Day": [
-                    "Saturday"
-                ],
-                "Time_Start": "3:00PM",
-                "Time_End": "4:30PM",
+                "Day": "Saturday",
+                "Time_Start": "3:00 PM",
+                "Time_End": "4:30 PM",
                 "Meal_Served": "Dinner",
                 "Age_Served": "All",
                 "Gender_Served": "All",
@@ -1347,18 +862,16 @@
             "geometry": {
                 "Type": "Point",
                 "coordinates": [
-                    47.620036999999996,
-                    -122.34206299999998
+                    47.605691,
+                    -122.329373
                 ]
             }
         },
         {
             "properties": {
-                "Day": [
-                    "Saturday"
-                ],
-                "Time_Start": "4:00PM",
-                "Time_End": "5:30PM",
+                "Day": "Saturday",
+                "Time_Start": "4:00 PM",
+                "Time_End": "5:30 PM",
                 "Meal_Served": "Dinner",
                 "Age_Served": "All",
                 "Gender_Served": "All",
@@ -1369,22 +882,16 @@
             "geometry": {
                 "Type": "Point",
                 "coordinates": [
-                    47.620036999999996,
-                    -122.34206299999998
+                    47.605691,
+                    -122.329373
                 ]
             }
         },
         {
             "properties": {
-                "Day": [
-                    "Monday",
-                    "Tuesday",
-                    "Wednesday",
-                    "Thursday",
-                    "Friday"
-                ],
-                "Time_Start": "4:30PM",
-                "Time_End": "5:00PM",
+                "Day": "Monday - Friday",
+                "Time_Start": "4:30 PM",
+                "Time_End": "5:00 PM",
                 "Meal_Served": "Dinner",
                 "Age_Served": "All",
                 "Gender_Served": "All",
@@ -1395,18 +902,16 @@
             "geometry": {
                 "Type": "Point",
                 "coordinates": [
-                    47.620036999999996,
-                    -122.34206299999998
+                    47.607569,
+                    -122.325372
                 ]
             }
         },
         {
             "properties": {
-                "Day": [
-                    "Monday"
-                ],
-                "Time_Start": "4:00PM",
-                "Time_End": "5:15PM",
+                "Day": "Mondays",
+                "Time_Start": "4:00 PM",
+                "Time_End": "5:15 PM",
                 "Meal_Served": "Dinner",
                 "Age_Served": "All",
                 "Gender_Served": "All",
@@ -1417,44 +922,16 @@
             "geometry": {
                 "Type": "Point",
                 "coordinates": [
-                    47.620036999999996,
-                    -122.34206299999998
+                    47.307673,
+                    -122.21161399999998
                 ]
             }
         },
         {
             "properties": {
-                "Day": [
-                    "Tuesday"
-                ],
-                "Time_Start": "5:00PM",
-                "Time_End": "6:00PM",
-                "Meal_Served": "Dinner",
-                "Age_Served": "All",
-                "Gender_Served": "All",
-                "People_Served": "OPEN TO ALL",
-                "Location": "St. John's Lutheran                 5515 Phinney Ave N., Seattle",
-                "Name_of_Program": "Phinney Neighborhood Association"
-            },
-            "geometry": {
-                "Type": "Point",
-                "coordinates": [
-                    47.620036999999996,
-                    -122.34206299999998
-                ]
-            }
-        },
-        {
-            "properties": {
-                "Day": [
-                    "Tuesday",
-                    "Wednesday",
-                    "Thursday",
-                    "Friday",
-                    "Saturday"
-                ],
-                "Time_Start": "5:15PM",
-                "Time_End": "6:00PM",
+                "Day": "Tuesday - Saturday",
+                "Time_Start": "5:15 PM",
+                "Time_End": "6:00 PM",
                 "Meal_Served": "Dinner",
                 "Age_Served": "All",
                 "Gender_Served": "All",
@@ -1465,19 +942,16 @@
             "geometry": {
                 "Type": "Point",
                 "coordinates": [
-                    47.620036999999996,
-                    -122.34206299999998
+                    47.618464,
+                    -122.33462
                 ]
             }
         },
         {
             "properties": {
-                "Day": [
-                    "Monday",
-                    "Friday"
-                ],
-                "Time_Start": "5:30PM",
-                "Time_End": "6:30PM",
+                "Day": "Monday & Fridays",
+                "Time_Start": "5:30 PM",
+                "Time_End": "6:30 PM",
                 "Meal_Served": "Dinner",
                 "Age_Served": "All",
                 "Gender_Served": "All",
@@ -1488,169 +962,36 @@
             "geometry": {
                 "Type": "Point",
                 "coordinates": [
-                    47.620036999999996,
-                    -122.34206299999998
+                    47.529688,
+                    -122.320528
                 ]
             }
         },
         {
             "properties": {
-                "Day": [
-                    "Monday",
-                    "Tuesday",
-                    "Wednesday",
-                    "Thursday",
-                    "Friday",
-                    "Saturday",
-                    "Sunday"
-                ],
-                "Time_Start": "5:30PM",
-                "Time_End": "6:30PM",
+                "Day": "Fridays",
+                "Time_Start": "6:00 PM",
+                "Time_End": "7:00 PM",
                 "Meal_Served": "Dinner",
                 "Age_Served": "All",
                 "Gender_Served": "All",
                 "People_Served": "OPEN TO ALL",
-                "Location": "318 2nd Ave. S. Extension,  Seattle",
-                "Name_of_Program": "Union Gospel Mission"
-            },
-            "geometry": {
-                "Type": "Point",
-                "coordinates": [
-                    47.620036999999996,
-                    -122.34206299999998
-                ]
-            }
-        },
-        {
-            "properties": {
-                "Day": [
-                    "Monday",
-                    "Tuesday",
-                    "Wednesday",
-                    "Thursday",
-                    "Friday"
-                ],
-                "Time_Start": "6:00PM",
-                "Time_End": "6:30PM",
-                "Meal_Served": "Dinner",
-                "Age_Served": "13-21",
-                "Gender_Served": "All",
-                "People_Served": "Youth 13-21",
-                "Location": "1828 Yale Avenue (on the corner of Denny and Stewart)",
-                "Name_of_Program": "Youth Care's Orion Center"
-            },
-            "geometry": {
-                "Type": "Point",
-                "coordinates": [
-                    47.620036999999996,
-                    -122.34206299999998
-                ]
-            }
-        },
-        {
-            "properties": {
-                "Day": [
-                    "Friday"
-                ],
-                "Time_Start": "6:00PM",
-                "Time_End": "7:00PM",
-                "Meal_Served": "Dinner",
-                "Age_Served": "All",
-                "Gender_Served": "All",
-                "People_Served": "OPEN TO ALL",
-                "Location": "1415 NE 43rd Street, Seattle (alley entrance)",
+                "Location": "1415 NE 43rd Street, Seattle",
                 "Name_of_Program": "Friday Feast: ROOTS"
             },
             "geometry": {
                 "Type": "Point",
                 "coordinates": [
-                    47.620036999999996,
-                    -122.34206299999998
+                    47.659324,
+                    -122.312432
                 ]
             }
         },
         {
             "properties": {
-                "Day": [
-                    "Sunday",
-                    "Monday",
-                    "Tuesday",
-                    "Wednesday"
-                ],
-                "Time_Start": "6:00PM",
-                "Time_End": "8:00PM",
-                "Meal_Served": "Dinner",
-                "Age_Served": "22-",
-                "Gender_Served": "All",
-                "People_Served": "FOR YOUTH 22 OR YOUNGER ",
-                "Location": "2709 3rd Ave., Seattle",
-                "Name_of_Program": "New Horizons Ministries"
-            },
-            "geometry": {
-                "Type": "Point",
-                "coordinates": [
-                    47.620036999999996,
-                    -122.34206299999998
-                ]
-            }
-        },
-        {
-            "properties": {
-                "Day": [
-                    "Monday",
-                    "Tuesday",
-                    "Wednesday",
-                    "Thursday",
-                    "Friday",
-                    "Saturday",
-                    "Sunday"
-                ],
-                "Time_Start": "6:30PM",
-                "Time_End": "7:30PM",
-                "Meal_Served": "Dinner",
-                "Age_Served": "50+",
-                "Gender_Served": "Men",
-                "People_Served": "OPEN TO MEN 50+ ",
-                "Location": "1561 Alaskan Way S., Seattle",
-                "Name_of_Program": "Saint Martin's de Porres Shelter"
-            },
-            "geometry": {
-                "Type": "Point",
-                "coordinates": [
-                    47.620036999999996,
-                    -122.34206299999998
-                ]
-            }
-        },
-        {
-            "properties": {
-                "Day": [
-                    "Sunday"
-                ],
-                "Time_Start": "6:00PM",
-                "Time_End": "7:00PM",
-                "Meal_Served": "Dinner",
-                "Age_Served": "All",
-                "Gender_Served": "All",
-                "People_Served": "OPEN TO ALL",
-                "Location": "Outdoor Meal Site at 6th and Columbia, Seattle",
-                "Name_of_Program": "Neighborhood Cooking Foundation"
-            },
-            "geometry": {
-                "Type": "Point",
-                "coordinates": [
-                    47.620036999999996,
-                    -122.34206299999998
-                ]
-            }
-        },
-        {
-            "properties": {
-                "Day": [
-                    "Saturday"
-                ],
-                "Time_Start": "6:30PM",
-                "Time_End": "8:30PM",
+                "Day": "Saturday",
+                "Time_Start": "6:30 PM",
+                "Time_End": "8:30 PM",
                 "Meal_Served": "Dinner",
                 "Age_Served": "All",
                 "Gender_Served": "All",
@@ -1661,46 +1002,16 @@
             "geometry": {
                 "Type": "Point",
                 "coordinates": [
-                    47.620036999999996,
-                    -122.34206299999998
+                    47.605786,
+                    -122.329333
                 ]
             }
         },
         {
             "properties": {
-                "Day": [
-                    "Monday",
-                    "Tuesday",
-                    "Wednesday",
-                    "Thursday",
-                    "Friday",
-                    "Saturday",
-                    "Sunday"
-                ],
-                "Time_Start": "5:45PM",
-                "Time_End": "8:00PM",
-                "Meal_Served": "Dinner",
-                "Age_Served": "All",
-                "Gender_Served": "All",
-                "People_Served": "OPEN TO ALL",
-                "Location": "97 South Main St.,  Seattle",
-                "Name_of_Program": "Bread of Life Mission"
-            },
-            "geometry": {
-                "Type": "Point",
-                "coordinates": [
-                    47.620036999999996,
-                    -122.34206299999998
-                ]
-            }
-        },
-        {
-            "properties": {
-                "Day": [
-                    "Monday"
-                ],
-                "Time_Start": "7:00PM",
-                "Time_End": "8:00PM",
+                "Day": "Mondays",
+                "Time_Start": "7:00 PM",
+                "Time_End": "8:00 PM",
                 "Meal_Served": "Dinner",
                 "Age_Served": "13-25",
                 "Gender_Served": "All",
@@ -1711,89 +1022,16 @@
             "geometry": {
                 "Type": "Point",
                 "coordinates": [
-                    47.620036999999996,
-                    -122.34206299999998
+                    47.665107,
+                    -122.310759
                 ]
             }
         },
         {
             "properties": {
-                "Day": [
-                    "Tuesday"
-                ],
-                "Time_Start": "7:00PM",
-                "Time_End": "8:00PM",
-                "Meal_Served": "Dinner",
-                "Age_Served": "13-25",
-                "Gender_Served": "All",
-                "People_Served": "Youth 13-25",
-                "Location": "University Methodist               N.E. 43rd & 15th N.E., Seattle (Enter via alley, southwest corner of the bldg)",
-                "Name_of_Program": "University Street Ministry Teen Feed"
-            },
-            "geometry": {
-                "Type": "Point",
-                "coordinates": [
-                    47.620036999999996,
-                    -122.34206299999998
-                ]
-            }
-        },
-        {
-            "properties": {
-                "Day": [
-                    "Wednesday",
-                    "Thursday"
-                ],
-                "Time_Start": "7:00PM",
-                "Time_End": "8:00PM",
-                "Meal_Served": "Dinner",
-                "Age_Served": "13-25",
-                "Gender_Served": "All",
-                "People_Served": "Youth 13-25",
-                "Location": "University Congregational     N.E. 45th & 16th N.E., Seattle (Down the seps off 16th)",
-                "Name_of_Program": "University Street Ministry Teen Feed"
-            },
-            "geometry": {
-                "Type": "Point",
-                "coordinates": [
-                    47.620036999999996,
-                    -122.34206299999998
-                ]
-            }
-        },
-        {
-            "properties": {
-                "Day": [
-                    "Sunday",
-                    "Friday"
-                ],
-                "Time_Start": "7:00PM",
-                "Time_End": "8:00PM",
-                "Meal_Served": "Dinner",
-                "Age_Served": "13-25",
-                "Gender_Served": "All",
-                "People_Served": "Youth 13-25",
-                "Location": "University Christian                  N.E. 50th & 15th N.E., Seattle",
-                "Name_of_Program": "University Street Ministry Teen Feed"
-            },
-            "geometry": {
-                "Type": "Point",
-                "coordinates": [
-                    47.620036999999996,
-                    -122.34206299999998
-                ]
-            }
-        },
-        {
-            "properties": {
-                "Day": [
-                    "Monday",
-                    "Tuesday",
-                    "Wednesday",
-                    "Thursday"
-                ],
-                "Time_Start": "7:30PM",
-                "Time_End": "9:00PM",
+                "Day": "Monday - Thursday",
+                "Time_Start": "7:30 PM",
+                "Time_End": "9:00 PM",
                 "Meal_Served": "Dinner",
                 "Age_Served": "All",
                 "Gender_Served": "All",
@@ -1804,24 +1042,16 @@
             "geometry": {
                 "Type": "Point",
                 "coordinates": [
-                    47.620036999999996,
-                    -122.34206299999998
+                    47.605786,
+                    -122.329333
                 ]
             }
         },
         {
             "properties": {
-                "Day": [
-                    "Monday",
-                    "Tuesday",
-                    "Wednesday",
-                    "Thursday",
-                    "Friday",
-                    "Saturday",
-                    "Sunday"
-                ],
-                "Time_Start": "6:00PM",
-                "Time_End": "7:15PM",
+                "Day": "Daily",
+                "Time_Start": "6:00 PM",
+                "Time_End": "7:15 PM",
                 "Meal_Served": "Dinner",
                 "Age_Served": "18+",
                 "Gender_Served": "Women",
@@ -1832,8 +1062,8 @@
             "geometry": {
                 "Type": "Point",
                 "coordinates": [
-                    47.620036999999996,
-                    -122.34206299999998
+                    47.613341,
+                    -122.341835
                 ]
             }
         }
