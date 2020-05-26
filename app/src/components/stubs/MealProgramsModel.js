@@ -11,14 +11,13 @@ class MealProgramsModel {
     let dayServed = input.dayServed || [];
 
     let dataByName = MEALS_DATA_FEATURES.filter((element) => {
-      if (name) {
-        if (element.name === name) {
-          return true;
-        }
+      if (name !== "") {
+        return element.name === name;
       }
       return true;
-    });
+    }); 
 
+    console.log("dataByName: ", dataByName);
     let dataByMealServed = mealServed.forEach((meal) => {
       let data = dataByName.filter((element) => {
         if (element.Meal_Served === meal) {
