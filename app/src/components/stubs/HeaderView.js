@@ -23,23 +23,26 @@ export class Header extends Component {
     render() {
         return(
             <div className="header">
-                <Navbar color="light" light expand="md">
-                    <LinkContainer to="/home">
+                {/* <Navbar color="light" light expand="md"> */}
+                <Navbar className="navbar" expand="md">
+                    {/* <LinkContainer to="/home"> */}
+                    <LinkContainer to="/find">
                     <NavbarBrand className="home-link">
+                        <img className="icon" alt="plate logo" src="images/plate-green-circle.png"/>
                         <h1 className="title">Seattle Sustenance</h1>
-                        <img className="icon" alt="REPLACE with ICON LINK" src="https://image.flaticon.com/icons/svg/1689/1689233.svg"/>
+                        {/* <img className="icon" alt="REPLACE with ICON LINK" src="https://image.flaticon.com/icons/svg/1689/1689233.svg"/> */}
                     </NavbarBrand>
                     </LinkContainer>
                 <NavbarToggler onClick={this.toggle} />
                 <Collapse isOpen={this.state.isOpen} navbar>
                     <Nav className="ml-auto" navbar>
-                        <LinkContainer to="/about" className="nav-item">
+                        <LinkContainer to="/about" activeClassName="curr-link" className="nav-item">
                             <NavItem className="nav-link"> <p>About</p></NavItem>
                         </LinkContainer>
-                        <LinkContainer to="/browse" className="nav-item">
+                        <LinkContainer to="/browse" activeClassName="curr-link" className="nav-item">
                             <NavItem className="nav-link"> <p>Browse All</p></NavItem>
                         </LinkContainer>
-                        <LinkContainer to="/find" className="nav-item">
+                        <LinkContainer to="/find" activeClassName="curr-link" className="nav-item">
                             <NavItem className="nav-link"> <p>Find a Meal Program</p></NavItem>
                         </LinkContainer>
                     </Nav>

@@ -17,16 +17,19 @@ componentDidMount() {
   }
 
   render() {
-    let mealprog = this.state.images;
+    let mealprogs = this.state.images;
 
-    let carouselItems = mealprog.map(function(mealprog){
+    let carouselItems = mealprogs.map(function(mealprog){
       let obj = { src: mealprog.photo, altText: mealprog.title};
       return obj;
     })
 
     return (
       <div>
-        <Header/>
+        <div>
+          <Header/>
+        </div>
+
         <h1 className="about-header">
             Meal Programs for Seattle's Homeless and Low Income
         </h1>
@@ -43,18 +46,18 @@ componentDidMount() {
                 controls={true}
             />
         </div>
-          
-        <ul className="about-content">
-        <li>Browse all of the available meal programs in King County</li>
-        <p>&nbsp;</p>
-        <li>Or, filter through meal programs based on your needs and preferences</li>
-        <p>&nbsp;</p>
-        <li>Find the right meal program for you, and get directions there</li>
-        </ul>
+
+        <div className="about-content">
+          <p>Browse all of the available meal programs in King County.</p>
+          {/* <p>&nbsp;</p> */}
+          <p>Or, filter through meal programs based on your needs and preferences.</p>
+          {/* <p>&nbsp;</p> */}
+          <p>Find the right meal program for you, and get directions there.</p>
+        </div>
 
     </div>
     );
   }
 }
 
-export default AboutView; 
+export default AboutView;

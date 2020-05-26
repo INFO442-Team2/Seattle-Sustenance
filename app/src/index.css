@@ -12,6 +12,143 @@ code {
     monospace;
 }
 
+.navbar {
+  background-color: #648476;
+}
+
+.title {
+  display: none;
+  color: #FCFAF7;
+}
+
+
+.title:hover {
+  color: #FFCE89;
+}
+
+.icon, .icon-front {
+  display: inline;
+  width: 60px;
+}
+ 
+.nav-link p {
+  font-size: 22px;
+  padding: 10px;
+  color: #FCFAF7;
+  display: inline;
+}
+
+.nav-link p:hover {
+  color: #FFCE89;
+  border-bottom: 1px solid #FFCE89;
+}
+
+.curr-link {
+  border: 1px solid #FFCE89;
+}
+.curr-link p {
+  color: #FFCE89;
+}
+.curr-link p:hover {
+  color: #FCFAF7;
+  color: #FFCE89;
+  border-bottom: none;
+}
+
+.home-link:hover {
+  text-decoration: none;
+}
+
+.filter-form {
+  padding-top: 1rem;
+}
+
+.go-button {
+  background-color: #FFCE89;
+  color: #2B332F;
+  border-radius: 8px;
+  width: 8rem;
+  height: 2.5rem;
+  font-size: 125%;
+}
+
+.test {
+  background-color: #7CAA98;
+  padding: 2rem;
+  border-radius: 8px;
+}
+
+.test p {
+  color: white;
+  font-size: 175%;
+}
+
+.about-header {
+  color: #648476;
+  font-size: 300%;
+  text-align: center;
+  padding-top: .5em;
+}
+
+.about-content, .about-intro-content {
+  color: black;
+  font-size: 125%;
+  text-align: center;
+}
+
+.about-intro-content {
+  color: #648476;
+  font-size: 125%;
+  text-align: center;
+  margin-bottom: 0rem;
+}
+
+.about-caro {
+  width: 600px;
+}
+
+.about-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: stretch;
+  align-items: flex-start;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  justify-content: center;
+  
+}
+
+@media (min-width: 768px) {
+    /* .icon {
+      display: none;
+  } */
+
+  .header-font-size{
+    font-size: 50px;
+  }
+
+  .title {
+    display: inline;
+    font-weight: 300;
+    font-size: xx-large;
+    padding-left: 1rem;
+  }
+}
+
+/* body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
 .title {
   display: none;
   color: #4b79cf;
@@ -75,6 +212,4 @@ code {
     font-size: xx-large;
     padding-left: 2rem;
   }
-}
-
-
+} */
