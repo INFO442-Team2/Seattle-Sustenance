@@ -86,7 +86,7 @@ class FindAMealView extends Component {
 
     let main = null;
 
-    if (this.state.filtered == false) {
+    if (this.state.filtered === false) {
       main = (
         <div className="container">
           <div className="row">
@@ -132,7 +132,6 @@ class FindAMealView extends Component {
                     className="basic-multi-select"
                     classNamePrefix="select"
                     placeholder="people served"
-                    closeMenuOnSelect={false}
                   />
                 </div>
                 <div className="form-group">
@@ -154,8 +153,8 @@ class FindAMealView extends Component {
                 </div>
               </form>
             </div>
-            <div className="col-12 col-sm-12 col-md-8 col-lg-8 col-xl-8">
-              <MapView />
+            <div className="col-12 col-sm-12 col-md-8 col-lg-8 col-xl-8 filter-form">
+              <MapView/>
             </div>
           </div>
         </div>

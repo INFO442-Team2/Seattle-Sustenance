@@ -4,7 +4,6 @@ import { BrowserRouter, Route, Switch} from 'react-router-dom';
 import About from './components/stubs/AboutView';
 import BrowseAll from './components/stubs/BrowseAllView';
 import FindAMeal from './components/stubs/FindAMealView';
-import MapView from './components/stubs/MapView';
 
 export class App extends Component {
   render() {
