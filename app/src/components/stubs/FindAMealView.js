@@ -25,12 +25,34 @@ class FindAMealView extends Component {
     e.preventDefault()
     console.log(e.target.zipcode.value)
     console.log(e.target.name.value)
-    let meals = Array.from(e.target.meals, option => option.value);
-    console.log(meals);
-    let people = Array.from(e.target.people, option => option.value);
-    console.log(people);
-    let days = Array.from(e.target.day, option => option.value);
-    console.log(days);
+
+    let mOptions = e.target.meals;
+    let meals = [];
+    for (let i = 0, l = mOptions.length; i < l; i++) {
+      if (mOptions[i].selected) {
+        meals.push(mOptions[i].value);
+      }
+    }
+
+    let pOptions = e.target.people;
+    let people = [];
+    for (let i = 0, l = pOptions.length; i < l; i++) {
+      if (pOptions[i].selected) {
+        people.push(pOptions[i].value);
+      }
+    }
+
+    let dOptions = e.target.days;
+    let days = [];
+    for (let i = 0, l = mOptions.length; i < l; i++) {
+      if (dOptions[i].selected) {
+        days.push(dOptions[i].value);
+      }
+    }
+
+    console.log(meals)
+    console.log(people)
+    console.log(days)
 
     this.setState({
       zipcode: e.target.zipcode.value,
@@ -54,8 +76,7 @@ class FindAMealView extends Component {
       { value: "women", label: "Women" },
       { value: "men", label: "Men" },
       { value: "children", label: "Children" },
-      { value: "d", label: "D" },
-      { value: "e", label: "E" },
+      { value: "any", label: "Any" },
     ];
 
     let dayServed = [
@@ -66,6 +87,7 @@ class FindAMealView extends Component {
       { value: "thursday", label: "Thursday" },
       { value: "friday", label: "Friday" },
       { value: "saturday", label: "Saturday" },
+      { value: "any", label: "Any" },
     ];
 
     // let filteredResults = this.props.meals;
