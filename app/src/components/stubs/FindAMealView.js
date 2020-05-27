@@ -23,36 +23,42 @@ class FindAMealView extends Component {
 
   handleSubmit = (e) => {
     e.preventDefault()
-    console.log(e.target.zipcode.value)
-    console.log(e.target.name.value)
+    //console.log(e.target.zipcode.value)
+    //console.log(e.target.name.value)
 
     let mOptions = e.target.meals;
     let meals = [];
-    for (let i = 0, l = mOptions.length; i < l; i++) {
-      if (mOptions[i].selected) {
-        meals.push(mOptions[i].value);
+    if (mOptions.value) {
+      meals.push(mOptions.value)
+    } else if (typeof mOptions !== 'undefined') {
+      for (let i = 0, len = mOptions.length; i < len; i++) {
+        meals.push(mOptions[i].defaultValue);
       }
-    }
+    }  
 
     let pOptions = e.target.people;
     let people = [];
-    for (let i = 0, l = pOptions.length; i < l; i++) {
-      if (pOptions[i].selected) {
-        people.push(pOptions[i].value);
+    if (pOptions.value) {
+      people.push(pOptions.value)
+    } else if (typeof pOptions !== 'undefined') {
+      for (let i = 0, len = pOptions.length; i < len; i++) {
+        people.push(pOptions[i].defaultValue);
       }
     }
 
-    let dOptions = e.target.days;
+    let dOptions = e.target.day;
     let days = [];
-    for (let i = 0, l = mOptions.length; i < l; i++) {
-      if (dOptions[i].selected) {
-        days.push(dOptions[i].value);
+    if (dOptions.value) {
+      days.push(dOptions.value)
+    } else if (typeof dOptions !== 'undefined') {
+      for (let i = 0, len = dOptions.length; i < len; i++) {
+        days.push(dOptions[i].defaultValue);
       }
-    }
+    } 
 
-    console.log(meals)
-    console.log(people)
-    console.log(days)
+    //console.log(meals)
+    //console.log(people)
+    //console.log(days)
 
     this.setState({
       zipcode: e.target.zipcode.value,
