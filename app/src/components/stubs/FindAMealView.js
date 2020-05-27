@@ -5,7 +5,6 @@ import { Header } from "./HeaderView";
 import MapView from "./MapView";
 
 // Added by Soham
-import MealProgramModel from "./MealProgramsModel";
 import MealProgramsModel from "./MealProgramsModel";
 
 class FindAMealView extends Component {
@@ -68,6 +67,7 @@ class FindAMealView extends Component {
       people: people,
       days: days,
     })
+    console.log(this.state)
     MealProgramsModel(this.state)
   };
 

@@ -47,8 +47,6 @@ meals: [
       })
     })
 
-    console.log(dataByMealServed);
-
     let dataByPeopleServed = []
     dataByMealServed.filter((element) => {
       peopleServed.forEach((person) => {
@@ -57,7 +55,6 @@ meals: [
         }
       })
     })
-    console.log(dataByPeopleServed)
 
     let dataByDayServed = []
     dataByPeopleServed.filter((element) => {
@@ -69,7 +66,6 @@ meals: [
         })
       })
     })
-    console.log(dataByDayServed)
 
     return dataByDayServed; 
   }
