@@ -68,7 +68,7 @@ class MapView extends Component {
                             <div>
                                 <h2>{selectedMeal.properties['Name_of_Program']}</h2>
                                 <p>{selectedMeal.properties['Location']}</p>
-                                <p>Days Served: {selectedMeal.properties['Day']}</p>
+                                <p>Days Served: {selectedMeal.properties['Days']}</p>
                                 <p>{selectedMeal.properties['Meal_Served']}: {selectedMeal.properties['Time_Start']} - {selectedMeal.properties['Time_End']}</p>
                                 <p>Age Served: {selectedMeal.properties['Age_Served']}</p>
                                 <p>Gender Served: {selectedMeal.properties['Gender_Served']}</p>

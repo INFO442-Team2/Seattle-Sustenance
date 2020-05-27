@@ -16,6 +16,7 @@
                     "Thursday",
                     "Friday"
                 ],
+                "Days": "Monday - Friday",
                 "Time_Start": "6:15 AM",
                 "Time_End": "7:00 AM",
                 "Meal_Served": "Breakfast",
@@ -42,6 +43,7 @@
                     "Wednesday",
                     "Thursday"
                 ],
+                "Days": "Sunday - Thursday",
                 "Time_Start": "5:30 AM",
                 "Time_End": "8:30 AM",
                 "Meal_Served": "Breakfast",
@@ -64,6 +66,7 @@
                 "Day": [
                     "Sunday"
                 ],
+                "Days": "Sunday",
                 "Time_Start": "7:00 AM",
                 "Time_End": "9:00 AM",
                 "Meal_Served": "Breakfast",
@@ -90,6 +93,7 @@
                     "Thursday",
                     "Friday"
                 ],
+                "Days": "Monday - Friday",
                 "Time_Start": "8:30 AM",
                 "Time_End": "11:00 AM",
                 "Meal_Served": "Breakfast",
@@ -118,6 +122,7 @@
                     "Saturday",
                     "Sunday"
                 ],
+                "Days": "Daily",
                 "Time_Start": "7:20 AM",
                 "Time_End": "8:40 AM",
                 "Meal_Served": "Breakfast",
@@ -142,6 +147,7 @@
                     "Tuesday",
                     "Wednesday"
                 ],
+                "Days": "Monday - Wednesday",
                 "Time_Start": "8:00 AM",
                 "Time_End": "9:00 AM",
                 "Meal_Served": "Breakfast",
@@ -170,6 +176,7 @@
                     "Saturday",
                     "Sunday"
                 ],
+                "Days": "Daily",
                 "Time_Start": "8:00 AM",
                 "Time_End": "9:00 AM",
                 "Meal_Served": "Breakfast",
@@ -196,6 +203,7 @@
                     "Thursday",
                     "Friday"
                 ],
+                "Days": "Monday - Friday",
                 "Time_Start": "8:00 AM",
                 "Time_End": "9:00 AM",
                 "Meal_Served": "Breakfast",
@@ -222,6 +230,7 @@
                     "Thursday",
                     "Friday"
                 ],
+                "Days": "Monday - Friday",
                 "Time_Start": "8:30 AM",
                 "Time_End": "9:30 AM",
                 "Meal_Served": "Breakfast",
@@ -249,6 +258,7 @@
                     "Friday",
                     "Saturday"
                 ],
+                "Days": "Tuesday - Sunday",
                 "Time_Start": "9:00 AM",
                 "Time_End": "11:00 AM",
                 "Meal_Served": "Breakfast",
@@ -271,6 +281,7 @@
                 "Day": [
                     "Sunday"
                 ],
+                "Days": "Sunday",
                 "Time_Start": "10:00 AM",
                 "Time_End": "11:00 AM",
                 "Meal_Served": "Breakfast",
@@ -297,6 +308,7 @@
                     "Thursday",
                     "Friday"
                 ],
+                "Days": "Monday - Friday",
                 "Time_Start": "10:00 AM",
                 "Time_End": "11:00 AM",
                 "Meal_Served": "Breakfast",
@@ -319,6 +331,7 @@
                 "Day": [
                     "Sunday"
                 ],
+                "Days": "Sunday",
                 "Time_Start": "8:00 AM",
                 "Time_End": "11:00 AM",
                 "Meal_Served": "Breakfast",
@@ -341,6 +354,7 @@
                 "Day": [
                     "Friday"
                 ],
+                "Days": "Fridays",
                 "Time_Start": "10:30 A.M",
                 "Time_End": "11:30 AM",
                 "Meal_Served": "Lunch",
@@ -366,6 +380,7 @@
                     "Thursday",
                     "Friday"
                 ],
+                "Days": "Tuesday - Friday",
                 "Time_Start": "11:00 AM",
                 "Time_End": "1:00 PM",
                 "Meal_Served": "Lunch",
@@ -388,6 +403,7 @@
                 "Day": [
                     "Sunday"
                 ],
+                "Days": "Sunday",
                 "Time_Start": "11:00 AM",
                 "Time_End": "1:30 PM",
                 "Meal_Served": "Lunch",
@@ -414,6 +430,7 @@
                     "Thursday",
                     "Friday"
                 ],
+                "Days": "Monday - Friday",
                 "Time_Start": "11:30 AM",
                 "Time_End": "12:30 PM",
                 "Meal_Served": "Lunch",
@@ -436,6 +453,7 @@
                 "Day": [
                     "Tuesday"
                 ],
+                "Days": "Tuesday and Friday",
                 "Time_Start": "11:30 AM",
                 "Time_End": "12:30 PM",
                 "Meal_Served": "Lunch",
@@ -458,6 +476,7 @@
                 "Day": [
                     "Friday"
                 ],
+                "Days": "Fridays",
                 "Time_Start": "11:30 AM",
                 "Time_End": "12:30 PM",
                 "Meal_Served": "Lunch",
@@ -480,6 +499,7 @@
                 "Day": [
                     "Tuesday"
                 ],
+                "Days": "Tuesdays",
                 "Time_Start": "11:30 AM",
                 "Time_End": "12:30 PM",
                 "Meal_Served": "Lunch",
@@ -503,6 +523,7 @@
                     "Wednesday",
                     "Friday"
                 ],
+                "Days": "Wednesday & Friday",
                 "Time_Start": "11:30 AM",
                 "Time_End": "12:30 PM",
                 "Meal_Served": "Lunch",
@@ -529,6 +550,7 @@
                     "Thursday",
                     "Friday"
                 ],
+                "Days": "Monday - Friday",
                 "Time_Start": "12:00 PM",
                 "Time_End": "12:45 PM",
                 "Meal_Served": "Lunch",
@@ -551,6 +573,7 @@
                 "Day": [
                     "Thursday"
                 ],
+                "Days": "Thursdays",
                 "Time_Start": "12:00 PM",
                 "Time_End": "1:00 PM",
                 "Meal_Served": "Lunch",
@@ -579,6 +602,7 @@
                     "Saturday",
                     "Sunday"
                 ],
+                "Days": "Daily",
                 "Time_Start": "12:00 PM",
                 "Time_End": "2:00 PM",
                 "Meal_Served": "Lunch",
@@ -601,6 +625,7 @@
                 "Day": [
                     "Saturday"
                 ],
+                "Days": "Saturdays",
                 "Time_Start": "12:00 PM",
                 "Time_End": "1:00 PM",
                 "Meal_Served": "Lunch",
@@ -623,6 +648,7 @@
                 "Day": [
                     "Sunday"
                 ],
+                "Days": "Sunday",
                 "Time_Start": "12:00 PM",
                 "Time_End": "2:00 PM",
                 "Meal_Served": "Lunch",
@@ -649,6 +675,7 @@
                     "Thursday",
                     "Friday"
                 ],
+                "Days": "Monday - Friday",
                 "Time_Start": "12:00 PM",
                 "Time_End": "1:00 PM",
                 "Meal_Served": "Lunch",
@@ -672,6 +699,7 @@
                     "Tuesday",
                     "Friday"
                 ],
+                "Days": "Tuesday & Friday",
                 "Time_Start": "12:00 PM",
                 "Time_End": "1:00 PM",
                 "Meal_Served": "Lunch",
@@ -698,6 +726,7 @@
                     "Thursday",
                     "Friday"
                 ],
+                "Days": "Monday - Friday",
                 "Time_Start": "12:00 PM",
                 "Time_End": "1:00 PM",
                 "Meal_Served": "Lunch",
@@ -720,6 +749,7 @@
                 "Day": [
                     "Sunday"
                 ],
+                "Days": "Sunday",
                 "Time_Start": "12:00 PM",
                 "Time_End": "2:00 PM",
                 "Meal_Served": "Lunch",
@@ -742,6 +772,7 @@
                 "Day": [
                     "Monday"
                 ],
+                "Days": "Mondays",
                 "Time_Start": "12:00 PM",
                 "Time_End": "1:00 PM",
                 "Meal_Served": "Lunch",
@@ -764,6 +795,7 @@
                 "Day": [
                     "Sunday"
                 ],
+                "Days": "Sundays",
                 "Time_Start": "12:00 PM",
                 "Time_End": "1:00 PM",
                 "Meal_Served": "Lunch",
@@ -790,6 +822,7 @@
                     "Thursday",
                     "Friday"
                 ],
+                "Days": "Monday - Friday",
                 "Time_Start": "12:30 PM",
                 "Time_End": "1:00 PM",
                 "Meal_Served": "Lunch",
@@ -812,6 +845,7 @@
                 "Day": [
                     "Monday"
                 ],
+                "Days": "Mondays",
                 "Time_Start": "12:30 PM",
                 "Time_End": "1:00 PM",
                 "Meal_Served": "Lunch",
@@ -835,6 +869,7 @@
                     "Tuesday",
                     "Thursday"
                 ],
+                "Days": "Tuesday & Thursday",
                 "Time_Start": "12:30 PM",
                 "Time_End": "1:00 PM",
                 "Meal_Served": "Lunch",
@@ -858,6 +893,7 @@
                     "Tuesday",
                     "Friday"
                 ],
+                "Days": "Tuesday & Friday",
                 "Time_Start": "12:30 PM",
                 "Time_End": "1:00 PM",
                 "Meal_Served": "Lunch",
@@ -884,6 +920,7 @@
                     "Friday",
                     "Saturday"
                 ],
+                "Days": "Tuesday - Saturday",
                 "Time_Start": "12:30 PM",
                 "Time_End": "2:30 PM",
                 "Meal_Served": "Lunch",
@@ -909,6 +946,7 @@
                     "Wednesday",
                     "Thursday"
                 ],
+                "Days": "Monday - Thursday",
                 "Time_Start": "1:15 PM",
                 "Time_End": "3:45 PM",
                 "Meal_Served": "Lunch",
@@ -931,6 +969,7 @@
                 "Day": [
                     "Sunday"
                 ],
+                "Days": "Sunday",
                 "Time_Start": "2:00 PM",
                 "Time_End": "3:00 PM",
                 "Meal_Served": "Lunch",
@@ -953,6 +992,7 @@
                 "Day": [
                     "Saturday"
                 ],
+                "Days": "Saturday",
                 "Time_Start": "2:00 PM",
                 "Time_End": "3:30 PM",
                 "Meal_Served": "Lunch",
@@ -975,6 +1015,7 @@
                 "Day": [
                     "Sunday"
                 ],
+                "Days": "Sunday",
                 "Time_Start": "2:00 PM",
                 "Time_End": "3:30 PM",
                 "Meal_Served": "Lunch",
@@ -997,6 +1038,7 @@
                 "Day": [
                     "Saturday"
                 ],
+                "Days": "Saturday",
                 "Time_Start": "1:00 PM",
                 "Time_End": "2:00 PM",
                 "Meal_Served": "Snack",
@@ -1019,6 +1061,7 @@
                 "Day": [
                     "Saturday"
                 ],
+                "Days": "Saturday",
                 "Time_Start": "3:00 PM",
                 "Time_End": "4:30 PM",
                 "Meal_Served": "Dinner",
@@ -1041,6 +1084,7 @@
                 "Day": [
                     "Saturday"
                 ],
+                "Days": "Saturday",
                 "Time_Start": "4:00 PM",
                 "Time_End": "5:30 PM",
                 "Meal_Served": "Dinner",
@@ -1067,6 +1111,7 @@
                     "Thursday",
                     "Friday"
                 ],
+                "Days": "Monday - Friday",
                 "Time_Start": "4:30 PM",
                 "Time_End": "5:00 PM",
                 "Meal_Served": "Dinner",
@@ -1089,6 +1134,7 @@
                 "Day": [
                     "Monday"
                 ],
+                "Days": "Mondays",
                 "Time_Start": "4:00 PM",
                 "Time_End": "5:15 PM",
                 "Meal_Served": "Dinner",
@@ -1115,6 +1161,7 @@
                     "Friday",
                     "Saturday"
                 ],
+                "Days": "Tuesday - Saturday",
                 "Time_Start": "5:15 PM",
                 "Time_End": "6:00 PM",
                 "Meal_Served": "Dinner",
@@ -1138,6 +1185,7 @@
                     "Monday",
                     "Friday"
                 ],
+                "Days": "Monday & Fridays",
                 "Time_Start": "5:30 PM",
                 "Time_End": "6:30 PM",
                 "Meal_Served": "Dinner",
@@ -1160,6 +1208,7 @@
                 "Day": [
                     "Friday"
                 ],
+                "Days": "Fridays",
                 "Time_Start": "6:00 PM",
                 "Time_End": "7:00 PM",
                 "Meal_Served": "Dinner",
@@ -1182,6 +1231,7 @@
                 "Day": [
                     "Saturday"
                 ],
+                "Days": "Saturday",
                 "Time_Start": "6:30 PM",
                 "Time_End": "8:30 PM",
                 "Meal_Served": "Dinner",
@@ -1204,6 +1254,7 @@
                 "Day": [
                     "Monday"
                 ],
+                "Days": "Mondays",
                 "Time_Start": "7:00 PM",
                 "Time_End": "8:00 PM",
                 "Meal_Served": "Dinner",
@@ -1229,6 +1280,7 @@
                     "Wednesday",
                     "Thursday"
                 ],
+                "Days": "Monday - Thursday",
                 "Time_Start": "7:30 PM",
                 "Time_End": "9:00 PM",
                 "Meal_Served": "Dinner",
@@ -1257,6 +1309,7 @@
                     "Saturday",
                     "Sunday"
                 ],
+                "Days": "Daily",
                 "Time_Start": "6:00 PM",
                 "Time_End": "7:15 PM",
                 "Meal_Served": "Dinner",
