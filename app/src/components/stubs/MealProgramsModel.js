@@ -23,27 +23,13 @@ meals: [
 ]
 */
 
-class MealProgramsModel {
-  constructor() {
-    let meals = MEALS_DATA;
-    this.state = {
-      meals: meals,
-    }
-  }
-
-  resetMeals() {
-    this.setState({
-      meals: MEALS_DATA
-    })
-  }
-  
   // use the user filters to apply to the csv
-  filterResults(input) {
+  function filterResults(input) {
     let zipCode = input.zipCode || "";
     let name = input.name || "";
-    let mealServed = input.mealServed || [];
-    let peopleServed = input.peopleServed || [];
-    let dayServed = input.dayServed || [];
+    let mealServed = ["Breakfast", "Lunch"];
+    let peopleServed = ["Women"];
+    let dayServed = ['Monday', 'Sunday'];
 
     let dataByName = MEALS_DATA_FEATURES.filter((element) => {
       if (name !== "") {
@@ -52,41 +38,46 @@ class MealProgramsModel {
       return true;
     }); 
 
-    console.log("dataByName: ", dataByName);
-    let dataByMealServed = mealServed.forEach((meal) => {
-      let data = dataByName.filter((element) => {
-        if (element.Meal_Served === meal) {
-          return true;
+    let dataByMealServed = []
+    dataByName.filter((element) => {
+      mealServed.forEach((meal) => {
+        if(element.properties.Meal_Served === meal){
+          dataByMealServed.push(element)
         }
-        return false;
-      });
-      return data;
-    });
+      })
+    })
 
-    let dataByPeopleServed = peopleServed.forEach((people) => {
-      let data = dataByMealServed.filter((element) => {
-        if (element.People_Served === people) {
-          return true;
+    console.log(dataByMealServed);
+
+    let dataByPeopleServed = []
+    dataByMealServed.filter((element) => {
+      peopleServed.forEach((person) => {
+        if(element.properties.Gender_Served === person || element.properties.Gender_Served === "All"){
+          dataByPeopleServed.push(element)
         }
-        return false;
-      });
-      return data;
-    });
+      })
+    })
+    console.log(dataByPeopleServed)
 
-    let dataByDayServed = dayServed.forEach((day) => {
-        let data = dataByPeopleServed.filter((element) => {
-            if (element.Day.contains(day)) {
-                return true; 
-            }
-            return false;
-        }); 
-        return data;
-    });
+    let dataByDayServed = []
+    dataByPeopleServed.filter((element) => {
+      dayServed.forEach((d) => {
+        element.properties.Day.forEach(day => {
+          if(day === d){
+            dataByDayServed.push(element)
+          }
+        })
+      })
+    })
+    console.log(dataByDayServed)
 
-    console.log(dataByDayServed);
     return dataByDayServed; 
   }
+
+function MealProgramsModel(props) {
+  filterResults(props)
+
 }
 
-// export default MealProgramsModel;
+export default MealProgramsModel;
 

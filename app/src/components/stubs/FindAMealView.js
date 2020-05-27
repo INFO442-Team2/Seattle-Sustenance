@@ -6,6 +6,7 @@ import MapView from "./MapView";
 
 // Added by Soham
 import MealProgramModel from "./MealProgramsModel";
+import MealProgramsModel from "./MealProgramsModel";
 
 class FindAMealView extends Component {
   constructor(props) {
@@ -67,6 +68,7 @@ class FindAMealView extends Component {
       people: people,
       days: days,
     })
+    MealProgramsModel(this.state)
   };
 
   render() {
