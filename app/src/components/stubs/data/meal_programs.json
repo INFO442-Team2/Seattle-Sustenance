@@ -9,7 +9,13 @@
     "features": [
         {
             "properties": {
-                "Day": "Monday - Friday",
+                "Day": [
+                    "Monday",
+                    "Tuesday",
+                    "Wednesday",
+                    "Thursday",
+                    "Friday"
+                ],
                 "Time_Start": "6:15 AM",
                 "Time_End": "7:00 AM",
                 "Meal_Served": "Breakfast",
@@ -29,7 +35,13 @@
         },
         {
             "properties": {
-                "Day": "Sunday - Thursday",
+                "Day": [
+                    "Sunday",
+                    "Monday",
+                    "Tuesday",
+                    "Wednesday",
+                    "Thursday"
+                ],
                 "Time_Start": "5:30 AM",
                 "Time_End": "8:30 AM",
                 "Meal_Served": "Breakfast",
@@ -49,7 +61,9 @@
         },
         {
             "properties": {
-                "Day": "Sunday",
+                "Day": [
+                    "Sunday"
+                ],
                 "Time_Start": "7:00 AM",
                 "Time_End": "9:00 AM",
                 "Meal_Served": "Breakfast",
@@ -69,7 +83,13 @@
         },
         {
             "properties": {
-                "Day": "Monday - Friday",
+                "Day": [
+                    "Monday",
+                    "Tuesday",
+                    "Wednesday",
+                    "Thursday",
+                    "Friday"
+                ],
                 "Time_Start": "8:30 AM",
                 "Time_End": "11:00 AM",
                 "Meal_Served": "Breakfast",
@@ -89,7 +109,15 @@
         },
         {
             "properties": {
-                "Day": "Daily",
+                "Day": [
+                    "Monday",
+                    "Tuesday",
+                    "Wednesday",
+                    "Thursday",
+                    "Friday",
+                    "Saturday",
+                    "Sunday"
+                ],
                 "Time_Start": "7:20 AM",
                 "Time_End": "8:40 AM",
                 "Meal_Served": "Breakfast",
@@ -109,7 +137,11 @@
         },
         {
             "properties": {
-                "Day": "Monday - Wednesday",
+                "Day": [
+                    "Monday",
+                    "Tuesday",
+                    "Wednesday"
+                ],
                 "Time_Start": "8:00 AM",
                 "Time_End": "9:00 AM",
                 "Meal_Served": "Breakfast",
@@ -129,7 +161,15 @@
         },
         {
             "properties": {
-                "Day": "Daily",
+                "Day": [
+                    "Monday",
+                    "Tuesday",
+                    "Wednesday",
+                    "Thursday",
+                    "Friday",
+                    "Saturday",
+                    "Sunday"
+                ],
                 "Time_Start": "8:00 AM",
                 "Time_End": "9:00 AM",
                 "Meal_Served": "Breakfast",
@@ -149,7 +189,13 @@
         },
         {
             "properties": {
-                "Day": "Monday - Friday",
+                "Day": [
+                    "Monday",
+                    "Tuesday",
+                    "Wednesday",
+                    "Thursday",
+                    "Friday"
+                ],
                 "Time_Start": "8:00 AM",
                 "Time_End": "9:00 AM",
                 "Meal_Served": "Breakfast",
@@ -169,7 +215,13 @@
         },
         {
             "properties": {
-                "Day": "Monday - Friday",
+                "Day": [
+                    "Monday",
+                    "Tuesday",
+                    "Wednesday",
+                    "Thursday",
+                    "Friday"
+                ],
                 "Time_Start": "8:30 AM",
                 "Time_End": "9:30 AM",
                 "Meal_Served": "Breakfast",
@@ -189,7 +241,14 @@
         },
         {
             "properties": {
-                "Day": "Tuesday - Sunday",
+                "Day": [
+                    "Sunday",
+                    "Tuesday",
+                    "Wednesday",
+                    "Thursday",
+                    "Friday",
+                    "Saturday"
+                ],
                 "Time_Start": "9:00 AM",
                 "Time_End": "11:00 AM",
                 "Meal_Served": "Breakfast",
@@ -209,7 +268,9 @@
         },
         {
             "properties": {
-                "Day": "Sunday",
+                "Day": [
+                    "Sunday"
+                ],
                 "Time_Start": "10:00 AM",
                 "Time_End": "11:00 AM",
                 "Meal_Served": "Breakfast",
@@ -229,7 +290,13 @@
         },
         {
             "properties": {
-                "Day": "Monday - Friday",
+                "Day": [
+                    "Monday",
+                    "Tuesday",
+                    "Wednesday",
+                    "Thursday",
+                    "Friday"
+                ],
                 "Time_Start": "10:00 AM",
                 "Time_End": "11:00 AM",
                 "Meal_Served": "Breakfast",
@@ -249,7 +316,9 @@
         },
         {
             "properties": {
-                "Day": "Sunday",
+                "Day": [
+                    "Sunday"
+                ],
                 "Time_Start": "8:00 AM",
                 "Time_End": "11:00 AM",
                 "Meal_Served": "Breakfast",
@@ -269,7 +338,9 @@
         },
         {
             "properties": {
-                "Day": "Fridays",
+                "Day": [
+                    "Friday"
+                ],
                 "Time_Start": "10:30 A.M",
                 "Time_End": "11:30 AM",
                 "Meal_Served": "Lunch",
@@ -289,7 +360,12 @@
         },
         {
             "properties": {
-                "Day": "Tuesday - Friday",
+                "Day": [
+                    "Tuesday",
+                    "Wednesday",
+                    "Thursday",
+                    "Friday"
+                ],
                 "Time_Start": "11:00 AM",
                 "Time_End": "1:00 PM",
                 "Meal_Served": "Lunch",
@@ -309,7 +385,9 @@
         },
         {
             "properties": {
-                "Day": "Sunday",
+                "Day": [
+                    "Sunday"
+                ],
                 "Time_Start": "11:00 AM",
                 "Time_End": "1:30 PM",
                 "Meal_Served": "Lunch",
@@ -329,7 +407,13 @@
         },
         {
             "properties": {
-                "Day": "Monday - Friday",
+                "Day": [
+                    "Monday",
+                    "Tuesday",
+                    "Wednesday",
+                    "Thursday",
+                    "Friday"
+                ],
                 "Time_Start": "11:30 AM",
                 "Time_End": "12:30 PM",
                 "Meal_Served": "Lunch",
@@ -349,7 +433,9 @@
         },
         {
             "properties": {
-                "Day": "Tuesday and Friday",
+                "Day": [
+                    "Tuesday"
+                ],
                 "Time_Start": "11:30 AM",
                 "Time_End": "12:30 PM",
                 "Meal_Served": "Lunch",
@@ -369,7 +455,9 @@
         },
         {
             "properties": {
-                "Day": "Fridays",
+                "Day": [
+                    "Friday"
+                ],
                 "Time_Start": "11:30 AM",
                 "Time_End": "12:30 PM",
                 "Meal_Served": "Lunch",
@@ -389,7 +477,9 @@
         },
         {
             "properties": {
-                "Day": "Tuesdays",
+                "Day": [
+                    "Tuesday"
+                ],
                 "Time_Start": "11:30 AM",
                 "Time_End": "12:30 PM",
                 "Meal_Served": "Lunch",
@@ -409,7 +499,10 @@
         },
         {
             "properties": {
-                "Day": "Wednesday & Friday",
+                "Day": [
+                    "Wednesday",
+                    "Friday"
+                ],
                 "Time_Start": "11:30 AM",
                 "Time_End": "12:30 PM",
                 "Meal_Served": "Lunch",
@@ -429,7 +522,13 @@
         },
         {
             "properties": {
-                "Day": "Monday - Friday",
+                "Day": [
+                    "Monday",
+                    "Tuesday",
+                    "Wednesday",
+                    "Thursday",
+                    "Friday"
+                ],
                 "Time_Start": "12:00 PM",
                 "Time_End": "12:45 PM",
                 "Meal_Served": "Lunch",
@@ -449,7 +548,9 @@
         },
         {
             "properties": {
-                "Day": "Thursdays",
+                "Day": [
+                    "Thursday"
+                ],
                 "Time_Start": "12:00 PM",
                 "Time_End": "1:00 PM",
                 "Meal_Served": "Lunch",
@@ -469,7 +570,15 @@
         },
         {
             "properties": {
-                "Day": "Daily",
+                "Day": [
+                    "Monday",
+                    "Tuesday",
+                    "Wednesday",
+                    "Thursday",
+                    "Friday",
+                    "Saturday",
+                    "Sunday"
+                ],
                 "Time_Start": "12:00 PM",
                 "Time_End": "2:00 PM",
                 "Meal_Served": "Lunch",
@@ -489,7 +598,9 @@
         },
         {
             "properties": {
-                "Day": "Saturdays",
+                "Day": [
+                    "Saturday"
+                ],
                 "Time_Start": "12:00 PM",
                 "Time_End": "1:00 PM",
                 "Meal_Served": "Lunch",
@@ -509,7 +620,9 @@
         },
         {
             "properties": {
-                "Day": "Sunday",
+                "Day": [
+                    "Sunday"
+                ],
                 "Time_Start": "12:00 PM",
                 "Time_End": "2:00 PM",
                 "Meal_Served": "Lunch",
@@ -529,7 +642,13 @@
         },
         {
             "properties": {
-                "Day": "Monday - Friday",
+                "Day": [
+                    "Monday",
+                    "Tuesday",
+                    "Wednesday",
+                    "Thursday",
+                    "Friday"
+                ],
                 "Time_Start": "12:00 PM",
                 "Time_End": "1:00 PM",
                 "Meal_Served": "Lunch",
@@ -549,7 +668,10 @@
         },
         {
             "properties": {
-                "Day": "Tuesday & Friday",
+                "Day": [
+                    "Tuesday",
+                    "Friday"
+                ],
                 "Time_Start": "12:00 PM",
                 "Time_End": "1:00 PM",
                 "Meal_Served": "Lunch",
@@ -569,7 +691,13 @@
         },
         {
             "properties": {
-                "Day": "Monday - Friday",
+                "Day": [
+                    "Monday",
+                    "Tuesday",
+                    "Wednesday",
+                    "Thursday",
+                    "Friday"
+                ],
                 "Time_Start": "12:00 PM",
                 "Time_End": "1:00 PM",
                 "Meal_Served": "Lunch",
@@ -589,7 +717,9 @@
         },
         {
             "properties": {
-                "Day": "Sunday",
+                "Day": [
+                    "Sunday"
+                ],
                 "Time_Start": "12:00 PM",
                 "Time_End": "2:00 PM",
                 "Meal_Served": "Lunch",
@@ -609,7 +739,9 @@
         },
         {
             "properties": {
-                "Day": "Mondays",
+                "Day": [
+                    "Monday"
+                ],
                 "Time_Start": "12:00 PM",
                 "Time_End": "1:00 PM",
                 "Meal_Served": "Lunch",
@@ -629,7 +761,9 @@
         },
         {
             "properties": {
-                "Day": "Sundays",
+                "Day": [
+                    "Sunday"
+                ],
                 "Time_Start": "12:00 PM",
                 "Time_End": "1:00 PM",
                 "Meal_Served": "Lunch",
@@ -649,7 +783,13 @@
         },
         {
             "properties": {
-                "Day": "Monday - Friday",
+                "Day": [
+                    "Monday",
+                    "Tuesday",
+                    "Wednesday",
+                    "Thursday",
+                    "Friday"
+                ],
                 "Time_Start": "12:30 PM",
                 "Time_End": "1:00 PM",
                 "Meal_Served": "Lunch",
@@ -669,7 +809,9 @@
         },
         {
             "properties": {
-                "Day": "Mondays",
+                "Day": [
+                    "Monday"
+                ],
                 "Time_Start": "12:30 PM",
                 "Time_End": "1:00 PM",
                 "Meal_Served": "Lunch",
@@ -689,7 +831,10 @@
         },
         {
             "properties": {
-                "Day": "Tuesday & Thursday",
+                "Day": [
+                    "Tuesday",
+                    "Thursday"
+                ],
                 "Time_Start": "12:30 PM",
                 "Time_End": "1:00 PM",
                 "Meal_Served": "Lunch",
@@ -709,7 +854,10 @@
         },
         {
             "properties": {
-                "Day": "Tuesday & Friday",
+                "Day": [
+                    "Tuesday",
+                    "Friday"
+                ],
                 "Time_Start": "12:30 PM",
                 "Time_End": "1:00 PM",
                 "Meal_Served": "Lunch",
@@ -729,7 +877,13 @@
         },
         {
             "properties": {
-                "Day": "Tuesday - Saturday",
+                "Day": [
+                    "Tuesday",
+                    "Wednesday",
+                    "Thursday",
+                    "Friday",
+                    "Saturday"
+                ],
                 "Time_Start": "12:30 PM",
                 "Time_End": "2:30 PM",
                 "Meal_Served": "Lunch",
@@ -749,7 +903,12 @@
         },
         {
             "properties": {
-                "Day": "Monday - Thursday",
+                "Day": [
+                    "Monday",
+                    "Tuesday",
+                    "Wednesday",
+                    "Thursday"
+                ],
                 "Time_Start": "1:15 PM",
                 "Time_End": "3:45 PM",
                 "Meal_Served": "Lunch",
@@ -769,7 +928,9 @@
         },
         {
             "properties": {
-                "Day": "Sunday",
+                "Day": [
+                    "Sunday"
+                ],
                 "Time_Start": "2:00 PM",
                 "Time_End": "3:00 PM",
                 "Meal_Served": "Lunch",
@@ -789,7 +950,9 @@
         },
         {
             "properties": {
-                "Day": "Saturday",
+                "Day": [
+                    "Saturday"
+                ],
                 "Time_Start": "2:00 PM",
                 "Time_End": "3:30 PM",
                 "Meal_Served": "Lunch",
@@ -809,7 +972,9 @@
         },
         {
             "properties": {
-                "Day": "Sunday",
+                "Day": [
+                    "Sunday"
+                ],
                 "Time_Start": "2:00 PM",
                 "Time_End": "3:30 PM",
                 "Meal_Served": "Lunch",
@@ -829,7 +994,9 @@
         },
         {
             "properties": {
-                "Day": "Saturday",
+                "Day": [
+                    "Saturday"
+                ],
                 "Time_Start": "1:00 PM",
                 "Time_End": "2:00 PM",
                 "Meal_Served": "Snack",
@@ -849,7 +1016,9 @@
         },
         {
             "properties": {
-                "Day": "Saturday",
+                "Day": [
+                    "Saturday"
+                ],
                 "Time_Start": "3:00 PM",
                 "Time_End": "4:30 PM",
                 "Meal_Served": "Dinner",
@@ -869,7 +1038,9 @@
         },
         {
             "properties": {
-                "Day": "Saturday",
+                "Day": [
+                    "Saturday"
+                ],
                 "Time_Start": "4:00 PM",
                 "Time_End": "5:30 PM",
                 "Meal_Served": "Dinner",
@@ -889,7 +1060,13 @@
         },
         {
             "properties": {
-                "Day": "Monday - Friday",
+                "Day": [
+                    "Monday",
+                    "Tuesday",
+                    "Wednesday",
+                    "Thursday",
+                    "Friday"
+                ],
                 "Time_Start": "4:30 PM",
                 "Time_End": "5:00 PM",
                 "Meal_Served": "Dinner",
@@ -909,7 +1086,9 @@
         },
         {
             "properties": {
-                "Day": "Mondays",
+                "Day": [
+                    "Monday"
+                ],
                 "Time_Start": "4:00 PM",
                 "Time_End": "5:15 PM",
                 "Meal_Served": "Dinner",
@@ -929,7 +1108,13 @@
         },
         {
             "properties": {
-                "Day": "Tuesday - Saturday",
+                "Day": [
+                    "Tuesday",
+                    "Wednesday",
+                    "Thursday",
+                    "Friday",
+                    "Saturday"
+                ],
                 "Time_Start": "5:15 PM",
                 "Time_End": "6:00 PM",
                 "Meal_Served": "Dinner",
@@ -949,7 +1134,10 @@
         },
         {
             "properties": {
-                "Day": "Monday & Fridays",
+                "Day": [
+                    "Monday",
+                    "Friday"
+                ],
                 "Time_Start": "5:30 PM",
                 "Time_End": "6:30 PM",
                 "Meal_Served": "Dinner",
@@ -969,7 +1157,9 @@
         },
         {
             "properties": {
-                "Day": "Fridays",
+                "Day": [
+                    "Friday"
+                ],
                 "Time_Start": "6:00 PM",
                 "Time_End": "7:00 PM",
                 "Meal_Served": "Dinner",
@@ -989,7 +1179,9 @@
         },
         {
             "properties": {
-                "Day": "Saturday",
+                "Day": [
+                    "Saturday"
+                ],
                 "Time_Start": "6:30 PM",
                 "Time_End": "8:30 PM",
                 "Meal_Served": "Dinner",
@@ -1009,7 +1201,9 @@
         },
         {
             "properties": {
-                "Day": "Mondays",
+                "Day": [
+                    "Monday"
+                ],
                 "Time_Start": "7:00 PM",
                 "Time_End": "8:00 PM",
                 "Meal_Served": "Dinner",
@@ -1029,7 +1223,12 @@
         },
         {
             "properties": {
-                "Day": "Monday - Thursday",
+                "Day": [
+                    "Monday",
+                    "Tuesday",
+                    "Wednesday",
+                    "Thursday"
+                ],
                 "Time_Start": "7:30 PM",
                 "Time_End": "9:00 PM",
                 "Meal_Served": "Dinner",
@@ -1049,7 +1248,15 @@
         },
         {
             "properties": {
-                "Day": "Daily",
+                "Day": [
+                    "Monday",
+                    "Tuesday",
+                    "Wednesday",
+                    "Thursday",
+                    "Friday",
+                    "Saturday",
+                    "Sunday"
+                ],
                 "Time_Start": "6:00 PM",
                 "Time_End": "7:15 PM",
                 "Meal_Served": "Dinner",
