@@ -1,7 +1,42 @@
 const MEALS_DATA = require("./data/meal_programs.json");
 const MEALS_DATA_FEATURES = MEALS_DATA.features;
 
+/* An array of meal objects
+meals: [
+  {
+    properties: {
+      Day: [""],
+      Time_Start: "",
+      Time_End: "",
+      Meal_Served: [""],
+      Age_Served: "",
+      Gender_Served: "",
+      People_Served: "",
+      Location: "",
+      Name_of_Program: "",
+    },
+    geometry: {
+      Type: "Point",
+      coordinates: [],
+    }
+  },
+]
+*/
+
 class MealProgramsModel {
+  constructor() {
+    let meals = MEALS_DATA;
+    this.state = {
+      meals: meals,
+    }
+  }
+
+  resetMeals() {
+    this.setState({
+      meals: MEALS_DATA
+    })
+  }
+  
   // use the user filters to apply to the csv
   filterResults(input) {
     let zipCode = input.zipCode || "";
@@ -53,5 +88,5 @@ class MealProgramsModel {
   }
 }
 
-export default MealProgramsModel;
+// export default MealProgramsModel;
 

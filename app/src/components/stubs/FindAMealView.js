@@ -7,17 +7,39 @@ import MapView from "./MapView";
 // Added by Soham
 import MealProgramModel from "./MealProgramsModel";
 
-// form for users to enter in their filters
-// required prop: GoController
 class FindAMealView extends Component {
   constructor(props) {
     super(props);
     this.state = {
       filtered: false,
+      zipcode: "",
+      name: "",
+      meals: [],
+      people: [],
+      days: [],
     };
-    //Added By Soham:
-    this.mealProgramModel = new MealProgramModel();
+    this.handleSubmit = this.handleSubmit.bind(this);
   }
+
+  handleSubmit = (e) => {
+    e.preventDefault()
+    console.log(e.target.zipcode.value)
+    console.log(e.target.name.value)
+    let meals = Array.from(e.target.meals, option => option.value);
+    console.log(meals);
+    let people = Array.from(e.target.people, option => option.value);
+    console.log(people);
+    let days = Array.from(e.target.day, option => option.value);
+    console.log(days);
+
+    this.setState({
+      zipcode: e.target.zipcode.value,
+      name: e.target.name.value,
+      meals: meals,
+      people: people,
+      days: days,
+    })
+  };
 
   render() {
     let mealOptions = [
@@ -46,7 +68,7 @@ class FindAMealView extends Component {
       { value: "saturday", label: "Saturday" },
     ];
 
-    // let filteredResults = this.props.results;
+    // let filteredResults = this.props.meals;
     let filteredResults = [
       {
         properties: {
@@ -88,76 +110,67 @@ class FindAMealView extends Component {
 
     if (this.state.filtered === false) {
       main = (
-        <div className="container">
-          <div className="row">
-            <div className="filter-form col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
-              <form className="test">
-                <p align="center">find the right program for you</p>
-                <hr></hr>
-                <div className="form-group">
-                  <input
-                    className="form-control"
-                    type="text"
-                    id="zipcode"
-                    placeholder="search by zip code..."
-                  />
-                </div>
-                <div className="form-group">
-                  <input
-                    className="form-control"
-                    type="text"
-                    id="name"
-                    placeholder="search by name..."
-                  />
-                </div>
-                <div className="form-group">
-                  <Select
-                    isMulti
-                    name="meals"
-                    options={mealOptions}
-                    closeMenuOnSelect={false}
-                    hideSelectedOptions={false}
-                    className="basic-multi-select"
-                    classNamePrefix="select"
-                    placeholder="meal served"
-                  />
-                </div>
-                <div className="form-group">
-                  <Select
-                    isMulti
-                    name="meals"
-                    options={peopleServed}
-                    closeMenuOnSelect={false}
-                    hideSelectedOptions={false}
-                    className="basic-multi-select"
-                    classNamePrefix="select"
-                    placeholder="people served"
-                  />
-                </div>
-                <div className="form-group">
-                  <Select
-                    isMulti
-                    name="meals"
-                    options={dayServed}
-                    closeMenuOnSelect={false}
-                    hideSelectedOptions={false}
-                    className="basic-multi-select"
-                    classNamePrefix="select"
-                    placeholder="day served"
-                  />
-                </div>
-                <div className="row justify-content-center">
-                  <button type="submit" className="go-button">
-                    go
-                  </button>
-                </div>
-              </form>
-            </div>
-            <div className="col-12 col-sm-12 col-md-8 col-lg-8 col-xl-8 filter-form">
-              <MapView/>
-            </div>
+        <form className="test" onSubmit={this.handleSubmit}>
+          <p align="center">find the right program for you</p>
+          <hr></hr>
+          <div className="form-group">
+            <input
+              className="form-control"
+              type="text"
+              name="zipcode"
+              placeholder="search by zip code..."
+            />
           </div>
-        </div>
+          <div className="form-group">
+            <input
+              className="form-control"
+              type="text"
+              name="name"
+              placeholder="search by name..."
+            />
+          </div>
+          <div className="form-group">
+            <Select
+              isMulti
+              name="meals"
+              options={mealOptions}
+              closeMenuOnSelect={false}
+              hideSelectedOptions={false}
+              className="basic-multi-select"
+              classNamePrefix="select"
+              placeholder="meal served"
+            />
+          </div>
+          <div className="form-group">
+            <Select
+              isMulti
+              name="people"
+              options={peopleServed}
+              closeMenuOnSelect={false}
+              hideSelectedOptions={false}
+              className="basic-multi-select"
+              classNamePrefix="select"
+              placeholder="people served"
+            />
+          </div>
+          <div className="form-group">
+            <Select
+              isMulti
+              name="day"
+              options={dayServed}
+              closeMenuOnSelect={false}
+              hideSelectedOptions={false}
+              className="basic-multi-select"
+              classNamePrefix="select"
+              placeholder="day served"
+            />
+          </div>
+          <div className="row justify-content-center">
+            <button type="submit" className="go-button" onSubmit={this.handleSubmit}>
+              go
+            </button>
+          </div>
+        </form>
       );
     } else {
       main = (
@@ -185,45 +198,20 @@ class FindAMealView extends Component {
 
     return (
       <div>
-        <div>
-          <Header />
-          {main}
-        </div>
-        <div class="form-group">
-          <Select
-            isMulti
-            name="meals"
-            options={dayServed}
-            closeMenuOnSelect={false}
-            hideSelectedOptions={false}
-            className="basic-multi-select"
-            classNamePrefix="select"
-            placeholder="day served"
-          />
-        </div>
-        <div class="row justify-content-center">
-          <button type="submit" class="go-button" onClick={this.onSubmit}>
-            go
-          </button>
+        <Header />
+        <div className="container">
+          <div className="row">
+            <div className="filter-form col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
+              {main}
+            </div>
+            <div className="col-12 col-sm-12 col-md-8 col-lg-8 col-xl-8 filter-form">
+              <MapView/>
+            </div>
+          </div>
         </div>
       </div>
     );
   }
-
-  // takes in filter options and sends it back to the server to apply filters to the data
-  // this will be done in the GoController
-  onSubmit = (event) => {
-    // Soham: for debugging purposes
-    const example = {
-      zipcode: "98105",
-      name: "",
-      mealServed: ["Breakfast"],
-      peopleServed: ["OPEN TO ALL"],
-      dayServed: ["Monday", "Tuesday", "Wednesday"],
-    };
-    // SOHAM: Added this for testing since goController has not been made.
-    console.log(this.mealProgramModel.filterResults(example));
-  };
 }
 
 export default FindAMealView;
