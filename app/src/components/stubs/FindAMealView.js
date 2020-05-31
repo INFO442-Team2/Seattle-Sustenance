@@ -4,71 +4,66 @@ import Select from "react-select";
 import { Header } from "./HeaderView";
 import MapView from "./MapView";
 
-// Added by Soham
-import MealProgramsModel from "./MealProgramsModel";
 
 class FindAMealView extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      filtered: false,
       zipcode: "",
       name: "",
-      meals: [],
-      people: [],
-      days: [],
+      mealsServed: [],
+      peopleServed: [],
+      daysServed: [],
     };
     this.handleSubmit = this.handleSubmit.bind(this);
   }
 
   handleSubmit = (e) => {
     e.preventDefault()
-    //console.log(e.target.zipcode.value)
-    //console.log(e.target.name.value)
+    console.log(e.target.zipcode.value)
+    console.log(e.target.name.value)
 
-    let mOptions = e.target.meals;
-    let meals = [];
+    let mOptions = e.target.mealsServed;
+    let mealsSelected = [];
     if (mOptions.value) {
-      meals.push(mOptions.value)
+      mealsSelected.push(mOptions.value)
     } else if (typeof mOptions !== 'undefined') {
       for (let i = 0, len = mOptions.length; i < len; i++) {
-        meals.push(mOptions[i].defaultValue);
+        mealsSelected.push(mOptions[i].defaultValue);
       }
     }  
 
-    let pOptions = e.target.people;
-    let people = [];
+    let pOptions = e.target.peopleServed;
+    let peopleSelected = [];
     if (pOptions.value) {
-      people.push(pOptions.value)
+      peopleSelected.push(pOptions.value)
     } else if (typeof pOptions !== 'undefined') {
       for (let i = 0, len = pOptions.length; i < len; i++) {
-        people.push(pOptions[i].defaultValue);
+        peopleSelected.push(pOptions[i].defaultValue);
       }
     }
 
-    let dOptions = e.target.day;
-    let days = [];
+    let dOptions = e.target.daysServed;
+    let daysSelected = [];
     if (dOptions.value) {
-      days.push(dOptions.value)
+      daysSelected.push(dOptions.value)
     } else if (typeof dOptions !== 'undefined') {
       for (let i = 0, len = dOptions.length; i < len; i++) {
-        days.push(dOptions[i].defaultValue);
+        daysSelected.push(dOptions[i].defaultValue);
       }
     } 
 
-    //console.log(meals)
-    //console.log(people)
-    //console.log(days)
+    console.log(mealsSelected)
+    console.log(peopleSelected)
+    console.log(daysSelected)
 
     this.setState({
       zipcode: e.target.zipcode.value,
       name: e.target.name.value,
-      meals: meals,
-      people: people,
-      days: days,
-    })
-    console.log(this.state)
-    MealProgramsModel(this.state)
+      mealsServed: mealsSelected,
+      peopleServed: peopleSelected,
+      daysServed: daysSelected,
+    }, () => this.props.filterResults(this.state))
   };
 
   render() {
@@ -80,14 +75,14 @@ class FindAMealView extends Component {
       { value: "any", label: "Any" },
     ];
 
-    let peopleServed = [
+    let peopleOptions = [
       { value: "women", label: "Women" },
       { value: "men", label: "Men" },
       { value: "children", label: "Children" },
       { value: "any", label: "Any" },
     ];
 
-    let dayServed = [
+    let dayOptions = [
       { value: "sunday", label: "Sunday" },
       { value: "monday", label: "Monday" },
       { value: "tuesday", label: "Tuesday" },
@@ -98,8 +93,8 @@ class FindAMealView extends Component {
       { value: "any", label: "Any" },
     ];
 
-    // let filteredResults = this.props.meals;
-    let filteredResults = [
+    let meals = this.props.meals;
+    /* let meals = [
       {
         properties: {
           Day: ["Monday", "Tuesday"],
@@ -134,11 +129,11 @@ class FindAMealView extends Component {
           coordinates: [47.610471, -122.35034099999],
         },
       },
-    ];
+    ]; */
 
     let main = null;
 
-    if (this.state.filtered === false) {
+    if (this.props.filtered === false) {
       main = (
         <form className="test" onSubmit={this.handleSubmit}>
           <p align="center">find the right program for you</p>
@@ -162,7 +157,7 @@ class FindAMealView extends Component {
           <div className="form-group">
             <Select
               isMulti
-              name="meals"
+              name="mealsServed"
               options={mealOptions}
               closeMenuOnSelect={false}
               hideSelectedOptions={false}
@@ -174,8 +169,8 @@ class FindAMealView extends Component {
           <div className="form-group">
             <Select
               isMulti
-              name="people"
-              options={peopleServed}
+              name="peopleServed"
+              options={peopleOptions}
               closeMenuOnSelect={false}
               hideSelectedOptions={false}
               className="basic-multi-select"
@@ -186,8 +181,8 @@ class FindAMealView extends Component {
           <div className="form-group">
             <Select
               isMulti
-              name="day"
-              options={dayServed}
+              name="daysServed"
+              options={dayOptions}
               closeMenuOnSelect={false}
               hideSelectedOptions={false}
               className="basic-multi-select"
@@ -206,18 +201,18 @@ class FindAMealView extends Component {
       main = (
         <div className="form-group my-cards">
           <div className="card-container">
-            {filteredResults.map((card, i) => {
+            {meals.map((card, i) => {
               return (
                 <Card>
-                  <p>{filteredResults[i].properties["Name_of_Program"]}</p>
-                  <p>{filteredResults[i].properties["People_Served"]}</p>
-                  <p>{filteredResults[i].properties["Meal_Served"]}</p>
+                  <p>{meals[i].properties["Name_of_Program"]}</p>
+                  <p>{meals[i].properties["People_Served"]}</p>
+                  <p>{meals[i].properties["Meal_Served"]}</p>
                   <p>
-                    {filteredResults[i].properties["Time_Start"]}-
-                    {filteredResults[i].properties["Time_End"]}
+                    {meals[i].properties["Time_Start"]}-
+                    {meals[i].properties["Time_End"]}
                   </p>
-                  <p>{filteredResults[i].properties["Day"]}</p>
-                  <p>{filteredResults[i].properties["Location"]}</p>
+                  <p>{meals[i].properties["Day"]}</p>
+                  <p>{meals[i].properties["Location"]}</p>
                 </Card>
               );
             })}
