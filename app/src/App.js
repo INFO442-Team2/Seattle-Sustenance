@@ -31,7 +31,7 @@ meals: [
 
 export class App extends Component {
   constructor() {
-    let meals = MEALS_DATA;
+    let meals = MEALS_DATA_FEATURES;
     super();
     this.state = {
       meals: meals,
@@ -122,9 +122,6 @@ export class App extends Component {
         <Switch>
           {/* if currentUrl == '/about', render <AboutView> */}
           <Route path='/about' component={About} />
-
-          {/* if currentUrl == '/browse', render <BrowseView> */}
-          <Route path='/browse' component={BrowseAll}/>
 
           {/* if currentUrl == '/find', render <FindAMealView> */}
           <Route path='/find' render={(routerProps) => (

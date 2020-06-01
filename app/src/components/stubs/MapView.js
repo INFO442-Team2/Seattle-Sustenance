@@ -12,16 +12,17 @@ import mapStyles from "./mapStyles";
 
 class MapView extends Component {
 
-    //Soham: I Don't think we need a constructor here plis check 
     constructor(props) {
-        super(props)
+        super(props);
     }
 
     // displays Map based on state
     render() {
+        let self = this;
+
         function Map() {
             const [selectedMeal, setSelectedMeal] = useState(null);
-    
+
             useEffect(() => {
                 const listener = e => {
                     if (e.key === "Escape") {
@@ -41,7 +42,7 @@ class MapView extends Component {
                     defaultCenter={{ lat: 47.623047, lng: -122.349624 }}
                     defaultOptions={{ styles: mapStyles }}
                 >
-                    {MealData.features.map(Meal => (
+                    {self.props.meals.map(Meal => (
                         <Marker
                             key={Meal.properties.Name_of_Program}
                             position={{
@@ -80,6 +81,8 @@ class MapView extends Component {
         }
 
         let MapWrapped = withScriptjs(withGoogleMap(Map));
+
+        // console.log(this.props)
 
         return(
         <div style={{ width: "50vw", height: "50vh" }}>

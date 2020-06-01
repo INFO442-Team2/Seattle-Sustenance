@@ -39,9 +39,6 @@ export class Header extends Component {
                         <LinkContainer to="/about" activeClassName="curr-link" className="nav-item">
                             <NavItem className="nav-link"> <p>About</p></NavItem>
                         </LinkContainer>
-                        <LinkContainer to="/browse" activeClassName="curr-link" className="nav-item">
-                            <NavItem className="nav-link"> <p>Browse All</p></NavItem>
-                        </LinkContainer>
                         <LinkContainer to="/find" activeClassName="curr-link" className="nav-item">
                             <NavItem className="nav-link"> <p>Find a Meal Program</p></NavItem>
                         </LinkContainer>
