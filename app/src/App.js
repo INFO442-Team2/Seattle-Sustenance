@@ -51,7 +51,7 @@ export class App extends Component {
   // use the user filters to apply to the csv
   filterResults(input) {
     let dataByName = MEALS_DATA_FEATURES.filter((element) => {
-      if (input.name !== "") {
+      if (input.name.toLowerCase() !== "") {
         return element.name === input.name;
       }
       return true;
