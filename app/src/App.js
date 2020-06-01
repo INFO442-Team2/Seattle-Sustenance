@@ -60,40 +60,51 @@ export class App extends Component {
     console.log(dataByName)
 
     let dataByMealServed = []
-    dataByName.filter((element) => {
-      input.mealsServed.forEach((meal) => {
-        if(element.properties.Meal_Served === meal){
-          dataByMealServed.push(element)
-        }
+    if (input.mealsServed !== undefined){
+      dataByName.filter((element) => {
+        input.mealsServed.forEach((meal) => {
+          if(element.properties.Meal_Served.toLowerCase() === meal.toLowerCase()){
+            dataByMealServed.push(element)
+          }
+        })
+        return true;
       })
-      return true;
-    })
-
+    } else {
+      dataByMealServed = dataByName;
+    }
     console.log(dataByMealServed)
 
     let dataByPeopleServed = []
-    dataByMealServed.filter((element) => {
-      input.peopleServed.forEach((person) => {
-        if(element.properties.Gender_Served === person || element.properties.Gender_Served === "All"){
-          dataByPeopleServed.push(element)
-        }
+    if (input.Gender_Served !== undefined){
+      dataByMealServed.filter((element) => {
+        input.peopleServed.forEach((person) => {
+          if(element.properties.Gender_Served.toLowerCase() === person.toLowerCase() || element.properties.Gender_Served === "All"){
+            dataByPeopleServed.push(element)
+          }
+        })
+        return true;
       })
-      return true;
-    })
+    } else {
+      dataByPeopleServed = dataByMealServed
+    }
 
     console.log(dataByPeopleServed)
 
     let dataByDayServed = []
-    dataByPeopleServed.filter((element) => {
-      input.daysServed.forEach((d) => {
-        element.properties.Day.forEach(day => {
-          if(day === d){
-            dataByDayServed.push(element)
-          }
+    if (input.Gender_Served !== undefined){
+      dataByPeopleServed.filter((element) => {
+        input.daysServed.forEach((d) => {
+          element.properties.Day.forEach(day => {
+            if(day.toLowerCase() === d.toLowerCase()){
+              dataByDayServed.push(element)
+            }
+          })
         })
+        return true;
       })
-      return true;
-    })
+    } else {
+      dataByDayServed = dataByPeopleServed
+    }
 
     console.log(dataByDayServed)
 

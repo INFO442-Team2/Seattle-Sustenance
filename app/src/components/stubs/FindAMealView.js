@@ -211,7 +211,7 @@ class FindAMealView extends Component {
                     {meals[i].properties["Time_Start"]}-
                     {meals[i].properties["Time_End"]}
                   </p>
-                  <p>{meals[i].properties["Day"]}</p>
+                  <p>{meals[i].properties["Days"]}</p>
                   <p>{meals[i].properties["Location"]}</p>
                 </Card>
               );
