@@ -78,7 +78,7 @@ class FindAMealView extends Component {
     let peopleOptions = [
       { value: "women", label: "Women" },
       { value: "men", label: "Men" },
-      { value: "children", label: "Children" },
+      { value: "youth", label: "Youth" },
       { value: "any", label: "Any" },
     ];
 
@@ -212,7 +212,7 @@ class FindAMealView extends Component {
                     {meals[i].properties["Time_End"]}
                   </p>
                   <p>{meals[i].properties["Days"]}</p>
-                  <p>{meals[i].properties["Location"]}</p>
+                  <p>{meals[i].properties["Location"] + " " + meals[i].properties["Zipcode"]}</p>
                 </Card>
               );
             })}

@@ -51,16 +51,29 @@ export class App extends Component {
   // use the user filters to apply to the csv
   filterResults(input) {
     let allData = MEALS_DATA_FEATURES
+
+    let dataByZip = []
+    if (input.zipcode !== ""){
+      allData.filter((element) => {
+        if (Number(element.properties['Zipcode']) === Number(input.zipcode)) {
+          dataByZip.push(element)
+        }
+        return true;
+      }); 
+    } else {
+      dataByZip = allData
+    }
+
     let dataByName = []
     if (input.name !== ""){
-      allData.filter((element) => {
+      dataByZip.filter((element) => {
         if (element.properties['Name_of_Program'].toString().toLowerCase().includes(input.name.toString().toLowerCase())) {
           dataByName.push(element)
         }
         return true;
       }); 
     } else {
-      dataByName = allData
+      dataByName = dataByZip
     }
     
 

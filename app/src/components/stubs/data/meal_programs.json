@@ -24,7 +24,8 @@
                 "Gender_Served": "All",
                 "People_Served": "OPEN TO ALL",
                 "Location": "2515 Western Ave.,  Seattle",
-                "Name_of_Program": "Millionair Club Charity"
+                "Name_of_Program": "Millionair Club Charity",
+                "Zipcode": 98121
             },
             "geometry": {
                 "Type": "Point",
@@ -51,7 +52,8 @@
                 "Gender_Served": "All",
                 "People_Served": "OPEN TO ALL",
                 "Location": "8201 10th Ave S., Seattle",
-                "Name_of_Program": "South Park Breakfast Bunch"
+                "Name_of_Program": "South Park Breakfast Bunch",
+                "Zipcode": 98108
             },
             "geometry": {
                 "Type": "Point",
@@ -74,7 +76,8 @@
                 "Gender_Served": "All",
                 "People_Served": "OPEN TO ALL",
                 "Location": "318 2nd Ave. S. Extension,  Seattle",
-                "Name_of_Program": "Union Gospel Mission"
+                "Name_of_Program": "Union Gospel Mission",
+                "Zipcode": 98104
             },
             "geometry": {
                 "Type": "Point",
@@ -101,7 +104,8 @@
                 "Gender_Served": "All",
                 "People_Served": "OPEN TO ALL",
                 "Location": "232 Warren Ave. North, Suite B, Seattle",
-                "Name_of_Program": "Sacred Heart Church/SVDP Society"
+                "Name_of_Program": "Sacred Heart Church/SVDP Society",
+                "Zipcode": 98109
             },
             "geometry": {
                 "Type": "Point",
@@ -130,7 +134,8 @@
                 "Gender_Served": "Women",
                 "People_Served": "WOMEN 18 AND OLDER",
                 "Location": "2030 3rd Ave, Seattle",
-                "Name_of_Program": "YWCA Angeline's Meals Program"
+                "Name_of_Program": "YWCA Angeline's Meals Program",
+                "Zipcode": 98121
             },
             "geometry": {
                 "Type": "Point",
@@ -155,7 +160,8 @@
                 "Gender_Served": "All",
                 "People_Served": "OPEN TO 55+",
                 "Location": "85 Pike St.  #200,  Seattle",
-                "Name_of_Program": "Pike Market Senior Center"
+                "Name_of_Program": "Pike Market Senior Center",
+                "Zipcode": 98101
             },
             "geometry": {
                 "Type": "Point",
@@ -184,7 +190,8 @@
                 "Gender_Served": "Men",
                 "People_Served": "OPEN TO MEN 50+",
                 "Location": "1561 Alaskan Way S.,  Seattle",
-                "Name_of_Program": "Saint Martin's de Porres Shelter"
+                "Name_of_Program": "Saint Martin's de Porres Shelter",
+                "Zipcode": 98134
             },
             "geometry": {
                 "Type": "Point",
@@ -211,13 +218,14 @@
                 "Gender_Served": "All",
                 "People_Served": "OPEN TO ALL",
                 "Location": "Outdoor Meal Site at 6th and Columbia, Seattle",
-                "Name_of_Program": "Operation Sack Lunch"
+                "Name_of_Program": "Operation Sack Lunch",
+                "Zipcode": 98104
             },
             "geometry": {
                 "Type": "Point",
                 "coordinates": [
-                    47.6056,
-                    -122.32918000000001
+                    47.600716,
+                    -122.33534099999999
                 ]
             }
         },
@@ -238,7 +246,8 @@
                 "Gender_Served": "Women",
                 "People_Served": "OPEN TO WOMEN & CHILDREN ONLY",
                 "Location": "210 Dexter Avenue, Seattle",
-                "Name_of_Program": "Mary's Place / Church of Mary Magdalene"
+                "Name_of_Program": "Mary's Place / Church of Mary Magdalene",
+                "Zipcode": 98109
             },
             "geometry": {
                 "Type": "Point",
@@ -266,7 +275,8 @@
                 "Gender_Served": "All",
                 "People_Served": "OPEN TO ALL",
                 "Location": "508 Broadway, Seattle",
-                "Name_of_Program": "Our Lady of Mt. Carmel"
+                "Name_of_Program": "Our Lady of Mt. Carmel",
+                "Zipcode": 98122
             },
             "geometry": {
                 "Type": "Point",
@@ -289,7 +299,8 @@
                 "Gender_Served": "All",
                 "People_Served": "OPEN TO ALL",
                 "Location": "Outdoor Meal Site at 6th and Columbia, Seattle",
-                "Name_of_Program": "Mother's Kitchen"
+                "Name_of_Program": "Mother's Kitchen",
+                "Zipcode": 98104
             },
             "geometry": {
                 "Type": "Point",
@@ -313,16 +324,17 @@
                 "Time_End": "11:00 AM",
                 "Meal_Served": "Breakfast",
                 "Age_Served": "22-",
-                "Gender_Served": "All",
+                "Gender_Served": "Youth",
                 "People_Served": "YOUTH 22 AND YOUNGER",
                 "Location": "2709 3rd Ave., Seattle",
-                "Name_of_Program": "New Horizons Ministries"
+                "Name_of_Program": "New Horizons Ministries",
+                "Zipcode": 98121
             },
             "geometry": {
                 "Type": "Point",
                 "coordinates": [
-                    47.6173,
-                    -122.349571
+                    47.617238,
+                    -122.349364
                 ]
             }
         },
@@ -339,7 +351,8 @@
                 "Gender_Served": "All",
                 "People_Served": "OPEN TO ALL",
                 "Location": "Outdoor Meal Site at 6th and Columbia, Seattle",
-                "Name_of_Program": "Magic Works Alumni"
+                "Name_of_Program": "Magic Works Alumni",
+                "Zipcode": 98104
             },
             "geometry": {
                 "Type": "Point",
@@ -362,7 +375,8 @@
                 "Gender_Served": "All",
                 "People_Served": "OPEN TO ALL",
                 "Location": "919 King Street, Seattle",
-                "Name_of_Program": "ACRS Food Bank"
+                "Name_of_Program": "ACRS Food Bank",
+                "Zipcode": 98104
             },
             "geometry": {
                 "Type": "Point",
@@ -385,10 +399,11 @@
                 "Time_End": "1:00 PM",
                 "Meal_Served": "Lunch",
                 "Age_Served": "21-",
-                "Gender_Served": "All",
+                "Gender_Served": "Youth",
                 "People_Served": "OPEN TO YOUTH UP TO  AGE 21",
                 "Location": "1814 Summit Ave.,  Seattle",
-                "Name_of_Program": "(PSKS) Peace for the Streets by Kids from the Streets"
+                "Name_of_Program": "(PSKS) Peace for the Streets by Kids from the Streets",
+                "Zipcode": 98122
             },
             "geometry": {
                 "Type": "Point",
@@ -411,7 +426,8 @@
                 "Gender_Served": "All",
                 "People_Served": "OPEN TO ALL",
                 "Location": "Outdoor Meal Site at 6th and Columbia, Seattle",
-                "Name_of_Program": "Set Free Ministries"
+                "Name_of_Program": "Set Free Ministries",
+                "Zipcode": 98104
             },
             "geometry": {
                 "Type": "Point",
@@ -438,13 +454,14 @@
                 "Gender_Served": "All",
                 "People_Served": "OPEN TO AGES 60+",
                 "Location": "409 Maynard Ave South, Seattle",
-                "Name_of_Program": "Legacy House Nutrition Program"
+                "Name_of_Program": "Legacy House Nutrition Program",
+                "Zipcode": 98104
             },
             "geometry": {
                 "Type": "Point",
                 "coordinates": [
-                    47.599,
-                    -122.325282
+                    47.596551,
+                    -122.32171899999999
                 ]
             }
         },
@@ -461,7 +478,8 @@
                 "Gender_Served": "All",
                 "People_Served": "OPEN TO ALL",
                 "Location": "3639 Martin Luther King Way, Seattle",
-                "Name_of_Program": "Emergency Senior Nutrition Program"
+                "Name_of_Program": "Emergency Senior Nutrition Program",
+                "Zipcode": 98108
             },
             "geometry": {
                 "Type": "Point",
@@ -484,7 +502,8 @@
                 "Gender_Served": "All",
                 "People_Served": "OPEN TO ALL",
                 "Location": "5710 22nd Ave. NW  Seattle",
-                "Name_of_Program": "Saint Luke's Episcopal Church"
+                "Name_of_Program": "Saint Luke's Episcopal Church",
+                "Zipcode": 98107
             },
             "geometry": {
                 "Type": "Point",
@@ -507,7 +526,8 @@
                 "Gender_Served": "All",
                 "People_Served": "OPEN TO ALL",
                 "Location": "8201 10th Ave South, Seattle",
-                "Name_of_Program": "Latino Lunch"
+                "Name_of_Program": "Latino Lunch",
+                "Zipcode": 98108
             },
             "geometry": {
                 "Type": "Point",
@@ -531,7 +551,8 @@
                 "Gender_Served": "All",
                 "People_Served": "OPEN TO ALL",
                 "Location": "8201 10th Ave South, Seattle",
-                "Name_of_Program": "PAEP/Polynesian Nutrition Program"
+                "Name_of_Program": "PAEP/Polynesian Nutrition Program",
+                "Zipcode": 98108
             },
             "geometry": {
                 "Type": "Point",
@@ -558,7 +579,8 @@
                 "Gender_Served": "All",
                 "People_Served": "OPEN TO ALL",
                 "Location": "611 12th Ave South, Suite 300, Seattle",
-                "Name_of_Program": "Seattle Indian Center"
+                "Name_of_Program": "Seattle Indian Center",
+                "Zipcode": 98104
             },
             "geometry": {
                 "Type": "Point",
@@ -581,7 +603,8 @@
                 "Gender_Served": "All",
                 "People_Served": "OPEN TO ALL",
                 "Location": "31957 E. Commercial Street, Carnation",
-                "Name_of_Program": "Hopelink/Sno-Valley"
+                "Name_of_Program": "Hopelink/Sno-Valley",
+                "Zipcode": 98014
             },
             "geometry": {
                 "Type": "Point",
@@ -610,7 +633,8 @@
                 "Gender_Served": "All",
                 "People_Served": "OPEN TO 50+",
                 "Location": "416 Second Ave Extension South, Seattle",
-                "Name_of_Program": "Lazurus Day Center"
+                "Name_of_Program": "Lazurus Day Center",
+                "Zipcode": 98104
             },
             "geometry": {
                 "Type": "Point",
@@ -633,7 +657,8 @@
                 "Gender_Served": "All",
                 "People_Served": "OPEN TO ALL",
                 "Location": "Outdoor Meal Site at 6th and Columbia, Seattle",
-                "Name_of_Program": "Bible Study Out Reach Ministries"
+                "Name_of_Program": "Bible Study Out Reach Ministries",
+                "Zipcode": 98104
             },
             "geometry": {
                 "Type": "Point",
@@ -656,7 +681,8 @@
                 "Gender_Served": "All",
                 "People_Served": "OPEN TO ALL",
                 "Location": "5050 8th Ave. NE,  Seattle",
-                "Name_of_Program": "Blessed Sacrament Church Sunday Dinner"
+                "Name_of_Program": "Blessed Sacrament Church Sunday Dinner",
+                "Zipcode": 98105
             },
             "geometry": {
                 "Type": "Point",
@@ -683,7 +709,8 @@
                 "Gender_Served": "All",
                 "People_Served": "OPEN TO ALL",
                 "Location": "97 South Main St.,  Seattle",
-                "Name_of_Program": "Bread of Life Mission"
+                "Name_of_Program": "Bread of Life Mission",
+                "Zipcode": 98104
             },
             "geometry": {
                 "Type": "Point",
@@ -707,7 +734,8 @@
                 "Gender_Served": "All",
                 "People_Served": "OPEN TO ALL",
                 "Location": "1710 11th Ave., Seattle",
-                "Name_of_Program": "Community Lunch on Capitol Hill"
+                "Name_of_Program": "Community Lunch on Capitol Hill",
+                "Zipcode": 98122
             },
             "geometry": {
                 "Type": "Point",
@@ -734,7 +762,8 @@
                 "Gender_Served": "All",
                 "People_Served": "OPEN TO ALL",
                 "Location": "2524 16th Ave. S, Seattle",
-                "Name_of_Program": "El Centro de La Raza"
+                "Name_of_Program": "El Centro de La Raza",
+                "Zipcode": 98144
             },
             "geometry": {
                 "Type": "Point",
@@ -757,7 +786,8 @@
                 "Gender_Served": "All",
                 "People_Served": "OPEN TO ALL",
                 "Location": "1215 Thomas St., Seattle",
-                "Name_of_Program": "Community Lunch / Immanuel Community Services"
+                "Name_of_Program": "Community Lunch / Immanuel Community Services",
+                "Zipcode": 98109
             },
             "geometry": {
                 "Type": "Point",
@@ -780,7 +810,8 @@
                 "Gender_Served": "All",
                 "People_Served": "OPEN TO ALL",
                 "Location": "7002 23rd Ave NW, Seattle",
-                "Name_of_Program": "Phinney Neighborhood Association"
+                "Name_of_Program": "Phinney Neighborhood Association",
+                "Zipcode": 98117
             },
             "geometry": {
                 "Type": "Point",
@@ -803,7 +834,8 @@
                 "Gender_Served": "All",
                 "People_Served": "OPEN TO ALL",
                 "Location": "Outdoor Meal Site at 6th and Columbia, Seattle",
-                "Name_of_Program": "Anonomous Acts of Kindness"
+                "Name_of_Program": "Anonomous Acts of Kindness",
+                "Zipcode": 98104
             },
             "geometry": {
                 "Type": "Point",
@@ -827,10 +859,11 @@
                 "Time_End": "1:00 PM",
                 "Meal_Served": "Lunch",
                 "Age_Served": "13-21",
-                "Gender_Served": "All",
+                "Gender_Served": "Youth",
                 "People_Served": "Youth 13-21",
                 "Location": "1828 Yale Avenue (on the corner of Denny and Stewart)",
-                "Name_of_Program": "Youth Care's Orion Center"
+                "Name_of_Program": "Youth Care's Orion Center",
+                "Zipcode": 98101
             },
             "geometry": {
                 "Type": "Point",
@@ -853,7 +886,8 @@
                 "Gender_Served": "All",
                 "People_Served": "OPEN TO ALL",
                 "Location": "Woodland Park Pres. Church 225 N. 70th, Seattle",
-                "Name_of_Program": "Monday Feeding Program"
+                "Name_of_Program": "Monday Feeding Program",
+                "Zipcode": 98103
             },
             "geometry": {
                 "Type": "Point",
@@ -877,7 +911,8 @@
                 "Gender_Served": "All",
                 "People_Served": "OPEN TO ALL",
                 "Location": "5740 MLK Jr. Way South, Seattle",
-                "Name_of_Program": "PAEP/Filipino Senior Services"
+                "Name_of_Program": "PAEP/Filipino Senior Services",
+                "Zipcode": 98118
             },
             "geometry": {
                 "Type": "Point",
@@ -901,7 +936,8 @@
                 "Gender_Served": "All",
                 "People_Served": "OPEN TO ALL",
                 "Location": "6721 51st Ave South, Seattle",
-                "Name_of_Program": "PAEP/Laotian & H'mong Senior Srvcs."
+                "Name_of_Program": "PAEP/Laotian & H'mong Senior Srvcs.",
+                "Zipcode": 98118
             },
             "geometry": {
                 "Type": "Point",
@@ -928,7 +964,8 @@
                 "Gender_Served": "All",
                 "People_Served": "OPEN TO ALL",
                 "Location": "2022 Boren Avenue, Seattle",
-                "Name_of_Program": "Recovery Cafe"
+                "Name_of_Program": "Recovery Cafe",
+                "Zipcode": 98121
             },
             "geometry": {
                 "Type": "Point",
@@ -951,10 +988,11 @@
                 "Time_End": "3:45 PM",
                 "Meal_Served": "Lunch",
                 "Age_Served": "12-22",
-                "Gender_Served": "All",
+                "Gender_Served": "Youth",
                 "People_Served": "Drop-In Youth 12 - 22",
                 "Location": "4516 15th Ave NE, Seattle",
-                "Name_of_Program": "U-District Youth Center"
+                "Name_of_Program": "U-District Youth Center",
+                "Zipcode": 98105
             },
             "geometry": {
                 "Type": "Point",
@@ -977,7 +1015,8 @@
                 "Gender_Served": "All",
                 "People_Served": "OPEN TO ALL",
                 "Location": "111 NE 80th St.  Seattle",
-                "Name_of_Program": "Saint Andrew's Episcopal Church Jubilee Dinners"
+                "Name_of_Program": "Saint Andrew's Episcopal Church Jubilee Dinners",
+                "Zipcode": 98115
             },
             "geometry": {
                 "Type": "Point",
@@ -1000,7 +1039,8 @@
                 "Gender_Served": "All",
                 "People_Served": "OPEN TO ALL",
                 "Location": "Outdoor Meal Site at 6th and Columbia, Seattle",
-                "Name_of_Program": "Restoration Life Church"
+                "Name_of_Program": "Restoration Life Church",
+                "Zipcode": 98104
             },
             "geometry": {
                 "Type": "Point",
@@ -1023,7 +1063,8 @@
                 "Gender_Served": "All",
                 "People_Served": "OPEN TO ALL",
                 "Location": "Outdoor Meal Site at 6th and Columbia, Seattle",
-                "Name_of_Program": "Curry Temple"
+                "Name_of_Program": "Curry Temple",
+                "Zipcode": 98104
             },
             "geometry": {
                 "Type": "Point",
@@ -1046,7 +1087,8 @@
                 "Gender_Served": "All",
                 "People_Served": "OPEN TO ALL",
                 "Location": "Outdoor Meal Site at 6th and Columbia, Seattle",
-                "Name_of_Program": "Seeds of Abraham Pentecostal Church"
+                "Name_of_Program": "Seeds of Abraham Pentecostal Church",
+                "Zipcode": 98104
             },
             "geometry": {
                 "Type": "Point",
@@ -1069,7 +1111,8 @@
                 "Gender_Served": "All",
                 "People_Served": "OPEN TO ALL",
                 "Location": "Outdoor Meal Site at 6th and Columbia, Seattle",
-                "Name_of_Program": "Neighborhood Cooking Foundation"
+                "Name_of_Program": "Neighborhood Cooking Foundation",
+                "Zipcode": 98104
             },
             "geometry": {
                 "Type": "Point",
@@ -1092,7 +1135,8 @@
                 "Gender_Served": "All",
                 "People_Served": "OPEN TO ALL",
                 "Location": "Outdoor Meal Site at 6th and Columbia, Seattle",
-                "Name_of_Program": "Mount Zion Baptist Church / Street Feeding Ministry"
+                "Name_of_Program": "Mount Zion Baptist Church / Street Feeding Ministry",
+                "Zipcode": 98104
             },
             "geometry": {
                 "Type": "Point",
@@ -1119,7 +1163,8 @@
                 "Gender_Served": "All",
                 "People_Served": "OPEN TO ALL",
                 "Location": "803 Terry Ave., Seattle",
-                "Name_of_Program": "Cathedral Kitchen"
+                "Name_of_Program": "Cathedral Kitchen",
+                "Zipcode": 98104
             },
             "geometry": {
                 "Type": "Point",
@@ -1142,7 +1187,8 @@
                 "Gender_Served": "All",
                 "People_Served": "OPEN TO ALL",
                 "Location": "100 N street SE, Auburn",
-                "Name_of_Program": "Auburn Community Supper"
+                "Name_of_Program": "Auburn Community Supper",
+                "Zipcode": 98002
             },
             "geometry": {
                 "Type": "Point",
@@ -1169,7 +1215,8 @@
                 "Gender_Served": "All",
                 "People_Served": "OPEN TO ALL",
                 "Location": "2022 Boren Avenue, Seattle",
-                "Name_of_Program": "Recovery Caf√©"
+                "Name_of_Program": "Recovery Caf√©",
+                "Zipcode": 98121
             },
             "geometry": {
                 "Type": "Point",
@@ -1193,7 +1240,8 @@
                 "Gender_Served": "All",
                 "People_Served": "OPEN TO ALL",
                 "Location": "8201 10th Ave South, Seattle",
-                "Name_of_Program": "South Park Senior Meals"
+                "Name_of_Program": "South Park Senior Meals",
+                "Zipcode": 98108
             },
             "geometry": {
                 "Type": "Point",
@@ -1216,7 +1264,8 @@
                 "Gender_Served": "All",
                 "People_Served": "OPEN TO ALL",
                 "Location": "1415 NE 43rd Street, Seattle",
-                "Name_of_Program": "Friday Feast: ROOTS"
+                "Name_of_Program": "Friday Feast: ROOTS",
+                "Zipcode": 98105
             },
             "geometry": {
                 "Type": "Point",
@@ -1239,7 +1288,8 @@
                 "Gender_Served": "All",
                 "People_Served": "OPEN TO ALL",
                 "Location": "Outdoor Meal Site at 6th and Columbia, Seattle",
-                "Name_of_Program": "Snoqualmie Valley Alliance Church"
+                "Name_of_Program": "Snoqualmie Valley Alliance Church",
+                "Zipcode": 98104
             },
             "geometry": {
                 "Type": "Point",
@@ -1259,10 +1309,11 @@
                 "Time_End": "8:00 PM",
                 "Meal_Served": "Dinner",
                 "Age_Served": "13-25",
-                "Gender_Served": "All",
+                "Gender_Served": "Youth",
                 "People_Served": "Youth 13-25",
                 "Location": "University Lutheran Church, N.E. 50th & 16th N.E., Seattle (Enter down the steps off 16th & 50th)",
-                "Name_of_Program": "University Street Ministry Teen Feed"
+                "Name_of_Program": "University Street Ministry Teen Feed",
+                "Zipcode": 98105
             },
             "geometry": {
                 "Type": "Point",
@@ -1288,7 +1339,8 @@
                 "Gender_Served": "All",
                 "People_Served": "OPEN TO ALL",
                 "Location": "Outdoor Meal Site at 6th and Columbia, Seattle",
-                "Name_of_Program": "Lord's Table"
+                "Name_of_Program": "Lord's Table",
+                "Zipcode": 98104
             },
             "geometry": {
                 "Type": "Point",
@@ -1317,7 +1369,8 @@
                 "Gender_Served": "Women",
                 "People_Served": "WOMEN 18 AND OLDER",
                 "Location": "2030 3rd Ave, Seattle",
-                "Name_of_Program": "Women's Referral Center"
+                "Name_of_Program": "Women's Referral Center",
+                "Zipcode": 98121
             },
             "geometry": {
                 "Type": "Point",
