@@ -51,16 +51,16 @@
 ## Technical Requirements
 What devices do your requirements say it will be able to run on? Screen sizes?
 - The website will run on Google Chrome, Firefox, and Safari browsers and will be responsive such that it can be displayed on any smartphone (utilize ‘wrap_content’ and ‘match_parent’), tablet, or laptop or desktop
-    - Use “Inspect” on Google Chrome to change views to see how the website looks
+    - Use “Inspect” on Google Chrome to change views to see how the website looks <br>
 Who needs to be able to use your app? i.e In what ways does your app need to be accessible? (colors, screen readers, voice to text?)
 - The application will be accessible with screen readers
-    - Test screen readers that are built into our computers to see if it reads the text correctly
+    - Test screen readers that are built into our computers to see if it reads the text correctly <br>
 Where do you GET that data?
 - Data will be downloaded from data.seattle.gov
-    - The data will be modified after downloading to ensure it works effectively for our website
+    - The data will be modified after downloading to ensure it works effectively for our website <br>
 If you are storing information, where are you storing it?
 - The information will be stored statically in a .JSON file and the server will retrieve the needed information from it
-    - We will read different rows from the file to verify that the data can be pulled correctly before we start implementing
+    - We will read different rows from the file to verify that the data can be pulled correctly before we start implementing <br>
 If you have a search bar HOW are you going to search?
 - The search will be implemented so that the server searches through the location name column in the data and gets the matching location names to the user input. It will show the results with all of their information (the location name, hours, meal served, age served, people served, days served, and their address) on the sidebar on the left of the screen and a Google Map on the right side of the screen with pins representing each location.
     - Manual tests for the search are specified in the “Search By Name” and “Filtering” section of this document 
