@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import './App.css';
 import { BrowserRouter, Route, Switch} from 'react-router-dom';
 import About from './components/stubs/AboutView';
-import BrowseAll from './components/stubs/BrowseAllView';
 import FindAMealView from './components/stubs/FindAMealView';
 const MEALS_DATA = require("./components/stubs/data/meal_programs.json");
 const MEALS_DATA_FEATURES = MEALS_DATA.features;
@@ -78,7 +77,7 @@ export class App extends Component {
     
 
     let dataByMealServed = []
-    if (input.mealsServed.length != 0){
+    if (input.mealsServed.length !== 0){
       dataByName.filter((element) => {
         input.mealsServed.forEach((meal) => {
           if(element.properties.Meal_Served.toLowerCase() === meal.toLowerCase()){
@@ -92,7 +91,7 @@ export class App extends Component {
     }
 
     let dataByPeopleServed = []
-    if (input.peopleServed.length != 0){
+    if (input.peopleServed.length !== 0){
       dataByMealServed.filter((element) => {
         input.peopleServed.forEach((person) => {
           if(element.properties.Gender_Served.toLowerCase() === person.toLowerCase() || element.properties.Gender_Served === "All"){
@@ -106,7 +105,7 @@ export class App extends Component {
     }
 
     let dataByDayServed = []
-    if (input.daysServed.length != 0){
+    if (input.daysServed.length !== 0){
       dataByPeopleServed.filter((element) => {
         input.daysServed.forEach((d) => {
           element.properties.Day.forEach(day => {

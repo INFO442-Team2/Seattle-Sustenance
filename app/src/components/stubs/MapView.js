@@ -6,15 +6,10 @@ import {
     Marker,
     InfoWindow
 } from "react-google-maps";
-import * as MealData from "./data/meal_programs.json";
 import mapStyles from "./mapStyles";
 
 
 class MapView extends Component {
-
-    constructor(props) {
-        super(props);
-    }
 
     // displays Map based on state
     render() {
