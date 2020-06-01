@@ -20,6 +20,7 @@ componentDidMount() {
     let mealprogs = this.state.images;
 
     let carouselItems = mealprogs.map(function(mealprog){
+      console.log(mealprog)
       let obj = { src: mealprog.photo, altText: mealprog.title};
       return obj;
     })

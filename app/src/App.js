@@ -50,17 +50,31 @@ export class App extends Component {
 
   // use the user filters to apply to the csv
   filterResults(input) {
-    let dataByName = MEALS_DATA_FEATURES.filter((element) => {
-      if (input.name.toLowerCase() !== "") {
-        return element.name === input.name;
-      }
-      return true;
-    }); 
+    let allData = MEALS_DATA_FEATURES
+    let dataByName = []
+    if (input.name !== ""){
+      allData.filter((element) => {
+        if (element.properties['Name_of_Program'].toString().toLowerCase().includes(input.name.toString().toLowerCase())) {
+          dataByName.push(element)
+        }
+        return true;
+      }); 
+    } else {
+      dataByName = allData
+    }
+    
 
     console.log(dataByName)
 
     let dataByMealServed = []
-    if (input.mealsServed !== undefined){
+    console.log(input)
+    console.log(input.zipcode)
+    console.log(input.name)
+    console.log(input.mealsServed)
+    console.log(input.peopleServed)
+    console.log(input.daysServed)
+
+    if (input.mealsServed.length != 0){
       dataByName.filter((element) => {
         input.mealsServed.forEach((meal) => {
           if(element.properties.Meal_Served.toLowerCase() === meal.toLowerCase()){
@@ -70,12 +84,13 @@ export class App extends Component {
         return true;
       })
     } else {
+      console.log("i get here")
       dataByMealServed = dataByName;
     }
     console.log(dataByMealServed)
 
     let dataByPeopleServed = []
-    if (input.Gender_Served !== undefined){
+    if (input.peopleServed.length != 0){
       dataByMealServed.filter((element) => {
         input.peopleServed.forEach((person) => {
           if(element.properties.Gender_Served.toLowerCase() === person.toLowerCase() || element.properties.Gender_Served === "All"){
@@ -91,7 +106,7 @@ export class App extends Component {
     console.log(dataByPeopleServed)
 
     let dataByDayServed = []
-    if (input.Gender_Served !== undefined){
+    if (input.daysServed.length != 0){
       dataByPeopleServed.filter((element) => {
         input.daysServed.forEach((d) => {
           element.properties.Day.forEach(day => {
