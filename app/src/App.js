@@ -64,16 +64,7 @@ export class App extends Component {
     }
     
 
-    console.log(dataByName)
-
     let dataByMealServed = []
-    console.log(input)
-    console.log(input.zipcode)
-    console.log(input.name)
-    console.log(input.mealsServed)
-    console.log(input.peopleServed)
-    console.log(input.daysServed)
-
     if (input.mealsServed.length != 0){
       dataByName.filter((element) => {
         input.mealsServed.forEach((meal) => {
@@ -84,10 +75,8 @@ export class App extends Component {
         return true;
       })
     } else {
-      console.log("i get here")
       dataByMealServed = dataByName;
     }
-    console.log(dataByMealServed)
 
     let dataByPeopleServed = []
     if (input.peopleServed.length != 0){
@@ -102,8 +91,6 @@ export class App extends Component {
     } else {
       dataByPeopleServed = dataByMealServed
     }
-
-    console.log(dataByPeopleServed)
 
     let dataByDayServed = []
     if (input.daysServed.length != 0){
@@ -120,8 +107,6 @@ export class App extends Component {
     } else {
       dataByDayServed = dataByPeopleServed
     }
-
-    console.log(dataByDayServed)
 
     this.setState({
       meals: dataByDayServed,
