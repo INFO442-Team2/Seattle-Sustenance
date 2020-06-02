@@ -124,7 +124,8 @@ class AboutView extends Component {
             <h1 className="about-header">About the Team</h1>
 
             <div className="about-card-container">
-              <div className="team-card">
+            <div className="row">
+              <div className="team-card col-12 col-sm-12 col-md-6 col-lg-4 col-xl-3 mx-auto p-2">
                 <div className="card-photo" id="kaitlyn-photo"></div>
 
                 <h2>Kaitlyn Cameron</h2>
@@ -138,21 +139,20 @@ class AboutView extends Component {
                 </p>
               </div>
 
-              <div className="team-card">
+              <div className="team-card col-12 col-sm-12 col-md-6 col-lg-4 col-xl-3 mx-auto p-2">
                 <div className="card-photo" id="kevin-photo"></div>
 
                 <h2>Kevin Nguyen</h2>
 
                 <p>
-                  Soham is a graduating senior studying Informatics at the
-                  University of Washington with a specilization in HCI. He aims
-                  to be a UX Designer going into the industry as he is
-                  fascinated by the intersection of creativity and technology of
-                  this field.
+                  I'm Kevin, and I am a graduating Informatics senior, with a concentration of
+                  Data Science and Human-Computer Interaction. In the future, I hope to create 
+                  accesible software, or bring value to data. During my summers, I love exploring 
+                  places I haven't been to before.
                 </p>
               </div>
 
-              <div className="team-card">
+              <div className="team-card col-12 col-sm-12 col-md-6 col-lg-4 col-xl-3 mx-auto p-2">
                 <div className="card-photo" id="rachel-photo"></div>
 
                 <h2>Rachel Vuu</h2>
@@ -165,8 +165,10 @@ class AboutView extends Component {
                   this field.
                 </p>
               </div>
+              </div>
+              <div className="row">
 
-              <div className="team-card">
+              <div className="team-card col-12 col-sm-12 col-md-6 col-lg-4 col-xl-3 mx-auto">
                 <div className="card-photo" id="robert-photo"></div>
 
                 <h2>Robert G</h2>
@@ -179,7 +181,7 @@ class AboutView extends Component {
                   this field.
                 </p>
               </div>
-              <div className="team-card">
+              <div className="team-card col-12 col-sm-12 col-md-6 col-lg-4 col-xl-3 mx-auto">
                 <div className="card-photo" id="soham-photo"></div>
 
                 <h2>Soham Hinduja</h2>
@@ -191,6 +193,7 @@ class AboutView extends Component {
                   fascinated by the intersection of creativity and technology of
                   this field.
                 </p>
+                </div>
               </div>
             </div>
           </div>

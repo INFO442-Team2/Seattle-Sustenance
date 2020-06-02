@@ -152,7 +152,8 @@ padding: 2.5rem;
 }
 
 #kevin-photo {
-
+  background-image: url('imgs-team/Kevin.JPG');
+  background-position: 50% 80%;
 }
 
 #rachel-photo {
