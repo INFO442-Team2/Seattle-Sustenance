@@ -101,7 +101,7 @@ class FindAMealView extends Component {
     let meals = this.props.meals;
     let main = null;
     let noResults;
-    if (this.props.filtered === true && this.props.meals.length == 0) {
+    if (this.props.filtered === true && this.props.meals.length === 0) {
       noResults = <WarningAlert/>
     }
 
