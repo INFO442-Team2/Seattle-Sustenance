@@ -3,6 +3,7 @@ import { Card } from "reactstrap";
 import Select from "react-select";
 import { Header } from "./HeaderView";
 import MapView from "./MapView";
+import WarningAlert from "./Alert";
 
 
 class FindAMealView extends Component {
@@ -99,8 +100,12 @@ class FindAMealView extends Component {
 
     let meals = this.props.meals;
     let main = null;
+    let noResults;
+    if (this.props.filtered === true && this.props.meals.length === 0) {
+      noResults = <WarningAlert/>
+    }
 
-    if (this.props.filtered === false) {
+    if (this.props.filtered === false || (this.props.submit === true && this.props.meals.length === 0)) {
       main = (
         <form className="test" onSubmit={this.handleSubmit}>
           <p align="center">find the right program for you</p>
@@ -190,7 +195,8 @@ class FindAMealView extends Component {
 
     return (
       <div>
-        <Header meals={this.props.meals} filtered={this.props.filtered} resetResults={this.resetResults} filterResults={this.props.filterResults}/>
+        <Header resetResults={this.resetResults}/>
+        {noResults}
         <div className="container">
           <div className="row">
             <div className="filter-form col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">

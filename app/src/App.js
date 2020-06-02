@@ -34,6 +34,7 @@ export class App extends Component {
     super();
     this.state = {
       meals: meals,
+      submit: false,
       filtered: false,
     }
     this.resetResults = this.resetResults.bind(this);
@@ -43,6 +44,7 @@ export class App extends Component {
   resetResults = () => {
     this.setState({
       meals: MEALS_DATA_FEATURES,
+      submit: false,
       filtered: false,
     }, () => console.log(this.state))
   }
@@ -122,6 +124,7 @@ export class App extends Component {
 
     this.setState({
       meals: dataByDayServed,
+      submit: true,
       filtered: true,
     }) 
   }
@@ -135,17 +138,17 @@ export class App extends Component {
         <Switch>
           {/* if currentUrl == '/about', render <AboutView> */}
           <Route path='/about' render={(routerProps) => (
-            <AboutView {...routerProps} meals={this.state.meals} filtered={this.state.filtered} resetResults={this.resetResults} filterResults={this.filterResults}/>
+            <AboutView {...routerProps} resetResults={this.resetResults}/>
           )}/>
 
           {/* if currentUrl == '/find', render <FindAMealView> */}
           <Route path='/find' render={(routerProps) => (
-            <FindAMealView {...routerProps} meals={this.state.meals} filtered={this.state.filtered} resetResults={this.resetResults} filterResults={this.filterResults}/>
+            <FindAMealView {...routerProps} meals={this.state.meals} submit={this.state.submit} filtered={this.state.filtered} resetResults={this.resetResults} filterResults={this.filterResults}/>
           )}/>
           
           {/* if currentUrl == '/', render <FindAMealView> */}
           <Route path='*' render={(routerProps) => (
-            <FindAMealView {...routerProps} meals={this.state.meals} filtered={this.state.filtered} resetResults={this.resetResults} filterResults={this.filterResults}/>
+            <FindAMealView {...routerProps} meals={this.state.meals} submit={this.state.submit} filtered={this.state.filtered} resetResults={this.resetResults} filterResults={this.filterResults}/>
           )}/>
         </Switch>
 
