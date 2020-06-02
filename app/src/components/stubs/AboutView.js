@@ -31,7 +31,7 @@ class AboutView extends Component {
     return (
       <div>
         <div>
-          <Header meals={this.props.meals} filtered={this.props.filtered} resetResults={this.resetResults} filterResults={this.props.filterResults}/>
+          <Header resetResults={this.resetResults}/>
         </div>
 
         <h1 className="about-header">

@@ -105,7 +105,7 @@ class FindAMealView extends Component {
       noResults = <WarningAlert/>
     }
 
-    if (this.props.filtered === false) {
+    if (this.props.filtered === false || (this.props.submit === true && this.props.meals.length === 0)) {
       main = (
         <form className="test" onSubmit={this.handleSubmit}>
           <p align="center">find the right program for you</p>
@@ -197,7 +197,7 @@ class FindAMealView extends Component {
 
     return (
       <div>
-        <Header meals={this.props.meals} filtered={this.props.filtered} resetResults={this.resetResults} filterResults={this.props.filterResults}/>
+        <Header resetResults={this.resetResults}/>
         {noResults}
         <div className="container">
           <div className="row">
