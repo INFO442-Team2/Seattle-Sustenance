@@ -3,17 +3,21 @@ import { Header } from './HeaderView';
 import { UncontrolledCarousel } from 'reactstrap';
 
 class AboutView extends Component {
-    constructor() {
-      super();
-      this.state = {
-        images: []
+  constructor(props) {
+    super();
+    this.state = {
+      images: []
     }
-}
+  } 
 
-componentDidMount() {
+  componentDidMount() {
     fetch("aboutview.json")
     .then((res) => res.json())
     .then((data) => this.setState({images: data}))
+  }
+
+  resetResults = () => {
+    this.props.resetResults()
   }
 
   render() {
@@ -27,7 +31,7 @@ componentDidMount() {
     return (
       <div>
         <div>
-          <Header/>
+          <Header meals={this.props.meals} filtered={this.props.filtered} resetResults={this.resetResults} filterResults={this.props.filterResults}/>
         </div>
 
         <h1 className="about-header">
