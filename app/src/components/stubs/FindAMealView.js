@@ -3,6 +3,7 @@ import { Card } from "reactstrap";
 import Select from "react-select";
 import { Header } from "./HeaderView";
 import MapView from "./MapView";
+import WarningAlert from "./Alert";
 
 
 class FindAMealView extends Component {
@@ -66,6 +67,10 @@ class FindAMealView extends Component {
     }, () => this.props.filterResults(this.state))
   };
 
+  resetResults = () => {
+    this.props.resetResults()
+  }
+
   render() {
     let mealOptions = [
       { value: "breakfast", label: "Breakfast" },
@@ -94,46 +99,13 @@ class FindAMealView extends Component {
     ];
 
     let meals = this.props.meals;
-    /* let meals = [
-      {
-        properties: {
-          Day: ["Monday", "Tuesday"],
-          Time_Start: "6:15AM",
-          Time_End: "7:00AM",
-          Meal_Served: ["Breakfast"],
-          Age_Served: "All",
-          Gender_Served: "All",
-          People_Served: "Open to all",
-          Location: "2515 Western Ave., Seattle",
-          Name_of_Program: "Millionair Club Charity",
-        },
-        geometry: {
-          Type: "Point",
-          coordinates: [47.610471, -122.35034099999],
-        },
-      },
-      {
-        properties: {
-          Day: ["Monday", "Tuesday"],
-          Time_Start: "6:15AM",
-          Time_End: "9234",
-          Meal_Served: ["Breakfast"],
-          Age_Served: "All",
-          Gender_Served: "All",
-          People_Served: "Open to all",
-          Location: "2515 Western Ave., Seattle",
-          Name_of_Program: "Millionair Club Charity",
-        },
-        geometry: {
-          Type: "Point",
-          coordinates: [47.610471, -122.35034099999],
-        },
-      },
-    ]; */
-
     let main = null;
+    let noResults;
+    if (this.props.filtered === true && this.props.meals.length === 0) {
+      noResults = <WarningAlert/>
+    }
 
-    if (this.props.filtered === false) {
+    if (this.props.filtered === false || (this.props.submit === true && this.props.meals.length === 0)) {
       main = (
         <form className="test" onSubmit={this.handleSubmit}>
           <p align="center">find the right program for you</p>
@@ -199,31 +171,32 @@ class FindAMealView extends Component {
       );
     } else {
       main = (
-        <div className="form-group my-cards">
-          <div className="card-container">
-            {meals.map((card, i) => {
-              return (
-                <Card>
-                  <p>{meals[i].properties["Name_of_Program"]}</p>
-                  <p>{meals[i].properties["People_Served"]}</p>
-                  <p>{meals[i].properties["Meal_Served"]}</p>
-                  <p>
-                    {meals[i].properties["Time_Start"]}-
-                    {meals[i].properties["Time_End"]}
-                  </p>
-                  <p>{meals[i].properties["Days"]}</p>
-                  <p>{meals[i].properties["Location"] + " " + meals[i].properties["Zipcode"]}</p>
-                </Card>
-              );
-            })}
-          </div>
-        </div>
+            <div className="form-group my-cards scrollbar scrollbar-primary">
+            <div className="card-container">
+                {meals.map((card, i) => {
+                return (
+                    <Card>
+                    <p className="program-name">{meals[i].properties["Name_of_Program"]}</p>
+                    <p className="people-served">{meals[i].properties["People_Served"]}</p>
+                    <p className="meal-served">{meals[i].properties["Meal_Served"]}</p>
+                    <p className="meal-time">
+                        {meals[i].properties["Time_Start"]}-
+                        {meals[i].properties["Time_End"]}
+                    </p>
+                    <p className="days-served">{meals[i].properties["Days"]}</p>
+                    <p className="location-served">{meals[i].properties["Location"] + " " + meals[i].properties["Zipcode"]}</p>
+                    </Card>
+                );
+                })}
+                </div>
+            </div>
       );
     }
 
     return (
       <div>
-        <Header />
+        <Header resetResults={this.resetResults}/>
+        {noResults}
         <div className="container">
           <div className="row">
             <div className="filter-form col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">

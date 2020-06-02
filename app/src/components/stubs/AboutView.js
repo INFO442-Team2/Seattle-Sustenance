@@ -16,6 +16,10 @@ class AboutView extends Component {
       .then((data) => this.setState({ images: data }));
   }
 
+  resetResults = () => {
+    this.props.resetResults()
+  }
+
   render() {
     let mealprogs = this.state.images;
 
@@ -27,7 +31,7 @@ class AboutView extends Component {
     return (
       <div>
         <div>
-          <Header />
+          <Header resetResults={this.resetResults}/>
         </div>
 
         <div className="about-page">

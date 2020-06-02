@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import './App.css';
 import { BrowserRouter, Route, Switch} from 'react-router-dom';
-import About from './components/stubs/AboutView';
 import FindAMealView from './components/stubs/FindAMealView';
+import AboutView from './components/stubs/AboutView';
 const MEALS_DATA = require("./components/stubs/data/meal_programs.json");
 const MEALS_DATA_FEATURES = MEALS_DATA.features;
 
@@ -34,17 +34,19 @@ export class App extends Component {
     super();
     this.state = {
       meals: meals,
+      submit: false,
       filtered: false,
     }
     this.resetResults = this.resetResults.bind(this);
     this.filterResults = this.filterResults.bind(this);
   }
 
-  resetResults() {
+  resetResults = () => {
     this.setState({
-      meals: MEALS_DATA,
+      meals: MEALS_DATA_FEATURES,
+      submit: false,
       filtered: false,
-    })
+    }, () => console.log(this.state))
   }
 
   // use the user filters to apply to the csv
@@ -122,27 +124,31 @@ export class App extends Component {
 
     this.setState({
       meals: dataByDayServed,
+      submit: true,
       filtered: true,
     }) 
   }
 
   render() {
+
     return(
 
       <BrowserRouter>
 
         <Switch>
           {/* if currentUrl == '/about', render <AboutView> */}
-          <Route path='/about' component={About} />
+          <Route path='/about' render={(routerProps) => (
+            <AboutView {...routerProps} resetResults={this.resetResults}/>
+          )}/>
 
           {/* if currentUrl == '/find', render <FindAMealView> */}
           <Route path='/find' render={(routerProps) => (
-            <FindAMealView {...routerProps} meals={this.state.meals} filtered={this.state.filtered} filterResults={this.filterResults}/>
+            <FindAMealView {...routerProps} meals={this.state.meals} submit={this.state.submit} filtered={this.state.filtered} resetResults={this.resetResults} filterResults={this.filterResults}/>
           )}/>
           
           {/* if currentUrl == '/', render <FindAMealView> */}
           <Route path='*' render={(routerProps) => (
-            <FindAMealView {...routerProps} meals={this.state.meals} filtered={this.state.filtered} filterResults={this.filterResults}/>
+            <FindAMealView {...routerProps} meals={this.state.meals} submit={this.state.submit} filtered={this.state.filtered} resetResults={this.resetResults} filterResults={this.filterResults}/>
           )}/>
         </Switch>
 
