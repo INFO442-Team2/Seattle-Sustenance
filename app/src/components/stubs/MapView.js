@@ -77,12 +77,12 @@ class MapView extends Component {
         let MapWrapped = withScriptjs(withGoogleMap(Map));
 
         return(
-        <div className="mapSize" style={{ width: "60vw", height: "100vh" }}>
+        <div className="mapSize" style={{ width: "100%", height: "100vh" }}>
             <MapWrapped
                 googleMapURL={`https://maps.googleapis.com/maps/api/js?v=3.exp&libraries=geometry,drawing,places&key=${process.env.REACT_APP_GOOGLE_KEY}`}
-                loadingElement={<div style={{ height: `70%` }} />}
-                containerElement={<div style={{ height: `70%` }} />}
-                mapElement={<div style={{ height: `70%` }} />}
+                loadingElement={<div style={{ height: `100%` }} />}
+                containerElement={<div style={{ height: `100%` }} />}
+                mapElement={<div className="mapcontainer" />}
             />
         </div>
         )

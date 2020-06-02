@@ -31,7 +31,7 @@ export default [
     elementType: "geometry",
     stylers: [
       {
-        color: "#fd7400"
+        color: "#FFCE89"
       }
     ]
   },
