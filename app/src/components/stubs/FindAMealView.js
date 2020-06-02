@@ -66,6 +66,10 @@ class FindAMealView extends Component {
     }, () => this.props.filterResults(this.state))
   };
 
+  resetResults = () => {
+    this.props.resetResults()
+  }
+
   render() {
     let mealOptions = [
       { value: "breakfast", label: "Breakfast" },
@@ -94,43 +98,6 @@ class FindAMealView extends Component {
     ];
 
     let meals = this.props.meals;
-    /* let meals = [
-      {
-        properties: {
-          Day: ["Monday", "Tuesday"],
-          Time_Start: "6:15AM",
-          Time_End: "7:00AM",
-          Meal_Served: ["Breakfast"],
-          Age_Served: "All",
-          Gender_Served: "All",
-          People_Served: "Open to all",
-          Location: "2515 Western Ave., Seattle",
-          Name_of_Program: "Millionair Club Charity",
-        },
-        geometry: {
-          Type: "Point",
-          coordinates: [47.610471, -122.35034099999],
-        },
-      },
-      {
-        properties: {
-          Day: ["Monday", "Tuesday"],
-          Time_Start: "6:15AM",
-          Time_End: "9234",
-          Meal_Served: ["Breakfast"],
-          Age_Served: "All",
-          Gender_Served: "All",
-          People_Served: "Open to all",
-          Location: "2515 Western Ave., Seattle",
-          Name_of_Program: "Millionair Club Charity",
-        },
-        geometry: {
-          Type: "Point",
-          coordinates: [47.610471, -122.35034099999],
-        },
-      },
-    ]; */
-
     let main = null;
 
     if (this.props.filtered === false) {
@@ -223,7 +190,7 @@ class FindAMealView extends Component {
 
     return (
       <div>
-        <Header />
+        <Header meals={this.props.meals} filtered={this.props.filtered} resetResults={this.resetResults} filterResults={this.props.filterResults}/>
         <div className="container">
           <div className="row">
             <div className="filter-form col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
