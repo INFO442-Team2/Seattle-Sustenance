@@ -178,12 +178,9 @@ class FindAMealView extends Component {
                     <Card>
                     <p className="program-name">{meals[i].properties["Name_of_Program"]}</p>
                     <p className="people-served">{meals[i].properties["People_Served"]}</p>
-                    <p className="meal-served">{meals[i].properties["Meal_Served"]}</p>
-                    <p className="meal-time">
-                        {meals[i].properties["Time_Start"]}-
-                        {meals[i].properties["Time_End"]}
-                    </p>
-                    <p className="days-served">{meals[i].properties["Days"]}</p>
+                    <p className="days-served">Days Served: {meals[i].properties["Days"]}</p>
+                    <p className="meal-served">{meals[i].properties["Meal_Served"]}: {meals[i].properties["Time_Start"]}-
+                        {meals[i].properties["Time_End"]}</p>
                     <p className="location-served">{meals[i].properties["Location"] + " " + meals[i].properties["Zipcode"]}</p>
                     </Card>
                 );
