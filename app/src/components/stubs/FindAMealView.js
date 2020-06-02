@@ -199,24 +199,26 @@ class FindAMealView extends Component {
       );
     } else {
       main = (
-        <div className="form-group my-cards">
-          <div className="card-container">
-            {meals.map((card, i) => {
-              return (
-                <Card>
-                  <p>{meals[i].properties["Name_of_Program"]}</p>
-                  <p>{meals[i].properties["People_Served"]}</p>
-                  <p>{meals[i].properties["Meal_Served"]}</p>
-                  <p>
-                    {meals[i].properties["Time_Start"]}-
-                    {meals[i].properties["Time_End"]}
-                  </p>
-                  <p>{meals[i].properties["Days"]}</p>
-                  <p>{meals[i].properties["Location"] + " " + meals[i].properties["Zipcode"]}</p>
-                </Card>
-              );
-            })}
-          </div>
+        <div class="scrollbar scrollbar-primary">
+            <div className="form-group my-cards">
+            <div className="card-container">
+                {meals.map((card, i) => {
+                return (
+                    <Card>
+                    <p>{meals[i].properties["Name_of_Program"]}</p>
+                    <p>{meals[i].properties["People_Served"]}</p>
+                    <p>{meals[i].properties["Meal_Served"]}</p>
+                    <p>
+                        {meals[i].properties["Time_Start"]}-
+                        {meals[i].properties["Time_End"]}
+                    </p>
+                    <p>{meals[i].properties["Days"]}</p>
+                    <p>{meals[i].properties["Location"] + " " + meals[i].properties["Zipcode"]}</p>
+                    </Card>
+                );
+                })}
+                </div>
+            </div>
         </div>
       );
     }
