@@ -157,11 +157,13 @@ padding: 2.5rem;
 }
 
 #rachel-photo {
-
+  background-image: url('imgs-team/Rachel.jpg');
+  background-position: top;
 }
 
 #robert-photo {
-
+  background-image: url('imgs-team/Robert.jpg');
+  background-position: top;
 }
 
 

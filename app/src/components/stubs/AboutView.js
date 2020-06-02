@@ -17,8 +17,8 @@ class AboutView extends Component {
   }
 
   resetResults = () => {
-    this.props.resetResults()
-  }
+    this.props.resetResults();
+  };
 
   render() {
     let mealprogs = this.state.images;
@@ -31,7 +31,7 @@ class AboutView extends Component {
     return (
       <div>
         <div>
-          <Header resetResults={this.resetResults}/>
+          <Header resetResults={this.resetResults} />
         </div>
 
         <div className="about-page">
@@ -124,75 +124,74 @@ class AboutView extends Component {
             <h1 className="about-header">About the Team</h1>
 
             <div className="about-card-container">
-            <div className="row">
-              <div className="team-card col-12 col-sm-12 col-md-6 col-lg-4 col-xl-3 mx-auto p-2">
-                <div className="card-photo" id="kaitlyn-photo"></div>
+              <div className="row">
+                <div className="team-card col-12 col-sm-12 col-md-6 col-lg-4 col-xl-3 mx-auto p-2">
+                  <div className="card-photo" id="kaitlyn-photo"></div>
 
-                <h2>Kaitlyn Cameron</h2>
+                  <h2>Kaitlyn Cameron</h2>
 
-                <p>
-                  Hi, my name is Kaitlyn Cameron and I’m a graduating senior at
-                  the University of Washington. During my time at school, I
-                  studied Informatics with a focus in Human-Computer
-                  Interaction. I love spending time with my friends, taking road
-                  trips and being outdoors.
-                </p>
-              </div>
+                  <p>
+                    Hi, my name is Kaitlyn Cameron and I’m a graduating senior
+                    at the University of Washington. During my time at school, I
+                    studied Informatics with a focus in Human-Computer
+                    Interaction. I love spending time with my friends, taking
+                    road trips and being outdoors.
+                  </p>
+                </div>
 
-              <div className="team-card col-12 col-sm-12 col-md-6 col-lg-4 col-xl-3 mx-auto p-2">
-                <div className="card-photo" id="kevin-photo"></div>
+                <div className="team-card col-12 col-sm-12 col-md-6 col-lg-4 col-xl-3 mx-auto p-2">
+                  <div className="card-photo" id="kevin-photo"></div>
 
-                <h2>Kevin Nguyen</h2>
+                  <h2>Kevin Nguyen</h2>
 
-                <p>
-                  I'm Kevin, and I am a graduating Informatics senior, with a concentration of
-                  Data Science and Human-Computer Interaction. In the future, I hope to create 
-                  accesible software, or bring value to data. During my summers, I love exploring 
-                  places I haven't been to before.
-                </p>
-              </div>
+                  <p>
+                    I'm Kevin, and I am a graduating Informatics senior, with a
+                    concentration of Data Science and Human-Computer
+                    Interaction. In the future, I hope to create accesible
+                    software, or bring value to data. During my summers, I love
+                    exploring places I haven't been to before.
+                  </p>
+                </div>
 
-              <div className="team-card col-12 col-sm-12 col-md-6 col-lg-4 col-xl-3 mx-auto p-2">
-                <div className="card-photo" id="rachel-photo"></div>
+                <div className="team-card col-12 col-sm-12 col-md-6 col-lg-4 col-xl-3 mx-auto p-2">
+                  <div className="card-photo" id="rachel-photo"></div>
 
-                <h2>Rachel Vuu</h2>
+                  <h2>Rachel Vuu</h2>
 
-                <p>
-                  Soham is a graduating senior studying Informatics at the
-                  University of Washington with a specilization in HCI. He aims
-                  to be a UX Designer going into the industry as he is
-                  fascinated by the intersection of creativity and technology of
-                  this field.
-                </p>
-              </div>
+                  <p>
+                    Hi! I’m Rachel, a graduating senior studying Informatics at
+                    the University of Washington. I am passionate about software
+                    engineering and bridging the gap between people,
+                    information, and technology. In my spare time, I enjoy
+                    attending festivals and finding new places to eat.
+                  </p>
+                </div>
               </div>
               <div className="row">
+                <div className="team-card col-12 col-sm-12 col-md-6 col-lg-4 col-xl-3 mx-auto">
+                  <div className="card-photo" id="robert-photo"></div>
 
-              <div className="team-card col-12 col-sm-12 col-md-6 col-lg-4 col-xl-3 mx-auto">
-                <div className="card-photo" id="robert-photo"></div>
+                  <h2>Robert G</h2>
 
-                <h2>Robert G</h2>
+                  <p>
+                    Hi, my name is Robert Goertz and I’m a graduating senior
+                    studying Informatics - HCI at the University of Washington.
+                    I’m passionate about crafting great user experiences and in
+                    my spare time I enjoy Motorsports and traveling.
+                  </p>
+                </div>
+                <div className="team-card col-12 col-sm-12 col-md-6 col-lg-4 col-xl-3 mx-auto">
+                  <div className="card-photo" id="soham-photo"></div>
 
-                <p>
-                  Soham is a graduating senior studying Informatics at the
-                  University of Washington with a specilization in HCI. He aims
-                  to be a UX Designer going into the industry as he is
-                  fascinated by the intersection of creativity and technology of
-                  this field.
-                </p>
-              </div>
-              <div className="team-card col-12 col-sm-12 col-md-6 col-lg-4 col-xl-3 mx-auto">
-                <div className="card-photo" id="soham-photo"></div>
+                  <h2>Soham Hinduja</h2>
 
-                <h2>Soham Hinduja</h2>
-
-                <p>
-                  Soham is a graduating senior studying Informatics at the
-                  University of Washington with a specilization in HCI. He aims
-                  to be a UX Designer going into the industry as he is
-                  fascinated by the intersection of creativity and technology of
-                  this field.
-                </p>
+                  <p>
+                    Soham is a graduating senior studying Informatics at the
+                    University of Washington with a specilization in HCI. He
+                    aims to be a UX Designer going into the industry as he is
+                    fascinated by the intersection of creativity and technology
+                    of this field.
+                  </p>
                 </div>
               </div>
             </div>
