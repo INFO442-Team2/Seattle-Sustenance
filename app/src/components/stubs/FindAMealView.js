@@ -166,8 +166,7 @@ class FindAMealView extends Component {
       );
     } else {
       main = (
-        <div class="scrollbar scrollbar-primary">
-            <div className="form-group my-cards">
+            <div className="form-group my-cards scrollbar scrollbar-primary">
             <div className="card-container">
                 {meals.map((card, i) => {
                 return (
@@ -186,7 +185,6 @@ class FindAMealView extends Component {
                 })}
                 </div>
             </div>
-        </div>
       );
     }
 
