@@ -151,6 +151,48 @@ code {
   
 }
 
+/* NEW KAITLYN */
+
+.my-cards {
+  background-color: #7CAA98;
+  padding: .5rem;
+}
+
+.program-name {
+  color: #648476;
+  text-align: center;
+  font-size: 140%;
+  font-weight: 500;
+  margin: 1%;
+}
+
+.people-served {
+  color: rgb(202, 130, 29);
+  text-align: center; 
+  font-size: 115%;
+}
+
+.meal-served {
+  color: #2B332F;
+  padding-left: 1rem;
+}
+
+.meal-time {
+  color: #2B332F;
+  padding-left: 1rem;
+}
+
+.days-served {
+  color: #2B332F;
+  padding-left: 1rem;
+}
+
+.location-served {
+  color: #648476;
+  padding-left: 1rem;
+  text-align: center;
+}
+
 @media (min-width: 768px) {
     /* .icon {
       display: none;
