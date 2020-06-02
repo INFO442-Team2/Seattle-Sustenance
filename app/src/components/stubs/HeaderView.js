@@ -26,7 +26,7 @@ export class Header extends Component {
     render() {
         return(
             <div className="header">
-                <Navbar className="navbar" expand="md">
+                <Navbar className="navbar" dark expand="lg">
                     <LinkContainer to="/find" onClick={this.resetResults}>
                     <NavbarBrand className="home-link">
                         <img className="icon" alt="plate logo" src="images/plate-green-circle.png"/>
