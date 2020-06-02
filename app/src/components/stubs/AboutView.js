@@ -1,19 +1,19 @@
-import React, { Component } from 'react';
-import { Header } from './HeaderView';
-import { UncontrolledCarousel } from 'reactstrap';
+import React, { Component } from "react";
+import { Header } from "./HeaderView";
+import { UncontrolledCarousel } from "reactstrap";
 
 class AboutView extends Component {
-  constructor(props) {
+  constructor() {
     super();
     this.state = {
-      images: []
-    }
-  } 
+      images: [],
+    };
+  }
 
   componentDidMount() {
     fetch("aboutview.json")
-    .then((res) => res.json())
-    .then((data) => this.setState({images: data}))
+      .then((res) => res.json())
+      .then((data) => this.setState({ images: data }));
   }
 
   resetResults = () => {
@@ -23,10 +23,10 @@ class AboutView extends Component {
   render() {
     let mealprogs = this.state.images;
 
-    let carouselItems = mealprogs.map(function(mealprog){
-      let obj = { src: mealprog.photo, altText: mealprog.title};
+    let carouselItems = mealprogs.map(function (mealprog) {
+      let obj = { src: mealprog.photo, altText: mealprog.title };
       return obj;
-    })
+    });
 
     return (
       <div>
@@ -34,34 +34,198 @@ class AboutView extends Component {
           <Header resetResults={this.resetResults}/>
         </div>
 
-        <h1 className="about-header">
+        <div className="about-page">
+          <h1 className="about-header">
             Meal Programs for Seattle's Homeless and Low Income
-        </h1>
+          </h1>
 
-        <p className="about-intro-content">
-            Seattle Sustenance connects low-income and homeless citizens of Seattle with free meal services,  alleviating food insecurity and starvation.
+          <p className="about-intro-content">
+            Seattle Sustenance connects low-income and homeless citizens of
+            Seattle with free meal services, alleviating food insecurity and
+            starvation.
+          </p>
 
-        </p>
-          
-        <div className="about-container">
-            <UncontrolledCarousel className="about-caro"
-                items={carouselItems} 
-                indicators={false}
-                controls={true}
-            />
+          <div className="about-step-container">
+            <div className="about-steps">
+              <div className="step-number">
+                <h1>01</h1>
+              </div>
+              <div className="step-info">
+                <p>Browse all of the available meal programs in King County.</p>
+              </div>
+            </div>
+
+            <div className="about-steps">
+              <div className="step-number">
+                <h1>02</h1>
+              </div>
+              <div className="step-info">
+                <p>
+                  Filter through meal programs based on your needs and
+                  preferences.
+                </p>
+              </div>
+            </div>
+
+            <div className="about-steps">
+              <div className="step-number">
+                <h1>03</h1>
+              </div>
+              <div className="step-info">
+                <p>
+                  Find the right meal program for you, and get directions there.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div className="about-section">
+            <h1 className="about-header">Food Insecurities</h1>
+
+            <div className="insec-container">
+              <div className="insec-info">
+                <p>
+                  What makes food insecurity difficult to solve is its
+                  underlying causes—poverty, income inequality, and lack of
+                  affordable housing.
+                </p>
+
+                <p>
+                  Consequently, hunger often precedes homelessness because
+                  people who are forced to decide between paying for housing or
+                  groceries will, more often than not, choose the former. 1 in
+                  10 Washington citizens struggle with hunger on a daily basis
+                  and we would like to provide a resource that helps them have
+                  an equal opportunity to a meal.
+                </p>
+
+                <p>
+                  For those impacted by hunger, free meal services do exist.
+                  However, even these services can prevent certain individuals
+                  from receiving a meal. Meal services are not created equal and
+                  many come with a set of requirements to get access. These
+                  requirements can range from ethnicity to age and might only be
+                  available upon arrival to the facility, leaving those that
+                  don’t fit the requirements to continue looking for a meal.
+                </p>
+              </div>
+
+              <div className="insec-carousel">
+                <UncontrolledCarousel
+                  className="about-caro"
+                  items={carouselItems}
+                  indicators={false}
+                  controls={true}
+                />
+              </div>
+            </div>
+          </div>
+          <div className="about-section">
+            <h1 className="about-header">About the Team</h1>
+
+            <div className="about-card-container">
+              <div className="team-card">
+                <div className="card-photo" id="kaitlyn-photo"></div>
+
+                <h2>Kaitlyn Cameron</h2>
+
+                <p>
+                  Hi, my name is Kaitlyn Cameron and I’m a graduating senior at
+                  the University of Washington. During my time at school, I
+                  studied Informatics with a focus in Human-Computer
+                  Interaction. I love spending time with my friends, taking road
+                  trips and being outdoors.
+                </p>
+              </div>
+
+              <div className="team-card">
+                <div className="card-photo" id="kevin-photo"></div>
+
+                <h2>Kevin Nguyen</h2>
+
+                <p>
+                  Soham is a graduating senior studying Informatics at the
+                  University of Washington with a specilization in HCI. He aims
+                  to be a UX Designer going into the industry as he is
+                  fascinated by the intersection of creativity and technology of
+                  this field.
+                </p>
+              </div>
+
+              <div className="team-card">
+                <div className="card-photo" id="rachel-photo"></div>
+
+                <h2>Rachel Vuu</h2>
+
+                <p>
+                  Soham is a graduating senior studying Informatics at the
+                  University of Washington with a specilization in HCI. He aims
+                  to be a UX Designer going into the industry as he is
+                  fascinated by the intersection of creativity and technology of
+                  this field.
+                </p>
+              </div>
+
+              <div className="team-card">
+                <div className="card-photo" id="robert-photo"></div>
+
+                <h2>Robert G</h2>
+
+                <p>
+                  Soham is a graduating senior studying Informatics at the
+                  University of Washington with a specilization in HCI. He aims
+                  to be a UX Designer going into the industry as he is
+                  fascinated by the intersection of creativity and technology of
+                  this field.
+                </p>
+              </div>
+              <div className="team-card">
+                <div className="card-photo" id="soham-photo"></div>
+
+                <h2>Soham Hinduja</h2>
+
+                <p>
+                  Soham is a graduating senior studying Informatics at the
+                  University of Washington with a specilization in HCI. He aims
+                  to be a UX Designer going into the industry as he is
+                  fascinated by the intersection of creativity and technology of
+                  this field.
+                </p>
+              </div>
+            </div>
+          </div>
         </div>
-
-        <div className="about-content">
-          <p>Browse all of the available meal programs in King County.</p>
-          {/* <p>&nbsp;</p> */}
-          <p>Or, filter through meal programs based on your needs and preferences.</p>
-          {/* <p>&nbsp;</p> */}
-          <p>Find the right meal program for you, and get directions there.</p>
-        </div>
-
-    </div>
+      </div>
     );
   }
 }
 
 export default AboutView;
+
+/* Old UI
+          <div className='about-site-usage'>
+            <div className="about-content">
+              <p>Browse all of the available meal programs in King County.</p>
+              
+              <p>
+                Or, filter through meal programs based on your needs and
+                preferences.
+              </p>
+             
+              <p>
+                Find the right meal program for you, and get directions there.
+              </p>
+            </div>
+
+            <div className="about-container">
+              <UncontrolledCarousel
+                className="about-caro"
+                items={carouselItems}
+                indicators={false}
+                controls={true}
+              />
+            </div>
+          </div>
+
+
+*/
