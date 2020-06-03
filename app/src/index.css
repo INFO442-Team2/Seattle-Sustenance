@@ -20,7 +20,7 @@ code {
 .scrollbar {
   margin-left: 30px;
   float: left;
-  height: 100vh;
+  height: 90vh;
   width: 95%;
   background: #fff;
   overflow-y: scroll;
