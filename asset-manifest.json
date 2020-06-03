@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/seattle-sustenance/static/css/main.5c4ab231.chunk.css",
+    "main.js": "/seattle-sustenance/static/js/main.ee1245f3.chunk.js",
+    "main.js.map": "/seattle-sustenance/static/js/main.ee1245f3.chunk.js.map",
+    "runtime-main.js": "/seattle-sustenance/static/js/runtime-main.c7e5f3c9.js",
+    "runtime-main.js.map": "/seattle-sustenance/static/js/runtime-main.c7e5f3c9.js.map",
+    "static/css/2.af3c1da9.chunk.css": "/seattle-sustenance/static/css/2.af3c1da9.chunk.css",
+    "static/js/2.0c92391c.chunk.js": "/seattle-sustenance/static/js/2.0c92391c.chunk.js",
+    "static/js/2.0c92391c.chunk.js.map": "/seattle-sustenance/static/js/2.0c92391c.chunk.js.map",
+    "index.html": "/seattle-sustenance/index.html",
+    "precache-manifest.049a71e0170bf069c1497cb27e36b90e.js": "/seattle-sustenance/precache-manifest.049a71e0170bf069c1497cb27e36b90e.js",
+    "service-worker.js": "/seattle-sustenance/service-worker.js",
+    "static/css/2.af3c1da9.chunk.css.map": "/seattle-sustenance/static/css/2.af3c1da9.chunk.css.map",
+    "static/css/main.5c4ab231.chunk.css.map": "/seattle-sustenance/static/css/main.5c4ab231.chunk.css.map",
+    "static/js/2.0c92391c.chunk.js.LICENSE.txt": "/seattle-sustenance/static/js/2.0c92391c.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/seattle-sustenance/static/media/Soham.529beb53.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c7e5f3c9.js",
+    "static/css/2.af3c1da9.chunk.css",
+    "static/js/2.0c92391c.chunk.js",
+    "static/css/main.5c4ab231.chunk.css",
+    "static/js/main.ee1245f3.chunk.js"
+  ]
+}
