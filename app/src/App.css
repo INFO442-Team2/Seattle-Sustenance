@@ -37,6 +37,10 @@
   }
 }
 
+.meal-pic {
+  width: 50%;  
+}
+
 .about-page{
 padding: 2.5rem;
 }
@@ -168,3 +172,17 @@ padding: 2.5rem;
   background-position: top;
 }
 
+
+@media(min-width: 598px)
+{
+  .meal-pic {
+    width: 85%;  
+  }
+}
+
+@media(min-width: 768px)
+{
+  .meal-pic {
+    width: 100%;  
+  }
+}

@@ -23,7 +23,7 @@ class AboutView extends Component {
   render() {
     let mealprogs = this.state.images;
     let carouselItems = mealprogs.map(function (mealprog) {
-      let obj = { src: mealprog.photo, altText: mealprog.title };
+      let obj = { src: mealprog.photo, altText: mealprog.title, class: "meal-pic" };
       return obj;
     });
 
@@ -81,9 +81,8 @@ class AboutView extends Component {
           <div className="about-section">
             <h1 className="about-header">Food Insecurities</h1>
 
-            <div className="insec-container container">
-              <div className="row">
-              <div className="insec-info col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
+            <div className="insec-container">
+              <div className="insec-info">
                 <p>
                   What makes food insecurity difficult to solve is its
                   underlying causes—poverty, income inequality, and lack of
@@ -110,14 +109,13 @@ class AboutView extends Component {
                 </p>
               </div>
 
-              <div className="insec-carousel col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
+              <div className="insec-carousel">
                 <UncontrolledCarousel
                   className="about-caro"
                   items={carouselItems}
                   indicators={false}
                   controls={true}
                 />
-                </div>
               </div>
             </div>
           </div>
