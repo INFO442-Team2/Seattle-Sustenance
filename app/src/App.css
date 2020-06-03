@@ -116,7 +116,7 @@ padding: 2.5rem;
 }
 
 .team-card {
-  height: 500px;
+  height: auto;
   width: 400px;
   overflow: hidden;
   padding: 24px;
@@ -167,5 +167,4 @@ padding: 2.5rem;
   background-image: url('imgs-team/Robert.jpg');
   background-position: top;
 }
-
 

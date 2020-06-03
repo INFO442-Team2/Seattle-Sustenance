@@ -22,7 +22,6 @@ class AboutView extends Component {
 
   render() {
     let mealprogs = this.state.images;
-
     let carouselItems = mealprogs.map(function (mealprog) {
       let obj = { src: mealprog.photo, altText: mealprog.title };
       return obj;
@@ -123,8 +122,8 @@ class AboutView extends Component {
           <div className="about-section">
             <h1 className="about-header">About the Team</h1>
 
-            <div className="about-card-container">
-              <div className="row">
+            <div className="about-card-container container mx-auto">
+              <div className="row mx-auto">
                 <div className="team-card col-8 col-sm-8 col-md-5 col-lg-3 col-xl-3 mx-auto p-2">
                   <div className="card-photo" id="kaitlyn-photo"></div>
 
@@ -167,8 +166,8 @@ class AboutView extends Component {
                   </p>
                 </div>
               </div>
-              <div className="row">
-                <div className="team-card col-8 col-sm-8 col-md-5 col-lg-3 col-xl-3 mx-auto">
+              <div className="row mx-auto">
+                <div className="team-card col-8 col-sm-8 col-md-5 col-lg-5 col-xl-5 mx-auto">
                   <div className="card-photo" id="robert-photo"></div>
 
                   <h2>Robert G</h2>
@@ -180,7 +179,7 @@ class AboutView extends Component {
                     my spare time I enjoy Motorsports and traveling.
                   </p>
                 </div>
-                <div className="team-card col-8 col-sm-8 col-md-5 col-lg-3 col-xl-3 mx-auto">
+                <div className="team-card col-8 col-sm-8 col-md-5 col-lg-5 col-xl-5 mx-auto">
                   <div className="card-photo" id="soham-photo"></div>
 
                   <h2>Soham Hinduja</h2>
@@ -203,31 +202,3 @@ class AboutView extends Component {
 }
 
 export default AboutView;
-
-/* Old UI
-          <div className='about-site-usage'>
-            <div className="about-content">
-              <p>Browse all of the available meal programs in King County.</p>
-              
-              <p>
-                Or, filter through meal programs based on your needs and
-                preferences.
-              </p>
-             
-              <p>
-                Find the right meal program for you, and get directions there.
-              </p>
-            </div>
-
-            <div className="about-container">
-              <UncontrolledCarousel
-                className="about-caro"
-                items={carouselItems}
-                indicators={false}
-                controls={true}
-              />
-            </div>
-          </div>
-
-
-*/
