@@ -29,7 +29,7 @@ export class Header extends Component {
                 <Navbar className="navbar" dark expand="lg">
                     <LinkContainer to="/find" onClick={this.resetResults}>
                     <NavbarBrand className="home-link">
-                        <img className="icon" alt="plate logo" src="images/plate-green-circle.png"/>
+                        <img className="icon" alt="plate logo" src={process.env.PUBLIC_URL + "/images/plate-green-circle.png"}/>
                         <h1 className="title">Seattle Sustenance</h1>
                     </NavbarBrand>
                     </LinkContainer>

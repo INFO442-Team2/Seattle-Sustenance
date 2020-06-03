@@ -11,7 +11,7 @@ class AboutView extends Component {
   }
 
   componentDidMount() {
-    fetch("aboutview.json")
+    fetch(process.env.PUBLIC_URL + "/aboutview.json")
       .then((res) => res.json())
       .then((data) => this.setState({ images: data }));
   }
