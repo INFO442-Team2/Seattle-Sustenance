@@ -18,7 +18,7 @@
 - The system will return results if the input field is blank, using any applicable filters
     - *Manually test by leaving the search field blank and moving on to the filtering section, ensuring that results still appear when the search is not used*
 
-## Filtering
+## Filtering (Requirements Complete)
 - A pane on the left side will enable users to filter meal programs on the find my meal page
     - Users can pick one of the filtering options of search by zip code, name of program, type of meal served, type of people served, and on which days are they served
         - *Manually test each filter option one at a time and all of their options to see if the correct results from the filters are displayed correctly*
