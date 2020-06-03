@@ -17,8 +17,8 @@
     - *Make sure that all meal programs in the Seattle area are displayed in the results view and map view*
     - **REVISED -  Page/navigation link deemed pointless because "Find a meal" view will display all meal programs if no input is entered into the form**
 
-## Search By Name
-- The system will allow the user to type in the name of a meal program in Seattle to refine their search, and accurately display the associated meal program details of the search
+## Search By Name, Zipcode
+- The system will allow the user to type in the name of a meal program or zipcode in Seattle to refine their search, and accurately display the associated meal program details of the search
     - *We will manually test that you can input text into this field*
     - *Manually test that the correct meal program information comes up when a search inquiry matches*
     - *Manually test that correct information comes up regardless of upper/lower case*
