@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/Seattle-Sustenance/static/css/main.8ee81441.chunk.css",
-    "main.js": "/Seattle-Sustenance/static/js/main.1b47eecd.chunk.js",
-    "main.js.map": "/Seattle-Sustenance/static/js/main.1b47eecd.chunk.js.map",
+    "main.js": "/Seattle-Sustenance/static/js/main.daaaead0.chunk.js",
+    "main.js.map": "/Seattle-Sustenance/static/js/main.daaaead0.chunk.js.map",
     "runtime-main.js": "/Seattle-Sustenance/static/js/runtime-main.835aff9f.js",
     "runtime-main.js.map": "/Seattle-Sustenance/static/js/runtime-main.835aff9f.js.map",
     "static/css/2.af3c1da9.chunk.css": "/Seattle-Sustenance/static/css/2.af3c1da9.chunk.css",
     "static/js/2.0c92391c.chunk.js": "/Seattle-Sustenance/static/js/2.0c92391c.chunk.js",
     "static/js/2.0c92391c.chunk.js.map": "/Seattle-Sustenance/static/js/2.0c92391c.chunk.js.map",
     "index.html": "/Seattle-Sustenance/index.html",
-    "precache-manifest.1dfe204a946c522837293ba4da300128.js": "/Seattle-Sustenance/precache-manifest.1dfe204a946c522837293ba4da300128.js",
+    "precache-manifest.354ae9342e8e321a0e69605516d46a88.js": "/Seattle-Sustenance/precache-manifest.354ae9342e8e321a0e69605516d46a88.js",
     "service-worker.js": "/Seattle-Sustenance/service-worker.js",
     "static/css/2.af3c1da9.chunk.css.map": "/Seattle-Sustenance/static/css/2.af3c1da9.chunk.css.map",
     "static/css/main.8ee81441.chunk.css.map": "/Seattle-Sustenance/static/css/main.8ee81441.chunk.css.map",
@@ -21,6 +21,6 @@
     "static/css/2.af3c1da9.chunk.css",
     "static/js/2.0c92391c.chunk.js",
     "static/css/main.8ee81441.chunk.css",
-    "static/js/main.1b47eecd.chunk.js"
+    "static/js/main.daaaead0.chunk.js"
   ]
 }
