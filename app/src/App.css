@@ -43,13 +43,15 @@ padding: 2.5rem;
 
 .about-header {
   text-align: left;
-  max-width: 800px;
   padding-bottom: 8px;
 }
 
+#main-header{
+  text-align: center;
+}
+
 .about-intro-content{
-  text-align: left;
-  max-width: 800px;
+  text-align: center;
   color: black;
 }
 
