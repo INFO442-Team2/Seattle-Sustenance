@@ -1,6 +1,6 @@
 # Requirements
 
-## Navigation
+## Navigation (Requirements Complete)
 - Across all pages on our website, there will be a navigation bar at the top spanning the width of the screen
     - *Go through each page, and verify the navigation bar is on top of each page and works correctly*
 - Left section contains our logo that is a link to redirect the user to the homepage
@@ -10,7 +10,7 @@
 - “About” link redirects to an about page that includes information about the website, food insecurity, and the team
     - *Click on the about link, and make sure it is presenting the correct information*
 
-## Search By Name
+## Search By Name (Requirements Complete)
 - The system will allow the user to type in the name of a meal program in Seattle to refine their search, and accurately display the associated meal program details of the search
     - *We will manually test that you can input text into this field*
     - *Manually test that the correct meal program information comes up when a search inquiry matches*
@@ -32,7 +32,7 @@
 - Once the user submits the form using the ‘go’ button, the system will display meal programs based on filters as a list on the left sidebar 
     - *Manually test that search queries with at least one result will be displayed in the left sidebar*
 
-## Map
+## Map (Requirements Complete)
 - The map will be on the right side of the screen, taking up the rest of the space next to the results pane on the left
     - *Ensure that the map is present on the right side of the screen next to either the filtering options or results, depending on the state of the program*
 - Upon returning results from the search, the map will populate pins for all corresponding meal provider locations
@@ -41,14 +41,14 @@
     - *When clicking on a pin on the map, a text box should expand detailing the program name, address, days served, people served, and any other additional information such as hours and further restrictions*
 
 
-## Results
+## Results (Requirements Complete)
 - The left panel on ‘Find a Meal Program’ (also the homepage) will display the meal programs matching user input and filter selection. Details associated with results will appear on the left side of the screen, while the map of the locations is on the right
     - *After the user fills out the fields on the ‘Find a meal’ page, ensure they are presented with the relevant results after clicking ‘go’*
 - The details displayed for each location include: name, restriction, meal-type, time, days, and address
     - *Browse through results and make sure each of them correspond with the details and restrictions in the dataset*
 
 
-## Technical Requirements
+## Technical Requirements (Requirements Complete)
 - What devices do your requirements say it will be able to run on? Screen sizes?
     - The website will run on Google Chrome, Firefox, and Safari browsers and will be responsive such that it can be displayed on any smartphone (utilize ‘wrap_content’ and ‘match_parent’), tablet, or laptop or desktop
         - *Use “Inspect” on Google Chrome to change views to see how the website looks*
