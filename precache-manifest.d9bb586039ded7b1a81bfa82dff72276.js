@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "7e76c6b0b046759fbdca27edafd5c522",
+    "revision": "106733cd0bf0ce8bb2b7b4891801721f",
     "url": "/Seattle-Sustenance/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Seattle-Sustenance/static/css/2.af3c1da9.chunk.css"
   },
   {
-    "revision": "03b8aa993b2c16ae921a",
-    "url": "/Seattle-Sustenance/static/css/main.8ee81441.chunk.css"
+    "revision": "cacc37114bcb7afb4541",
+    "url": "/Seattle-Sustenance/static/css/main.df53af85.chunk.css"
   },
   {
     "revision": "b680dd5594d652f94b1d",
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Seattle-Sustenance/static/js/2.0c92391c.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "03b8aa993b2c16ae921a",
-    "url": "/Seattle-Sustenance/static/js/main.daaaead0.chunk.js"
+    "revision": "cacc37114bcb7afb4541",
+    "url": "/Seattle-Sustenance/static/js/main.5f3e1c9c.chunk.js"
   },
   {
     "revision": "7b601c7f697ddf0f3f54",
