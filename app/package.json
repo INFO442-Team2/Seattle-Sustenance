@@ -27,7 +27,7 @@
     "tsutils": "^3.17.1",
     "uglify-js": "^3.9.2"
   },
-  "homepage": "https://info442-team2.github.io/Seattle-Sustenance/",
+  "homepage": ".",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
