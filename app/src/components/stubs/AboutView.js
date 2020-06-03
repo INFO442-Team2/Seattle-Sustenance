@@ -35,7 +35,7 @@ class AboutView extends Component {
         </div>
 
         <div className="about-page">
-          <h1 className="about-header">
+          <h1 className="about-header" id='main-header'>
             Meal Programs for Seattle's Homeless and Low Income
           </h1>
 
