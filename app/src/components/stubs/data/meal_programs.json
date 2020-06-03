@@ -244,7 +244,83 @@
                 "Meal_Served": "Breakfast",
                 "Age_Served": "All",
                 "Gender_Served": "Women",
-                "People_Served": "OPEN TO WOMEN & CHILDREN ONLY",
+                "People_Served": "OPEN TO WOMEN ONLY",
+                "Location": "210 Dexter Avenue, Seattle",
+                "Name_of_Program": "Mary's Place / Church of Mary Magdalene",
+                "Zipcode": 98109
+            },
+            "geometry": {
+                "Type": "Point",
+                "coordinates": [
+                    47.620036999999996,
+                    -122.34206299999998
+                ]
+            }
+        },
+        {
+            "properties": {
+                "Day": [
+                    "Saturday"
+                ],
+                "Days": "Saturdays",
+                "Time_Start": "8:30 AM",
+                "Time_End": "9:30 AM",
+                "Meal_Served": "Breakfast",
+                "Age_Served": "13-",
+                "Gender_Served": "Children",
+                "People_Served": "OPEN TO CHILDREN ONLY",
+                "Location": "210 Dexter Avenue, Seattle",
+                "Name_of_Program": "Mary's Place / Church of Mary Magdalene",
+                "Zipcode": 98109
+            },
+            "geometry": {
+                "Type": "Point",
+                "coordinates": [
+                    47.620036999999996,
+                    -122.34206299999998
+                ]
+            }
+        },
+        {
+            "properties": {
+                "Day": [
+                    "Monday",
+                    "Tuesday",
+                    "Wednesday",
+                    "Thursday",
+                    "Friday"
+                ],
+                "Days": "Monday - Friday",
+                "Time_Start": "8:30 AM",
+                "Time_End": "9:30 AM",
+                "Meal_Served": "Breakfast",
+                "Age_Served": "All",
+                "Gender_Served": "Women",
+                "People_Served": "OPEN TO WOMEN ONLY",
+                "Location": "210 Dexter Avenue, Seattle",
+                "Name_of_Program": "Mary's Place / Church of Mary Magdalene",
+                "Zipcode": 98109
+            },
+            "geometry": {
+                "Type": "Point",
+                "coordinates": [
+                    47.620036999999996,
+                    -122.34206299999998
+                ]
+            }
+        },
+        {
+            "properties": {
+                "Day": [
+                    "Saturday"
+                ],
+                "Days": "Saturdays",
+                "Time_Start": "8:30 AM",
+                "Time_End": "9:30 AM",
+                "Meal_Served": "Breakfast",
+                "Age_Served": "13-",
+                "Gender_Served": "All",
+                "People_Served": "OPEN TO CHILDREN ONLY",
                 "Location": "210 Dexter Avenue, Seattle",
                 "Name_of_Program": "Mary's Place / Church of Mary Magdalene",
                 "Zipcode": 98109
@@ -444,6 +520,36 @@
                     "Tuesday",
                     "Wednesday",
                     "Thursday",
+                    "Friday",
+                    "Saturday",
+                    "Sunday"
+                ],
+                "Days": "Daily",
+                "Time_Start": "11:30 AM",
+                "Time_End": "1:00 PM",
+                "Meal_Served": "Lunch",
+                "Age_Served": "18+",
+                "Gender_Served": "Women",
+                "People_Served": "WOMEN 18 AND OLDER",
+                "Location": "2030 3rd Ave, Seattle",
+                "Name_of_Program": "YWCA Angeline's Meals Program",
+                "Zipcode": 98121
+            },
+            "geometry": {
+                "Type": "Point",
+                "coordinates": [
+                    47.613326,
+                    -122.341696
+                ]
+            }
+        },
+        {
+            "properties": {
+                "Day": [
+                    "Monday",
+                    "Tuesday",
+                    "Wednesday",
+                    "Thursday",
                     "Friday"
                 ],
                 "Days": "Monday - Friday",
@@ -593,6 +699,30 @@
         {
             "properties": {
                 "Day": [
+                    "Sunday"
+                ],
+                "Days": "Sunday",
+                "Time_Start": "11:00 AM",
+                "Time_End": "12:00 PM",
+                "Meal_Served": "Lunch",
+                "Age_Served": "All",
+                "Gender_Served": "All",
+                "People_Served": "OPEN TO ALL",
+                "Location": "318 2nd Ave. S. Extension,  Seattle",
+                "Name_of_Program": "Union Gospel Mission",
+                "Zipcode": 98104
+            },
+            "geometry": {
+                "Type": "Point",
+                "coordinates": [
+                    47.599523,
+                    -122.33133400000001
+                ]
+            }
+        },
+        {
+            "properties": {
+                "Day": [
                     "Thursday"
                 ],
                 "Days": "Thursdays",
@@ -611,6 +741,36 @@
                 "coordinates": [
                     47.649035999999995,
                     -121.912641
+                ]
+            }
+        },
+        {
+            "properties": {
+                "Day": [
+                    "Monday",
+                    "Tuesday",
+                    "Wednesday",
+                    "Thursday",
+                    "Friday",
+                    "Saturday",
+                    "Sunday"
+                ],
+                "Days": "Daily",
+                "Time_Start": "12:00 PM",
+                "Time_End": "1:00 PM",
+                "Meal_Served": "Lunch",
+                "Age_Served": "55+",
+                "Gender_Served": "All",
+                "People_Served": "OPEN TO 55+",
+                "Location": "85 Pike St.  #200,  Seattle",
+                "Name_of_Program": "Pike Market Senior Center",
+                "Zipcode": 98101
+            },
+            "geometry": {
+                "Type": "Point",
+                "coordinates": [
+                    47.608629,
+                    -122.340562
                 ]
             }
         },
@@ -800,6 +960,34 @@
         {
             "properties": {
                 "Day": [
+                    "Monday",
+                    "Tuesday",
+                    "Wednesday",
+                    "Thursday",
+                    "Friday"
+                ],
+                "Days": "Monday - Friday",
+                "Time_Start": "12:00 PM",
+                "Time_End": "1:30 PM",
+                "Meal_Served": "Lunch",
+                "Age_Served": "All",
+                "Gender_Served": "All",
+                "People_Served": "OPEN TO ALL",
+                "Location": "2515 Western Ave.,  Seattle",
+                "Name_of_Program": "Millionair Club Charity",
+                "Zipcode": 98121
+            },
+            "geometry": {
+                "Type": "Point",
+                "coordinates": [
+                    47.614034000000004,
+                    -122.350306
+                ]
+            }
+        },
+        {
+            "properties": {
+                "Day": [
                     "Monday"
                 ],
                 "Days": "Mondays",
@@ -818,6 +1006,30 @@
                 "coordinates": [
                     47.679957,
                     -122.38507299999999
+                ]
+            }
+        },
+        {
+            "properties": {
+                "Day": [
+                    "Wednesday"
+                ],
+                "Days": "Wednesdays",
+                "Time_Start": "12:00 PM",
+                "Time_End": "1:00 PM",
+                "Meal_Served": "Lunch",
+                "Age_Served": "All",
+                "Gender_Served": "All",
+                "People_Served": "OPEN TO ALL",
+                "Location": "5515 Phinney Ave N., Seattle",
+                "Name_of_Program": "Phinney Neighborhood Association",
+                "Zipcode": 98103
+            },
+            "geometry": {
+                "Type": "Point",
+                "coordinates": [
+                    47.669048,
+                    -122.354677
                 ]
             }
         },
@@ -950,6 +1162,54 @@
         {
             "properties": {
                 "Day": [
+                    "Monday"
+                ],
+                "Days": "Monday - Saturday",
+                "Time_Start": "12:30 PM",
+                "Time_End": "1:00 PM",
+                "Meal_Served": "Lunch",
+                "Age_Served": "All",
+                "Gender_Served": "Women",
+                "People_Served": "OPEN TO WOMEN ONLY",
+                "Location": "210 Dexter Avenue, Seattle",
+                "Name_of_Program": "Mary's Place / Church of Mary Magdalene",
+                "Zipcode": 98109
+            },
+            "geometry": {
+                "Type": "Point",
+                "coordinates": [
+                    47.620052,
+                    -122.341977
+                ]
+            }
+        },
+        {
+            "properties": {
+                "Day": [
+                    "Monday"
+                ],
+                "Days": "Monday - Saturday",
+                "Time_Start": "12:30 PM",
+                "Time_End": "1:00 PM",
+                "Meal_Served": "Lunch",
+                "Age_Served": "13-",
+                "Gender_Served": "Children",
+                "People_Served": "OPEN TO CHILDREN ONLY",
+                "Location": "210 Dexter Avenue, Seattle",
+                "Name_of_Program": "Mary's Place / Church of Mary Magdalene",
+                "Zipcode": 98109
+            },
+            "geometry": {
+                "Type": "Point",
+                "coordinates": [
+                    47.620052,
+                    -122.341977
+                ]
+            }
+        },
+        {
+            "properties": {
+                "Day": [
                     "Tuesday",
                     "Wednesday",
                     "Thursday",
@@ -972,6 +1232,58 @@
                 "coordinates": [
                     47.618536,
                     -122.334652
+                ]
+            }
+        },
+        {
+            "properties": {
+                "Day": [
+                    "Monday",
+                    "Tuesday",
+                    "Wednesday",
+                    "Thursday",
+                    "Friday"
+                ],
+                "Days": "Monday - Friday",
+                "Time_Start": "1:00 PM",
+                "Time_End": "2:00 PM",
+                "Meal_Served": "Lunch",
+                "Age_Served": "All",
+                "Gender_Served": "All",
+                "People_Served": "OPEN TO ALL",
+                "Location": "Outdoor Meal Site at 6th and Columbia, Seattle",
+                "Name_of_Program": "Operation Sack Lunch",
+                "Zipcode": 98104
+            },
+            "geometry": {
+                "Type": "Point",
+                "coordinates": [
+                    47.605593,
+                    -122.329126
+                ]
+            }
+        },
+        {
+            "properties": {
+                "Day": [
+                    "Sunday"
+                ],
+                "Days": "Sunday",
+                "Time_Start": "1:00 PM",
+                "Time_End": "2:00 PM",
+                "Meal_Served": "Lunch",
+                "Age_Served": "All",
+                "Gender_Served": "All",
+                "People_Served": "OPEN TO ALL",
+                "Location": "Outdoor Meal Site at 6th and Columbia,",
+                "Name_of_Program": "Anonomous Acts of Kindness",
+                "Zipcode": 98104
+            },
+            "geometry": {
+                "Type": "Point",
+                "coordinates": [
+                    47.605593,
+                    -122.329126
                 ]
             }
         },
@@ -1101,6 +1413,36 @@
         {
             "properties": {
                 "Day": [
+                    "Monday",
+                    "Tuesday",
+                    "Wednesday",
+                    "Thursday",
+                    "Friday",
+                    "Saturday",
+                    "Sunday"
+                ],
+                "Days": "Daily",
+                "Time_Start": "3:00 PM",
+                "Time_End": "3:30 PM",
+                "Meal_Served": "Snack",
+                "Age_Served": "18+",
+                "Gender_Served": "Women",
+                "People_Served": "WOMEN 18 AND OLDER",
+                "Location": "2030 3rd Ave, Seattle",
+                "Name_of_Program": "YWCA Angeline's Meals Program",
+                "Zipcode": 98121
+            },
+            "geometry": {
+                "Type": "Point",
+                "coordinates": [
+                    47.613341,
+                    -122.34181399999999
+                ]
+            }
+        },
+        {
+            "properties": {
+                "Day": [
                     "Saturday"
                 ],
                 "Days": "Saturday",
@@ -1201,6 +1543,30 @@
         {
             "properties": {
                 "Day": [
+                    "Tuesday"
+                ],
+                "Days": "Tuesdays",
+                "Time_Start": "5:00 PM",
+                "Time_End": "6:00 PM",
+                "Meal_Served": "Dinner",
+                "Age_Served": "All",
+                "Gender_Served": "All",
+                "People_Served": "OPEN TO ALL",
+                "Location": " 5515 Phinney Ave N., Seattle",
+                "Name_of_Program": "Phinney Neighborhood Association",
+                "Zipcode": 98103
+            },
+            "geometry": {
+                "Type": "Point",
+                "coordinates": [
+                    47.668925,
+                    -122.35472
+                ]
+            }
+        },
+        {
+            "properties": {
+                "Day": [
                     "Tuesday",
                     "Wednesday",
                     "Thursday",
@@ -1254,6 +1620,64 @@
         {
             "properties": {
                 "Day": [
+                    "Monday",
+                    "Tuesday",
+                    "Wednesday",
+                    "Thursday",
+                    "Friday",
+                    "Saturday",
+                    "Sunday"
+                ],
+                "Days": "Daily",
+                "Time_Start": "5:30 PM",
+                "Time_End": "6:30 PM",
+                "Meal_Served": "Dinner",
+                "Age_Served": "All",
+                "Gender_Served": "All",
+                "People_Served": "OPEN TO ALL",
+                "Location": "318 2nd Ave. S. Extension,  Seattle",
+                "Name_of_Program": "Union Gospel Mission",
+                "Zipcode": 98104
+            },
+            "geometry": {
+                "Type": "Point",
+                "coordinates": [
+                    47.599486,
+                    -122.33133400000001
+                ]
+            }
+        },
+        {
+            "properties": {
+                "Day": [
+                    "Monday",
+                    "Tuesday",
+                    "Wednesday",
+                    "Thursday",
+                    "Friday"
+                ],
+                "Days": "Monday - Friday",
+                "Time_Start": "6:00 PM",
+                "Time_End": "6:30 PM",
+                "Meal_Served": "Dinner",
+                "Age_Served": "13-21",
+                "Gender_Served": "Youth",
+                "People_Served": "Youth 13-21",
+                "Location": "1828 Yale Avenue",
+                "Name_of_Program": "Youth Care's Orion Center",
+                "Zipcode": 98101
+            },
+            "geometry": {
+                "Type": "Point",
+                "coordinates": [
+                    47.618312,
+                    -122.330519
+                ]
+            }
+        },
+        {
+            "properties": {
+                "Day": [
                     "Friday"
                 ],
                 "Days": "Fridays",
@@ -1272,6 +1696,87 @@
                 "coordinates": [
                     47.659324,
                     -122.312432
+                ]
+            }
+        },
+        {
+            "properties": {
+                "Day": [
+                    "Sunday",
+                    "Monday",
+                    "Tuesday",
+                    "Wednesday"
+                ],
+                "Days": "Sunday - Wednesday",
+                "Time_Start": "6:00 PM",
+                "Time_End": "8:00 PM",
+                "Meal_Served": "Dinner",
+                "Age_Served": "22-",
+                "Gender_Served": "All",
+                "People_Served": "FOR YOUTH 22 OR YOUNGER",
+                "Location": "2709 3rd Ave., Seattle",
+                "Name_of_Program": "New Horizons Ministries",
+                "Zipcode": 98121
+            },
+            "geometry": {
+                "Type": "Point",
+                "coordinates": [
+                    47.617191999999996,
+                    -122.349538
+                ]
+            }
+        },
+        {
+            "properties": {
+                "Day": [
+                    "Monday",
+                    "Tuesday",
+                    "Wednesday",
+                    "Thursday",
+                    "Friday",
+                    "Saturday",
+                    "Sunday"
+                ],
+                "Days": "Daily",
+                "Time_Start": "6:30 PM",
+                "Time_End": "7:30 PM",
+                "Meal_Served": "Dinner",
+                "Age_Served": "50+",
+                "Gender_Served": "Men",
+                "People_Served": "OPEN TO MEN 50+",
+                "Location": "1561 Alaskan Way S., Seattle",
+                "Name_of_Program": "Saint Martin's de Porres Shelter",
+                "Zipcode": 98134
+            },
+            "geometry": {
+                "Type": "Point",
+                "coordinates": [
+                    47.588778999999995,
+                    -122.338599
+                ]
+            }
+        },
+        {
+            "properties": {
+                "Day": [
+                    "Sunday"
+                ],
+                "Days": "Sunday",
+                "Time_Start": "6:00 PM",
+                "Time_End": "7:00 PM",
+                "Meal_Served": "Dinner",
+                "Age_Served": "All",
+                "Gender_Served": "All",
+                "People_Served": "OPEN TO ALL",
+                "Location": "Outdoor Meal Site at 6th and Columbia, Seattle",
+                "Name_of_Program": "Neighborhood Cooking Foundation",
+                "Zipcode": 98104
+            },
+            "geometry": {
+                "Type": "Point",
+                "coordinates": [
+                    47.605786,
+                    -122.329333
                 ]
             }
         },
@@ -1302,6 +1807,36 @@
         {
             "properties": {
                 "Day": [
+                    "Monday",
+                    "Tuesday",
+                    "Wednesday",
+                    "Thursday",
+                    "Friday",
+                    "Saturday",
+                    "Sunday"
+                ],
+                "Days": "Daily",
+                "Time_Start": "5:45 PM",
+                "Time_End": "8:00 PM",
+                "Meal_Served": "Dinner",
+                "Age_Served": "All",
+                "Gender_Served": "All",
+                "People_Served": "OPEN TO ALL",
+                "Location": "97 South Main St.,  Seattle",
+                "Name_of_Program": "Bread of Life Mission",
+                "Zipcode": 98104
+            },
+            "geometry": {
+                "Type": "Point",
+                "coordinates": [
+                    47.600108,
+                    -122.33463700000001
+                ]
+            }
+        },
+        {
+            "properties": {
+                "Day": [
                     "Monday"
                 ],
                 "Days": "Mondays",
@@ -1320,6 +1855,80 @@
                 "coordinates": [
                     47.665107,
                     -122.310759
+                ]
+            }
+        },
+        {
+            "properties": {
+                "Day": [
+                    "Tuesday"
+                ],
+                "Days": "Tuesdays",
+                "Time_Start": "7:00 PM",
+                "Time_End": "8:00 PM",
+                "Meal_Served": "Dinner",
+                "Age_Served": "13-25",
+                "Gender_Served": "Youth",
+                "People_Served": "Youth 13-25",
+                "Location": "University Methodist               N.E. 43rd & 15th N.E., Seattle (Enter via alley, southwest corner of the bldg)",
+                "Name_of_Program": "University Street Ministry Teen Feed",
+                "Zipcode": 98105
+            },
+            "geometry": {
+                "Type": "Point",
+                "coordinates": [
+                    47.659946999999995,
+                    -122.311972
+                ]
+            }
+        },
+        {
+            "properties": {
+                "Day": [
+                    "Wednesday",
+                    "Thursday"
+                ],
+                "Days": "Wednesday & Thursday",
+                "Time_Start": "7:00 PM",
+                "Time_End": "8:00 PM",
+                "Meal_Served": "Dinner",
+                "Age_Served": "13-25",
+                "Gender_Served": "Youth",
+                "People_Served": "Youth 13-25",
+                "Location": "University Congregational N.E. 45th & 16th N.E., Seattle (Down the seps off 16th)",
+                "Name_of_Program": "University Street Ministry Teen Feed",
+                "Zipcode": 98105
+            },
+            "geometry": {
+                "Type": "Point",
+                "coordinates": [
+                    47.659976,
+                    -122.311972
+                ]
+            }
+        },
+        {
+            "properties": {
+                "Day": [
+                    "Sunday",
+                    "Friday"
+                ],
+                "Days": "Fridays & Sunday",
+                "Time_Start": "7:00 PM",
+                "Time_End": "8:00 PM",
+                "Meal_Served": "Dinner",
+                "Age_Served": "13-25",
+                "Gender_Served": "Youth",
+                "People_Served": "Youth 13-25",
+                "Location": "University Christian N.E. 50th & 15th N.E., Seattle",
+                "Name_of_Program": "University Street Ministry Teen Feed",
+                "Zipcode": 98105
+            },
+            "geometry": {
+                "Type": "Point",
+                "coordinates": [
+                    47.665053,
+                    -122.311972
                 ]
             }
         },

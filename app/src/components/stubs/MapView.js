@@ -39,7 +39,8 @@ class MapView extends Component {
                 >
                     {self.props.meals.map(Meal => (
                         <Marker
-                            key={Meal.properties.Name_of_Program}
+                            key={Meal.properties.Name_of_Program + " " + Meal.properties.People_Served 
+                            + " " + Meal.properties.Meal_Served + " " + Meal.properties.Days}
                             position={{
                                 lat: Meal.geometry.coordinates[0],
                                 lng: Meal.geometry.coordinates[1]

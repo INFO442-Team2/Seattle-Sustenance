@@ -53,11 +53,11 @@ export class App extends Component {
   filterResults(input) {
     let allData = MEALS_DATA_FEATURES
 
-    let dataByZip = new Set()
+    let dataByZip = []
     if (input.zipcode !== ""){
       allData.filter((element) => {
         if (Number(element.properties['Zipcode']) === Number(input.zipcode)) {
-          dataByZip.add(element)
+          dataByZip.push(element)
         }
         return true;
       }); 
@@ -65,11 +65,11 @@ export class App extends Component {
       dataByZip = allData
     }
 
-    let dataByName = new Set()
+    let dataByName = []
     if (input.name !== ""){
       dataByZip.filter((element) => {
         if (element.properties['Name_of_Program'].toString().toLowerCase().includes(input.name.toString().toLowerCase())) {
-          dataByName.add(element)
+          dataByName.push(element)
         }
         return true;
       }); 
@@ -78,12 +78,12 @@ export class App extends Component {
     }
     
 
-    let dataByMealServed = new Set()
+    let dataByMealServed = []
     if (input.mealsServed.length !== 0){
       dataByName.filter((element) => {
         input.mealsServed.forEach((meal) => {
           if(element.properties.Meal_Served.toLowerCase() === meal.toLowerCase()){
-            dataByMealServed.add(element)
+            dataByMealServed.push(element)
           }
         })
         return true;
@@ -92,12 +92,12 @@ export class App extends Component {
       dataByMealServed = dataByName;
     }
 
-    let dataByPeopleServed = new Set()
+    let dataByPeopleServed = []
     if (input.peopleServed.length !== 0){
       dataByMealServed.filter((element) => {
         input.peopleServed.forEach((person) => {
           if(element.properties.Gender_Served.toLowerCase() === person.toLowerCase() || element.properties.Gender_Served === "All"){
-            dataByPeopleServed.add(element)
+            dataByPeopleServed.push(element)
           }
         })
         return true;
@@ -106,13 +106,13 @@ export class App extends Component {
       dataByPeopleServed = dataByMealServed
     }
 
-    let dataByDayServed = new Set()
+    let dataByDayServed = []
     if (input.daysServed.length !== 0){
       dataByPeopleServed.filter((element) => {
         input.daysServed.forEach((d) => {
           element.properties.Day.forEach(day => {
             if(day.toLowerCase() === d.toLowerCase()){
-              dataByDayServed.add(element)
+              dataByDayServed.push(element)
             }
           })
         })
@@ -122,14 +122,10 @@ export class App extends Component {
       dataByDayServed = dataByPeopleServed
     }
 
-    let filteredData = []
-    dataByDayServed.forEach((e) => {
-      filteredData.push(e)
-    }
-    )
+    let filteredResults = [...new Set(dataByDayServed)]
 
     this.setState({
-      meals: filteredData,
+      meals: filteredResults,
       submit: true,
       filtered: true,
     }) 

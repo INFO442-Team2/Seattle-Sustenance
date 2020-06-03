@@ -125,7 +125,7 @@ class AboutView extends Component {
 
             <div className="about-card-container">
               <div className="row">
-                <div className="team-card col-12 col-sm-12 col-md-6 col-lg-4 col-xl-3 mx-auto p-2">
+                <div className="team-card col-8 col-sm-8 col-md-5 col-lg-3 col-xl-3 mx-auto p-2">
                   <div className="card-photo" id="kaitlyn-photo"></div>
 
                   <h2>Kaitlyn Cameron</h2>
@@ -139,7 +139,7 @@ class AboutView extends Component {
                   </p>
                 </div>
 
-                <div className="team-card col-12 col-sm-12 col-md-6 col-lg-4 col-xl-3 mx-auto p-2">
+                <div className="team-card col-8 col-sm-8 col-md-5 col-lg-3 col-xl-3 mx-auto p-2">
                   <div className="card-photo" id="kevin-photo"></div>
 
                   <h2>Kevin Nguyen</h2>
@@ -153,7 +153,7 @@ class AboutView extends Component {
                   </p>
                 </div>
 
-                <div className="team-card col-12 col-sm-12 col-md-6 col-lg-4 col-xl-3 mx-auto p-2">
+                <div className="team-card col-8 col-sm-8 col-md-5 col-lg-3 col-xl-3 mx-auto p-2">
                   <div className="card-photo" id="rachel-photo"></div>
 
                   <h2>Rachel Vuu</h2>
@@ -168,7 +168,7 @@ class AboutView extends Component {
                 </div>
               </div>
               <div className="row">
-                <div className="team-card col-12 col-sm-12 col-md-6 col-lg-4 col-xl-3 mx-auto">
+                <div className="team-card col-8 col-sm-8 col-md-5 col-lg-3 col-xl-3 mx-auto">
                   <div className="card-photo" id="robert-photo"></div>
 
                   <h2>Robert G</h2>
@@ -180,7 +180,7 @@ class AboutView extends Component {
                     my spare time I enjoy Motorsports and traveling.
                   </p>
                 </div>
-                <div className="team-card col-12 col-sm-12 col-md-6 col-lg-4 col-xl-3 mx-auto">
+                <div className="team-card col-8 col-sm-8 col-md-5 col-lg-3 col-xl-3 mx-auto">
                   <div className="card-photo" id="soham-photo"></div>
 
                   <h2>Soham Hinduja</h2>
